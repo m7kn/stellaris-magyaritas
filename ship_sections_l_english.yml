@@ -1,0 +1,122 @@
+﻿l_english:
+ ####################################
+ # Alpha Naming Convention - WILL LIKELY BE CHANGED IF SECTIONS ARE REDESIGNED
+ #
+ # Mid sections have a flavor-name fitting to number of weapon/utility slots followed by the key-word "Core"
+ # Front sections have a flavor-name followed by the key-word "Breaker"
+ # Rear sections have a flavor-name followed by the key-word "Bulwark"
+ #
+ ####################################
+ 
+
+ ####################################
+ # Titan
+ ####################################
+ 
+ TITAN_BOW:0 "Titán hajóorr"
+ TITAN_MID:0 "Titán hajótest"
+ TITAN_STERN:1 "Titán hajófar"
+ 
+ ####################################
+ # Battleship
+ ####################################
+ BATTLESHIP_BOW_L1M1S2:1 "Sortűz hajóorr"
+ BATTLESHIP_BOW_L1S4:1 "Titan űrtörő"
+ BATTLESHIP_BOW_L2:1 "Tüzérség hajóorr"
+ BATTLESHIP_BOW_M1S2SHB:1 "Hangár hajóorr"
+ BATTLESHIP_BOW_M2S4:1 "Gerinctüzérség hajóorr"
+ BATTLESHIP_BOW_M3S2:1 "Soul hajóorr"
+ BATTLESHIP_MID_L2S4:1 "Nova hajótest"
+ BATTLESHIP_MID_L1M4:1 "Stormbringer hajótest"
+ BATTLESHIP_MID_L2M2:1 "Sortűz hajótest"
+ BATTLESHIP_MID_L3:1 "Tüzérség hajótest"
+ BATTLESHIP_MID_M4SHB:1 "Hangár hajótest"
+ BATTLESHIP_MID_S4LHB:1 "Hordozó hajótest"
+ BATTLESHIP_STERN_M1S2:1 "Aeon hajófar"
+ BATTLESHIP_STERN_L1:1 "Tüzérség hajófar"
+ BATTLESHIP_STERN_M2:1 "Sortűz hajófar"
+ BATTLESHIP_STERN_S4:1 "Zenith hajófar"
+
+ ####################################
+ # Colonizer
+ ####################################
+ COLONIZER_MID_M1S1:1 "Telepes hajó"
+ COLONIZER_MID_S3:0 "See hajótest"
+ COLONIZER_MID_MU1:0 "Gaia hajótest"
+
+ ####################################
+ # Constructor
+ #################################### 
+ CONSTRUCTOR_MID_M1S1:1 "Építőhajó"
+ CONSTRUCTOR_MID_S3:0 "Developer hajótest"
+ CONSTRUCTOR_MID_MU1:0 "Fuser hajótest"
+
+ ####################################
+ # Corvette
+ #################################### 
+ CORVETTE_MID_M1S1:2 "Rakétavető csónak"
+ CORVETTE_MID_S3:1 "Interceptor"
+ CORVETTE_MID_S1:1 "Shifter hajótest"
+ CORVETTE_MID_S2PD1:0 "Őrhajó"
+
+ ####################################
+ # Cruiser
+ #################################### 
+ CRUISER_BOW_L1:1 "Tüzérség hajóorr"
+ CRUISER_BOW_M1S2:2 "Rakéta hajóorr"
+ CRUISER_BOW_M2:1 "Sortűz hajóorr"
+ CRUISER_MID_S2HB:1 "Hangár hajótest"
+ CRUISER_MID_L1M1:1 "Tüzérség hajótest"
+ CRUISER_MID_M3:1 "Sortűz hajótest"
+ CRUISER_MID_M2S2:2 "Rakéta hajótest"
+ CRUISER_STERN_M1:1 "Sortűz hajófar"
+ CRUISER_STERN_S2:1 "Ágyúnaszád hajóorr"
+
+ ####################################
+ # Destroyer
+ #################################### 
+ DESTROYER_BOW_M1S2:1 "Ágyúnaszád hajófar"
+ DESTROYER_BOW_S3:1 "Őrhajó hajóorr"
+ DESTROYER_BOW_L1:1 "Tüzérség hajóorr"
+ DESTROYER_STERN_PD2:0 "Őrhajó hajófar"
+ DESTROYER_STERN_S2:0 "Interceptor hajófar"
+ DESTROYER_STERN_M1:1 "Ágyúnaszád hajóorr"
+
+ ####################################
+ # Science
+ #################################### 
+ SCIENCE_MID_M1S1:1 "Tudományos hajó"
+ SCIENCE_MID_S3:0 "Trailblazer hajótest"
+ SCIENCE_MID_MU1:0 "Insight hajótest"
+ 
+ ####################################
+ # Science
+ #################################### 
+ LIGHT_MILITARY_STATION_SECTION:0 "Könnyű modul"
+ PD_MILITARY_STATION_SECTION:0 "Pontvédelmi modul"
+ MEDIUM_MILITARY_STATION_SECTION:0 "Közepes modul"
+ MISSILE_MILITARY_STATION_SECTION:0 "Rakétavető modul"
+ HEAVY_MILITARY_STATION_SECTION:0 "Nehéz modul"
+ HANGAR_MILITARY_STATION_SECTION:0 "Hangár modul"
+ LIGHT_LARGE_MILITARY_STATION_SECTION:0 "Könnyű modul"
+ MEDIUM_LARGE_MILITARY_STATION_SECTION:0 "Közepes modul"
+ HEAVY_LARGE_MILITARY_STATION_SECTION:0 "Nehéz modul"
+ HANGAR_LARGE_MILITARY_STATION_SECTION:0 "Hangár modul"
+ OUTPOST_STATION_SECTION:0 "Határmenti előörs váz"
+
+ ####################################
+ # Other
+ #################################### 
+ MISSILE_DEFAULT:0 "Rakéta modul"
+ DEFAULT_CONSTRUCTION_SECTION:1 "Építőhajó"
+ DEFAULT_COLONIZATION_SECTION:1 "Telepes hajó"
+ DEFAULT_SCIENCESHIP_SECTION:1 "Tudományos hajó"
+ DEFAULT_ORBITAL_STATION_SECTION:0 "Orbitális állomás váz"
+ DEFAULT_MINING_STATION_SECTION:0 "Bányászati állomás váz"
+ DEFAULT_RESEARCH_STATION_SECTION:0 "Kutatóállomás váz"
+ DEFAULT_WORMHOLE_STATION_SECTION:0 "Féregjárat állomás váz"
+ DEFAULT_MILITARY_STATION_SECTION:0 "Alapvető katonai platform"
+ DEFAULT_TRANSPORT_SECTION:1 "Csapatszállító"
+ SHIP_COLOSSUS_SECTION:0 "Kolosszus"
+ CORE_JUGGERNAUT_SECTION:0 "Juggernaut"
+ GHOST_SHIP_SECTION:0 "Ghost Ship Frame"

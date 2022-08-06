@@ -1,0 +1,9 @@
+﻿l_english:
+ ENTERING_GAME_LOBBY:0 "Belépés a játék beállításaiba"
+ SERVER_LAUNCHING_MP:0 "Többjátékos mód indítása"
+ SERVER_NAME:0 "Szerver neve: $NAME$"
+ SERVER_PASSWORD:0 "Szerver jelszó: $PASSWORD$"
+ LAUNCHING_GAME:0 "Játék indítása"
+ STANDALONE_WAITING_FOR_PLAYERS:0 "Még $NUM$ játékosra várunk"
+ RECEIVED_GAMESERVER_ID:0 "Szerverazonosító: $SERVERID$"
+ RECEIVED_LOBBY_SERVER:0 "Lobbi szerver megérkezett"

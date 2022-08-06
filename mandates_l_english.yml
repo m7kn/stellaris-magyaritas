@@ -1,0 +1,132 @@
+﻿l_english:
+
+ ####################################
+ #	COMMON STRINGS
+ ####################################
+
+ mandate_unity_reward:2 "§Y6§! hónapnyi £unity£ egységesség (max 1000)"
+
+ ####################################
+ #	MANDATES
+ ####################################
+
+ MANDATE_mandate_planet_separatist:0 "Szeparatista szimpatizáns"
+ MANDATE_mandate_planet_separatist_DESC:1 "[Root.GetPopFactionName] felszabadítása független birodalomként.\n\nJutalom:\n$mandate_influence_reward_t3$"
+ MANDATE_mandate_emancipation:0 "Nagy rabszolga felszabadító"
+ MANDATE_mandate_emancipation_DESC:1 "[Root.Owner.GetName] birodalmában felszámolni a rabszolgaság szokását.\n\nJutalom:\n$mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ MANDATE_mandate_emancipation2:0 "Populista rabszolga felszabadító"
+ MANDATE_mandate_emancipation2_DESC:1 "Legalább egy [Root.Owner.GetSpeciesAdj] világ összes rabszolgáját felszabadítani.\n\nJutalom:\n$mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ MANDATE_mandate_orbital_researcher:0 "Orbitális kutató"
+ MANDATE_mandate_orbital_researcher_DESC:3 "[Root.Owner.GetName] kutatásának megerősítése legalább 4 új orbitális §kutatóálloomás§! megépítésével.\n\nJutalom:\n$mandate_unity_reward$"
+ MANDATE_mandate_miner:0 "Bolygónkívüli bányász"
+ MANDATE_mandate_miner_DESC:1 "[Root.Owner.GetName] ásványérc tartalékainak növelése legalább négy új orbitális §bányászati állomás§! megépítésével.\n\nJutalom:\n$mandate_influence_reward_t5$"
+ MANDATE_mandate_shipwright:0 "Hajóépítő"
+ MANDATE_mandate_shipwright_DESC:2 "A [Root.Owner.GetSpeciesAdj] nép biztonságának szavatolása a flottakapacitás legalább 75%-ának megfelelő hadihajó fenntartásával az uralkodásának vége előtt.\n\nJutalom:\n$mandate_influence_reward_t5$"
+ MANDATE_mandate_peacemaker:0 "Békekötő"
+ MANDATE_mandate_peacemaker_DESC:1 "[Root.Owner.GetName] minden háborújából való kiszállás az uralkodás végére.\n\nJutalom:\n$mandate_influence_reward_t5$"
+ MANDATE_mandate_slaver:0 "Rabszolgahajcsár"
+ MANDATE_mandate_slaver_DESC:1 "[Root.Owner.GetName] gazdasági tündöklésének fenntartása a rabszolgatartás törvénybe iktatása által.\n\nJutalom:\n$mandate_influence_reward_t2$"
+ MANDATE_mandate_xenopurger:0 "Xenotisztogató"
+ MANDATE_mandate_xenopurger_DESC:1 "§YLegalább egy idegen gyarmat§! megtisztítása az uralkodás vége előtt.\n\nJutalom:\n$mandate_influence_reward_t2$\n$mandate_happiness_reward_t1$"
+ MANDATE_mandate_nationalist:0 "Hazatelepítő"
+ MANDATE_mandate_nationalist_DESC:1 "A §Y[parameter:country.GetName]§! bolygóinak visszaadása.\n\nJutalom:\n$mandate_influence_reward_t3$"
+
+ ####################################
+ #	MANDATE CHAINS
+ ####################################
+
+ mandate_miner_chain_title:0 "Bányászati mandátum"
+ mandate_miner_chain_desc:3 "[This.GetRulerTitle] [This.GetRulerName] választási ígérete az £minerals£ §Yásványtermelés§! növelését célozta elő további §Ybányászati állomások§! megépítésével.\n\nJutalom:\n$mandate_unity_reward$"
+ mining_stations_built:0 "Megépített bányászati állomások"
+
+ mandate_orbresearch_chain_title:0 "Orbitális kutatási mandátum"
+ mandate_orbresearch_chain_desc:3 "[This.GetRulerTitle] [This.GetRulerName] választási ígérete a §Ykutatás§! növelését célozta elő további §Ykutató állomások§! megépítésével.\n\nJutalom:\n$mandate_unity_reward$"
+ orbresearch_built:0 "Megépített kutatóállomások"
+
+ mandate_xenopurge_chain_title:0 "Xenotisztogatási mandátum"
+ mandate_xenopurge_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] választási ígérete az összes §Ynem [Root.GetSpeciesAdj] Nép§! tisztogatását irányozta elő a §H[purge_planet.GetName]§! bolygóról.\n\nJutalom:\n$mandate_influence_reward_t2$\n$mandate_happiness_reward_t1$"
+ world_purged:0 "Megtisztogatott világ"
+
+ mandate_shipwright_chain_title:0 "Hajóépítési mandátum"
+ mandate_shipwright_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] választási ígérete a hadi kiadások növelését irányozta elő és garantálta, hogy §Ya flottakapacitás legalább 75%-a §! lesz hadrendben §Yaz uralkodása vége előtt§!.\n\nJutalom:\n$mandate_influence_reward_t2$"
+ military_presence_maintained:0 "Sikerrel teljesített mandátum"
+
+ mandate_fiscal_reserve_chain_title:0 "Pénzügyi tartalék mandátum"
+ mandate_fiscal_reserve_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] választási ígérete a §Ytakarékosság§! és a §Ymegfontolt fiskális politika§! jegyében került megfogalmazásra, amelyben garantálja, hogy §H[Root.GetName]§! §Ylegalább £energy£ 1000§! tartalékkal fog rendelkezni. "
+
+ mandate_emancipation_chain_title:0 "Nagy rabszolgafelszabadítási mandátum"
+ mandate_emancipation_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] választási ígérete a §Yrabszolgaság teljes eltörlése§! volt, uralkodása alatt a rabszolgaság intézményét teljesen §Yeltörölné§!.\n\nJutalom:\n$mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ mandate_fulfilled:0 "Sikerrel teljesített mandátum"
+
+ mandate_emancipation2_chain_title:0 "Populista rabszolga-felszabadítási mandátum"
+ mandate_emancipation2_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] választási ígérete a §H[free_planet.GetName]§! bolygó §Yösszes rabszolgájának felszabadítása§! volt, valamikor az uralma alatt.\n\nJutalom:\n$mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ planet_freed:0 "Felszabadított bolygó"
+
+ mandate_separatist_chain_title:0 "Szeparatista mandátum"
+ mandate_separatist_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] választási ígérete alapján §H[release_planet.GetName]§! bolygót független birodalomként §Yszabadítaná fel§!. Részletekért lásd a §YFrakció listát§!.\n\nJutalom:\n$mandate_influence_reward_t3$"
+ empire_released:0 "Felszabadított birodalom"
+
+ mandate_peacemaker_chain_title:0 "Békekötési mandátum"
+ mandate_peacemaker_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] választási ígérete alapján az uralkodása végéig §Yminden [Root.GetSpeciesAdj] háborús részvétel§! véget ér.\n\nJutalom:\n$mandate_influence_reward_t2$"
+ no_engagements:0 "Az összes ellenségeskedés megszűnt"
+
+ mandate_slaver_chain_title:0 "Rabszolgahajcsár mandátum"
+ mandate_slaver_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] választási ígérete alapján az uralkodása végéig legalább §Y5 Népet§! taszítana §Yrabszolgasorsba§!.\n\nJutalom:\n$mandate_influence_reward_t2$"
+ pops_enslaved:0 "Rabszolgasorsba juttatott Népek"
+
+ mandate_nationalist_chain_title:0 "Hazatelepítő mandátum"
+ mandate_nationalist_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] választási ígérete alapján az uralkodása végéig §Yvisszaadja§! a §H[ceding_empire.GetName]§! birodalomhoz tartozó gyarmatokat. Ezt a frakció listában lehet véghez vinni.\n\nJutalom:\n$mandate_influence_reward_t3$"
+ planet_ceded:0 "Visszaadott bolygó"
+
+ ####################################
+ #	MANDATE EVENTS
+ ####################################
+
+ mandate.1.title:0 "Új uralkodói mandátum"
+ mandate.1.desc:0 "[Root.GetRulerName] nyerte meg a(z) §H[Root.GetName]§! §Y[Root.GetRulerTitle]i§! választását.\n\nA §Ymandátumának§! részleteihez lásd az §Yeseménynaplót§!."
+ mandate.2.title:0 "Nem teljesített mandátum"
+ mandate.2.desc:1 "Birodalmunk [Root.GetRulerTitle]i uralma véget ért, a választási kampány ígéreteket nem teljesítette."
+
+ # Separatist
+ mandate.100.title:0 "Teljesített szeparatista szimpatizáns mandátum"
+ mandate.100.desc:1 "[Root.GetRulerTitle] mandátuma alapján a §H[released_planet.GetName]§! bolygó felszabadításra került, immáron a §H[Root.GetName] birodalom §Ycsatlósa§!"
+
+ # Miner
+ mandate.111.title:0 "Sikerrel teljesített bányászati mandátum"
+ mandate.111.desc:1 "[Root.GetRulerTitle] mandátuma alapján további bányászati állomások épültek."
+
+ # Orbital Researcher
+ mandate.121.title:0 "Sikerrel teljesített orbitális kutatási mandátum"
+ mandate.121.desc:1 "[Root.GetRulerTitle] mandátuma alapján további kutatóállomások épültek."
+
+ # Xenopurger
+ mandate.132.title:0 "Sikerrel teljesített xenotisztogatási mandátum"
+ mandate.132.desc:1 "[Root.GetRulerTitle] mandátuma alapján [From.GetName] gyarmat összes nem [Root.GetSpeciesAdj] lakosa tisztogatásra került."
+
+ # Shipwright
+ mandate.141.title:0 "Sikerrel teljesített hajóépítési mandátum"
+ mandate.141.desc:2 "[Root.GetRulerTitle] mandátuma alapján a flottakapacitásunk legalább 75%-át használjuk ki."
+ mandate.142.title:0 "Nem teljesített mandátum"
+ mandate.142.desc:1 "[Root.GetRulerTitle] a megfelelő idő alatt nem tudta teljesíteni a mandátumában vállalt célokat."
+
+ # Emancipator 1
+ mandate.150.title:0 "Sikeres nagy rabszolgafelszabadítási mandátum"
+ mandate.150.desc:1 "[Root.GetRulerTitle] mandátuma alapján [Root.GetName] területén immáron törvénybe ütközik a §Yrabszolgatartás§!."
+
+ # Emancipator 2
+ mandate.155.title:0 "Sikeres populista rabszolgafelszabadítási mandátum"
+ mandate.155.desc:1 "[Root.GetRulerTitle] mandátuma alapján [From.GetName] felszínén immáron nincsenek többé rabszolga Népek."
+
+ # Peacemaker
+ mandate.161.title:0 "Sikerrel teljesített békekötési mandátum"
+ mandate.161.desc:1 "[Root.GetRulerTitle] mandátuma alapján §H[Root.GetName]§! már nem vesz részt semmiféle fegyveres összetűzésben."
+ mandate.162.title:0 "Nem teljesített mandátum"
+ mandate.162.desc:1 "$mandate.142.desc$"
+
+ # Slaver
+ mandate.171.title:0 "Sikerrel teljesített rabszolgahajcsár mandátum"
+ mandate.171.desc:1 "[Root.GetRulerTitle] mandátuma alapján §H5 Nép§! lett rabszolgaságba taszítva."
+
+ # Nationalist
+ mandate.180.title:0 "Sikerrel teljesített hazatelepítési mandátum"
+ mandate.180.desc:1 "[Root.GetRulerTitle] mandátuma alapján a meghódított gyarmatok visszakerültek a §H[ceding_empire.GetName]§! birodalomhoz."

@@ -1,0 +1,114 @@
+﻿l_english:
+
+ ####################################
+ # Special Projects
+ ####################################
+
+ ### Story Events
+
+ AMOEBAS_1_PROJECT:0 "Űramőbák megfigyelése"
+ AMOEBAS_1_PROJECT_DESC:0 "Egy tudományos szervezet gyűjtse be és rendszerezze az űramőbákkal kapcsolatos adatokat."
+
+ CRYSTALS_1_PROJECT:0 "Kristályentitás megfigyelése"
+ CRYSTALS_1_PROJECT_DESC:0 "Egy tudományos szervezet gyűjtse be és rendszerezze a kristályentitásokkal kapcsolatos adatokat."
+
+ DRONES_1_PROJECT:0 "Bányászati drónok megfigyelése"
+ DRONES_1_PROJECT_DESC:0 "Egy tudományos szervezet gyűjtse be és rendszerezze a régi bányászati drónokkal kapcsolatos adatokat."
+
+ CLOUDS_1_PROJECT:0 "Ürességfelhők megfigyelése"
+ CLOUDS_1_PROJECT_DESC:0 "Egy tudományos szervezet gyűjtse be és rendszerezze az ürességfelhőkkel kapcsolatos adatokat."
+
+ CRYSTAL_CONSTRUCT_PROJECT:0 "A kristályszerkezet"
+ CRYSTAL_CONSTRUCT_PROJECT_DESC:0 "Egy tudományos szervezet gyűjtse be és rendszerezze a kristályszerkezettel kapcsolatos adatokat."
+
+ MINING_BASE_PROJECT:0 "A feldolgozó központ"
+ MINING_BASE_PROJECT_DESC:0 "Egy tudományos szervezet gyűjtse be és rendszerezze a régi bányászati drónok feldolgozó központjával kapcsolatos adatokat."
+
+ ### Anomaly Events
+
+ DEAL_WITH_FLORA:0 "Agresszív növényzet"
+ DEAL_WITH_FLORA_DESC:0 "A bolygó növényvilága figyelemre méltóan ügyes, riasztóan agresszív és határozottan megérdemli a közelebbi tanulmányozást."
+
+ OLD_GODS_BENEFACTRESS_PROJECT:0 "A régi istenek: A jótevő istennő"
+ OLD_GODS_BENEFACTRESS_PROJECT_DESC:1 "A jótevő istennő szentélyének minden egyes négyzetcentiméterét komplex piktogrammok szövevényes hálója fedi be, amelyekből a [Root.Owner.Capital.GetName] lakói által ismert mesetöredékeknél lényegesen szerteágazóbb történet derül ki.\n\nBár a piktogrammok nyelvezete csak nyomaiban hasonlót a [Root.Owner.GetSpeciesName] nyelvekéhez, a jelenlegi technológiánknak köszönhetően megfelelő idő és erőforrás ráfordításával megfejthető."
+ OLD_GODS_UNDAUNTED_PROJECT:0 "A régi istenek: A rettenthetetlen"
+ OLD_GODS_UNDAUNTED_PROJECT_DESC:1 "A Rettenthetetlen szentélyét tartalmazó templomot, az istenség jellemének megfelelően, számtalan ismeretlen eredetű és célú szerkezet tölti be. A [Root.Owner.Capital.GetName] templomaiban található egyszerűbb fejtörőkhöz képest az istenség szent szövegeit valóban csak az arra érdemesek tudják elolvasni.\n\nA bonyolult elemzési módszereink azonban gyorsan megfejtik a szövegek titkait."
+ OLD_GODS_PERCIPIENT_PROJECT:0 "A régi istenek: Az észlelő"
+ OLD_GODS_PERCIPIENT_PROJECT_DESC:1 "Az észlelő istenség szentélyének falát vastag, ásványi alapú lakkal festették be, de a szentély maga csupasz.\n\nAz észlelőról szóló mondákat csak azok ismerhetik meg, akik megfelelően figyelmesek ahhoz, hogy megérthessék. Csupán azt kell kitalálni, hogy mit kell érzékelni."
+
+ LIMBO_1_PROJECT:0 "Limbus"
+ LIMBO_1_PROJECT_DESC:0 "Az adattároló eszközökkel teli idegen bunker szinte könyörög azért, hogy egy régész helyreállítsa az adatokat."
+
+ PROJECTING_MOON_PROJECT:0 "Projektálás"
+ PROJECTING_MOON_PROJECT_DESC:0 "Szokatlan bolygó szoktalan holdja. A szokásos szkennelési technikákat nem adnak kielégítő eredményt, ezért egy sokkal gyakorlatiasabb megközelítésre van szükség."
+
+ GRIMACING_PLANET_PROJECT:0 "Grimaszoló bolygó"
+ GRIMACING_PLANET_PROJECT_DESC:0 "A bolygó rendkívül erőszakos felszínét valami potenciálisan lakhatóbbá lehet stabilizálni, ha gyorsan cselekszünk."
+
+ OLFACTORY_PROJECT:0 "Szaglásvizsgálat"
+ OLFACTORY_PROJECT_DESC:0 "Egy idegen tárgyról feltételezhető, hogy aeroszolos aromás vegyületekken keresztül adja át az információt."
+
+ ULTIMATE_WEAPON_PROJECT:0 "A végső fegyver"
+ ULTIMATE_WEAPON_PROJECT_DESC:0 "A bolygón valahol fegyverek vannak elretjve. Ha megtaláljuk a rejtekhelyet, akkor a birodalmunk újabb harci technológiákhoz juthat."
+
+ REFINE_ROCK_PROJECT:0 "Pozitron-bombázás"
+ REFINE_ROCK_PROJECT_DESC:0 "A bolygó körül pályáról indított, irányított pozitron-nyalábok segítségével a bolygón található ásványokat talán hasznosabb formára lehet átalakítani."
+
+ CRYSTAL_CODEX_PROJECT:0 "Kristály kódex"
+ CRYSTAL_CODEX_PROJECT_DESC:0 "Egy ásványképződés hologrammal kódolt információt tartalamaz. A szerkezete ismerős, de a nyers adatsűrűség miatt nehéz dekódolni."
+
+ ALIEN_BARRACKS_PROJECT:0 "Idegen laktanya"
+ ALIEN_BARRACKS_PROJECT_DESC:0 "A romok közelebbi xeno-szocio-archeológiai tanulmányozása talán betekintést nyújthat egy régmúlt idegen társadalom háborús gépezetébe."
+
+ ROBOT_MINERALS_PROJECT:0 "Visszahódította a természet"
+ ROBOT_MINERALS_PROJECT_DESC:0 "Egy benőtt létesítmény talán számos titkot rejhet."
+
+ BALANCE_ECOSYSTEM_PROJECT:0 "Kiegyensúlyozott ökoszisztéma"
+ BALANCE_ECOSYSTEM_PROJECT_DESC:0 "Született egy terv a bolygó felemás bioszférájának kiegyensúlyozására, amelyhez egy általános tudományos hajó fedélzetén található berendezések szükségesek.\n\nA projekt előre nem látható következményekkel járhat."
+
+ HEAD_IN_SAND_PROJECT:0 "Homokba fúródó fej"
+ HEAD_IN_SAND_PROJECT_DESC:0 "Egy hadiflotta megpróbálhatja megmenteni a magát egyre mélyebbre ásó hajót."
+
+ THE_PRINCE_PROJECT:0 "A herceg"
+ THE_PRINCE_PROJECT_DESC:0 "Egy űrben sodródó adatbank semmi mást nem tartalmazott, mint egy hosszabb darab, furcs, de ugyanakkor ismerős, idegen nyelven írt szöveget."
+
+ EMERGENCY_BUOY_PROJECT:0 "Vészhelyzeti bója"
+ EMERGENCY_BUOY_PROJECT_DESC:0 "Egy súlyosan sérült tárgy úgy tűnik kommunikációs jelerősítòként funkcionál."
+
+ WRECKED_FLEET_1:0 "Monumentális jeladás"
+ WRECKED_FLEET_1_DESC:0 "A monolit által leadott üzenet dekódolása."
+
+ WRECKED_FLEET_2:0 "Ősi szövetséges armada"
+ WRECKED_FLEET_2_DESC:0 "Műszaki csapatok bevetése a megmenthető hajók üzemképes állapotba helyezéséhez."
+
+ MANUFACTORY_PROJECT:0 "Bányászati helyreállítás"
+ MANUFACTORY_PROJECT_DESC:0 "Műszaki csapatok bevetése az ősi orbitáli űrállomás üzemképes állapotba helyezéséhez."
+
+### Colony Events
+
+ HELPFUL_DRONES_1_PROJECT:0 "Hátrahagyott"
+ HELPFUL_DRONES_1_PROJECT_DESC:0 "A bolygó felszínérő furcsa jelek érkeznek. Lehet, hogy semmi.\n\nDe az is lehet, hogy valami. A bolygó körüli pályára állt hajót átjátszóként használva a gyarmati tudósok gondosan átvizsgálják a hold felszínét, hogy a dolog végére járjanak."
+ POLLEN_1_PROJECT:0 "Virágos tanulmány"
+ POLLEN_1_PROJECT_DESC:0 "A bolygón őshonos növényzet számos potenciálisan érdekes tulajdonsággal rendelkezik."
+ POLLEN_2_PROJECT:0 "Munkaerő vizsgálat"
+ POLLEN_2_PROJECT_DESC:0 "Számos neves [Root.Owner.GetSpeciesName] tudományos intézetből származó tanulmány a hatalmas munkaerő alternatív szervezésével foglalkozik. Az új ötletek kimerítő meta-tanulmányozása talán választ adhat a nehéz gyarmati körülményeknél jelentkező termelékenység-csökkenésre."
+ POLLEN_3_PROJECT:0 "Közelgő végzet megérzése"
+ POLLEN_3_PROJECT_DESC:0 "A pollen-fertőzött bolygó helyzete potenciálisan veszélyesre változott. A gyarmat egyedi helyezetét és egyre inkább lobbanékony környezeti tényezőit megvizsgáló gyorsjelentés elkészítése rendkívül fontos.\n\nAmint a fenyegetés mértéke ismertté válik, úgy órákon belül létrehozható és végrehajtható egy akcióterv."
+
+### Starting Events
+
+# Wanderlust
+ ROGUE_SCIENTIST_1_PROJECT:0 "Mehetnék: Ami hátramaradt"
+ ROGUE_SCIENTIST_1_PROJECT_DESC:0 "Az elnök láthatatlan távozása a naprendszerből maradékenergiák zavarba ejtő mennyiségét hagyta maga után a napszélben.\n\nRemélhetőleg az energiák teljes kielemzése megmutatja az utat az elnök következő célpontjához, és szükség esetén a további utazásait is könnyebb lesz nyomon követni."
+
+# Mass Extinction
+ MASSEX_1_PROJECT:0 "Elemzés: Széttört"
+ MASSEX_1_PROJECT_DESC:0 "Az égitest traumatikus múltjának rekonstrukciója."
+ MASSEX_2_PROJECT:0 "Elemzés: Elégett"
+ MASSEX_2_PROJECT_DESC:0 "Az égitest traumatikus múltjának rekonstrukciója."
+ MASSEX_3_PROJECT:0 "Elemzés: Elhagyatott"
+ MASSEX_3_PROJECT_DESC:0 "Az égitest traumatikus múltjának rekonstrukciója."
+ MASSEX_4_PROJECT:0 "Elemzés: Káros"
+ MASSEX_4_PROJECT_DESC:0 "Az égitest traumatikus múltjának rekonstrukciója."
+ MASSEX_5_PROJECT:0 "Elemzés: Hideg"
+ MASSEX_5_PROJECT_DESC:0 "Az égitest traumatikus múltjának rekonstrukciója."

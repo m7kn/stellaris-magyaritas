@@ -1,0 +1,496 @@
+﻿l_english:
+
+ ### EVENT CHAINS
+ WORM_CHAIN_1_title:0 "A várakozó féreg: Jelzések"
+ WORM_CHAIN_1_desc:0 "Valami jelzett nekünk, egy olyan helyről, ahol a tér és az idő egy csomóvá zsugorodott össze.\n\nVágyik ránk."
+
+ WORM_CHAIN_2_title:0 "A várakozó féreg: Jelek"
+ WORM_CHAIN_2_desc:0 "Nem valószínű, hogy az idő két irányban folyjon. Nem valószínű, hogy egy kozmikus kígyó tekeredett az univerzum köré, ami az egész fajunknál nagyobb szemekkel tekint befelé. Ugyanakkor elég sok olyan dolog történt mostanában, ami szintén nem valószínű."
+
+ ### STATIC MODIFIERS
+ happy_with_open_loop_temple:0 "Hurok-templom látogatói központ"
+ happy_with_open_loop_temple_desc:0 "Vidám, hatékony személyzet tart tárlatvezetést a reflektorokkal megvilágított, segítőkész táblákkal jelzett ősi pecsétek alatt."
+
+ spiritual_happy_with_open_loop_temple:0 "Hurok-templom zarándokok útja"
+ spiritual_happy_with_open_loop_temple_desc:0 "A bazalt boltívek újra a csoszogó lábak és az imák visszhangjait suttogják."
+
+ waiting_world_ruins:0 "Elhagyatott romok"
+ waiting_world_ruins_desc:0 "Csak a szél sóhajt a romok között. Senki sem jár oda."
+ d_mothballed_facilities:0 "Állagmegóvott létesítméyek"
+ d_mothballed_facilities_desc:0 "A legújabb gyarmati sztenderdeknek megfelelően befejezett épületek és kerületek, de láthatóan évek óta nem használják, ezért állapotuk is némileg leromlott."
+
+ loop_debris_01_object:0 "Horizont jel törmelék"
+ loop_debris_02_object:0 "Spirális gondoloa"
+
+ worm_quarantined:0 "Karanténban"
+ worm_quarantined_desc:0 "A VILÁGOK MINDEGYIKE A TIÉTEK - KIVÉVE EZT."
+
+ worm_manifestation:0 "Bekukucskálás"
+ worm_manifestation_desc:0 "Egyszer hopp, máskor hurok"
+
+ ### TECHNOLOGY
+ tech_akx_worm_1:0 "Entrópikus rekurzió"
+ tech_akx_worm_1_desc:0 "Az univerzum általában ellenállhatatlanul kifelé és lefelé húz. Ezt a tendenciát nem lehet visszafordítani... de megfelelő áron el lehet téríteni."
+
+ tech_akx_worm_2:0 "Doktrína: Furcsa hurok"
+ tech_akx_worm_2_desc:0 "A társadalmi szokásrendek, paradox intuíciókon és szereteten alapulnak. Amikor megismerjük a Hurok Rendszerét, akkor megtanuljuk, hogy utasítások vételével és utasítások adásával is képesek vagyunk annak befolyásolására."
+
+ tech_akx_worm_3:0 "Omega elmélet"
+ tech_akx_worm_3_desc:0 "Amikor egy időparadoxon összekuszálódik, akkor egyfajta tudat keletkezik, saját igényeivel és saját vágyaival. Ez történt azzal a tudattal, amelyet néhányan a Várakozó Féregnek hívnak. Ha magunkat ahhoz a tudathoz igazítjuk, akkor talán elérhetünk valamiféle halhatatlanságot."
+ TECH_UNLOCK_AKX_WORM_3_TITLE:0 "$tech_akx_worm_3$"
+ TECH_UNLOCK_AKX_WORM_3_DESC:0 "$tech_akx_worm_3_desc$"
+
+ tech_akx_worm_partial_custom:0 "§HBetekintés a jövőbe:§! $tech_akx_worm_3$"
+ tech_akx_worm_partial_custom_desc:0 "A jövő perspektíváiba és a múlt tulajdonságaiba való betekintés.\n\nEgy egésznek a fele csupán, önmagában használhatatlan. Elkészültek után a tudósaink talán belebotlanak a(z) §H$tech_akx_worm_3$§! technológiájába."
+
+ ### BUILDINGS
+ building_akx_worm_1:0 "Spirális energiaközpont"
+ building_akx_worm_1_desc:0 "Olyan technikákkal növeli jelentősen a bolygó energiatermelését, amelyeknek semmi helyük nincs a hagyományos fizika világában. Éjjeli rémálmokkal és zuhanásos álmokkal hozták kapcsolatba."
+
+ building_akx_worm_2:0 "Hurok intézet"
+ building_akx_worm_2_desc:0 "A hurok tanítások, a megérzések, az együttérzés és egy értékes szemléletmód fejlesztését ösztönzik."
+
+ building_akx_worm_3:0 "Omega Igazodás"
+ building_akx_worm_3_desc:0 "A tárgy felszíne eltéríti a teret. A belsejét semmiféle érzékelővel vagy képalkotó technológiával nem lehet megtekinteni. De mindannyian tudjuk, mi van benne."
+
+ requires_power_hub_absence:1 "§RA(z) $building_power_hub_1$ vagy $building_power_hub_2$ jelenléte a bolygó felszínen megzavarja azokat a csigavonalas áramlásokat, amelyek a spirális energiaközpont megfelelő működésének alapfeltételei."
+
+ building_worm_mine:0 "Spirális bánya"
+ building_worm_mine_desc:0 "Szűk tárnák csavarodnak a spirális telérek köré."
+
+ building_worm_farm:0 "Hurok-szántotta farm"
+ building_worm_farm_desc:0 "Valahogyan a növények a szél ellenében hajlanak."
+
+ ### TRAITS
+ leader_trait_foredoomed_to_a_rendezvous:2 "Találkozásra ítéltetett"
+ leader_trait_foredoomed_to_a_rendezvous_desc:2 "Aggasztó jövőt tapasztalt."
+
+ ####################
+ ### SPECIAL PROJECTS
+ 
+ HORIZON_SIGNAL_PROJECT:0 "A horizont jel elemzése"
+ HORIZON_SIGNAL_PROJECT_DESC:0 "Tudományos hajót rendel a [Root.GetStarName] naprendszer fekete lyukából származó valószínűtlen jel megfejtéséhez."
+ 
+ LOOP_TEMPLE_PROJECT:0 "A Hurok-templom kivizsgálása"
+ LOOP_TEMPLE_PROJECT_DESC:0 "Indíts egy kutatási projektet, hogy a Hurok-templom eredetéről és céljáról többet tudj meg."
+
+ MESSENGER_POD_PROJECT_1:0 "A hírvivő és üzenetének tanulmányozása"
+ MESSENGER_POD_PROJECT_1_DESC:0 "Talán sikerül megállapítani a kapcsolatot bizonyos egyéb események között, esetleg magyarázatot is találni."
+
+ MESSENGER_POD_PROJECT_2_UNLEASHED:0 "A hírvívő kapcsolatának tanulmányozása"
+ MESSENGER_POD_PROJECT_2_UNLEASHED_DESC:0 "A kezdeti eredmények arra utalnak, hogy ez egy intelligensebb, ugyanakkor gyengébb forma volt."
+
+ MESSENGER_POD_PROJECT_2_LEASHED:0 "A hírvívő kapcsolatának tanulmányozása"
+ MESSENGER_POD_PROJECT_2_LEASHED_DESC:0 "A kezdeti eredmények arra utalnak, hogy ez egy szívósabb, agresszívebb forma volt."
+ 
+ COILS_GOD_PROJECT_DISRUPT:0 "A Tekercs rítusok megzavarása"
+ COILS_GOD_PROJECT_DISRUPT_DESC:0 "Zavarás, szabotázs, félrevezetés. Megteszünk mindent, amit csak lehet anélkül, hogy átlépnénk azt a bizonyos vonalat."
+ 
+ COILS_GOD_PROJECT_PREVENT:0 "A Tekercs rítusok megakadályozása"
+ COILS_GOD_PROJECT_PREVENT_DESC:0 "A titkos műveletek sorozata, kiképzés, hamisítás, emberrablás, ha kell gyújtogatás és gyilkosság: megteszünk mindent, amit csak kell."
+  
+ COILS_GOD_PROJECT_PARTICIPATE:0 "Részvétel a tekercs rítusokban"
+ COILS_GOD_PROJECT_PARTICIPATE_DESC:0 "Néprajzkutatókat küldünk a felszínre, hogy közelről figyelhessék meg a Tekercsek rítusát. Ez egy páratlan kulturális esemény! Minél többek kell erről megtudnunk."
+ 
+ WAITING_WORLD_DISAPPEARANCE:0 "Nyomozás a lakosság eltűnésének ügyében"
+ WAITING_WORLD_DISAPPEARANCE_DESC:0 "Túl sok volt a telepes, most pedig egy sincs. Mi történt?"
+ 
+ WAITING_WORLD_HYPERAPPEARANCE:0 "Vizsgálják ki... hogy mi történt a lakossággal."
+ WAITING_WORLD_HYPERAPPEARANCE_DESC:0 "Túl sok volt a telepes, most pedig egy teljesen más lakosság él ott. Mi történt?"
+ 
+ WAITING_WORLD_PURGE:0 "A népesség megtisztítása a feltételezett idegenektől."
+ WAITING_WORLD_PURGE_DESC:0 "Csakis úgy tudjuk teljes bizonyossággal kezelni a(z) [Root.GetName] lakosainak rejtélyes kicserőlődését, ha a teljes elpusztításukra alkalmas orbitális bombázást vetjük be."
+ 
+ WORM_ENTRY_POINT:0 "Belépési pont létrehozása"
+ WORM_ENTRY_POINT_DESC:0 "Az elmélet szerint az időanomáliák, melyekkel eddig találkoztunk egy olyan dolog okozza amit mi huroknak vagy féregnek nevezünk. Ez egy összegabalyodott paradoxon mely saját öntudatra lelt, egy időn kívüli tudatosság és vágyódás. Hogy ez lenne az ok, vagy az eredmény, nehéz megmondani ilyen esetben. De azt tudjuk, hogy a kezdetekhez és a befejezésekhez vonzódik. Használhatnánk az Omega Igazodást, hogy a főbolygónkhoz csaljuk. Ha megtesszük, valami biztosan történni fog. Sok minden lehet, de biztos, hogy ez tudomány."
+ 
+ HORIZON_DEBRIS_PROJECT:0 "Vizsgálják meg a Horizont Jelek töredékeinek eredetét."
+ HORIZON_DEBRIS_PROJECT_DESC:0 "Amikor a hajtómű felrobbant, félbeszakította a hajó körül térváltozásokat. A töredékek szokatlan fizikai és időjellemzőket mutatnak."
+ 
+ SYZYGY_DEBRIS_PROJECT:0 "Syzygy maradványainak kivizsgálása"
+ SYZYGY_DEBRIS_PROJECT_DESC:0 "A Syzygy egy másik térben töltötte az időt. Egy lehetséges jövő? Egy alternatív univerzum? Többet is megtudhatunk."
+ 
+  
+ ################################################
+ ##THE HORIZON SIGNAL: intro events to Worm chain 
+ 
+ akx.9000.name:0 "A Horizont jel"
+ akx.9000.desc:0 "Egy figyelmes kommunikációs tiszt felismert egy nagyon gyenge jelet, ami alighogy láthatatlan a közeli fekete lyuk gammasugár felvillanásai között. A jel rendkívül gyenge, azonban kétséget kizáróan mesterséges eredetű. A jel forrása érdekes lehetőségeket vet fel a tudósainkban."
+ #create the HORIZON_SIGNAL_PROJECT project
+
+ akx.9001.name:0 "A Horizont jel: §HA GRAVITÁCIÓ KÍVÁNSÁG§!"
+ akx.9001.desc:0 "[Root.GetLeaderName] tudományos tiszt jelentette, hogy a jelet váratlanul könnyű volt megfejetni... a csapata sok időt töltött azzal, hogy megbizonyosodjanak róla, hogy ez nem csak egy átverés. Ez egy ismétlődő félig egybefüggő üzenet a(z) [Root.Owner.GetAdj] nyelvén, valamilyen költemény. Többször megismétli, a §HGRAVITÁCIÓ KÍVÁNSÁG§! és az §HIDŐ LÁTVÁNY§! kifejezéseket. Koordinátákat tartalmaz, melyek valahol a fekete lyuk körül vannak. Az üzenet aláírása meglepetésünkre azé a tudományos tiszté, aki bebizonyította, hogy az üzenet jóval az ő születése előtti. Ami azt illeti az egész civilizációknál idősebbnek tűnik."
+ akx.9001.a:0 "Lenyűgöző! Küldjenek egy hajót a koordinátákra."
+ akx.a.tooltip:0 "Ezzel megkezdődik a Horizont jel eseményláncolat."
+ akx.9001.b:0 "Ez egy trükk, vagy egy csapda. Naplózzák az eseményt és haladjanak tovább."
+ akx.9001.b.tooltip:0 "A Jel elemzésére kifejlesztett technikák hasznosnak bizonyulhatnak a fizika terén folytatott egyéb kutatásaink számára is."
+ 
+ akx.9005.name:0 "A Horizont jel: §HA FÉREG!"
+ akx.9005.desc:0 "Ahogy a(z) [Root.GetName] megközelítette a koordinátákat térbeli torzításokról és különös tükröződési hatásokról küldött jelentéseket. Egy igen értékes adatfolyam érkezett, aztán az adás eltorzult. Kimerítően elemezzük, mi is történt azután.\n\n[horizonsignal_firstleader.GetName] tudományos tiszt hangjában az izgatottság félelemmel párosult, mikor arról beszélt, hogy a hajótest küzd az egyre mostohább körülményekkel küzd. Leadták a vészjelzést. [horizonsignal_firstleader.GetName] felkiáltott "a féreg!" - vagy talán, §Ha Féreg§!! Ezután minden adás megszakadt. A(z) [Root.GetName] semmi nyomát nem találtuk meg. Nincs semmilyen adás, roncs. A megadott koordinátákon az űr épp oly nyugodt mint bárhol, semmilyen tértorzulást nem tapasztaltunk. Azonban az adatok amik tőlük érkeztek, rendkívül hasznosak a fizikusaink számára. Talán az áldozatuk nem volt hiábavaló."
+ akx.9005.a.spiritualist:0 "Sötétség; fény; sötétség."
+ akx.9005.a.materialist:0 "Tanulunk és tovább lépünk."
+ akx.9005.a.neutral:0 "Nem felejtjük őket."
+ 
+ akx.9006.name:0 "A Horizont jel: - üzenet vége -"
+ akx.9006.desc:0 "[horizonsignal_firstleader.GetName] vonakodás és megkönnyebbülés kettősségével a hangjában fejezte be. A pszichológusuk az utóbbi időben olyan jelentéseket készített, amiben beszámol arról, hogy többeknek is visszatérő rémálmaik vannak lehetetlen útvesztőkről, melyek az űr sötétjében kavarognak. Egy otthoni év alatt az üzenet megszűnt."
+ akx.9006.a:0 "Megmenekültünk valamitől."
+ akx.9006.b:0 "Elvesztettünk valamit."
+ 
+ akx.9010.name:0 "A Horizont jel: §HISMÉTLÉS§!"
+ akx.9010.desc:0 "A(z) [horizonsignal_system.GetName] naprendszerben található fekete lyuk ismét aktív. Megint egy ismétlődő jel tűnt fel a sötétség és a normál tér határán. Ezúttal egy hangüzenetet is tartalmaz a jel. Nagyon hasonlít [horizonsignal_firstleader.GetName] hangjára. "Ami már volt, az még lehet" [horizonsignal_firstleader.GetName] újra kezdi, "Ami még lehetne, az már volt." Utána az első jel koordinátái ugyanazok, ahol [horizonsignal_firstleader.GetName] eltűnt - amit a média kilépési pontnak nevezett el. Utána egy nevet említ: §G[horizonsignal_secondleader.GetName]§!."
+ akx.9010.a.collective:0 "[horizonsignal_secondleader.GetName] azonnal menjen a kilépési ponthoz."
+ akx.9010.a.tooltip:0 "§H[horizonsignal_secondleader.GetName]§! §Y30 nap§! múlva fog a kilépési ponthoz érkezni."
+ akx.9010.a.collective.tooltip:0 "Ha nem térnek vissza megemlékezünk róluk."
+ akx.9010.a.notcollective:0 "[horizonsignal_secondleader.GetName] önként jelentkezett. Engedjék meg neki."
+ akx.9010.b.collective:0 "Küldjék oda őket, de buherálják meg a hajtóművet, hogy felrobbanjon."
+ akx.9010.b.notcollective:0 "Engedjék meg neki, de buherálják meg a hajtóművet, hogy felrobbanjon."
+ akx.9010.c:0 "Ezúttal nem. Nem foglalkozunk vele."
+
+ akx.9011.name:0 "A Horizont jel: Átmentem"
+ akx.9011.desc:0 "Ezúttal a hajó teljesen automatikusan megy. [horizonsignal_secondleader.GetName] az egyetlen személy a hajón. Ahogy megközelíti a kilépési pontot, a telemetrikus érzékelők lenyűgöző adatokkal szolgálnak. A tér ismét meggörbül, a gravitáció eltorzul. [horizonsignal_secondleader.GetName] felolvassa a telemetrikus adatokat. Rendkívül nyugodt, egy profit küldtünk oda. Egy kis időbe telik míg, hogy valaki felismerje, valami különleges van az időzítésben.\n\n[horizonsignal_secondleader.GetName] már nem ismételi az adatok felolvasását: előre mondja. A telemetrikus érzékelők kijelzőin az általa meghatározott adatok jó pár másodperccel később jelennek csak meg. A megfigyelő csapat szerint az előrejelzések időtartama folyamatosan növekszik, aztán [horizonsignal_secondleader.GetName] azt mondja csodálattal a hangjában: "Átmentem"\n\n"Sötét van," teszi hozzá. "Ez nem gond. Tudunk a sötétben élni. Sosem gondoltam rá. De természetesen itt élhetünk örökké, ha a Féreg csak várni akar - "\n\nEbben a pillanatban a jel megszakadt, és a hajó eltűnt a megfigyelő csapat érzékelőiről."
+ akx.9011.a:0 "Ez szörnyű."
+ akx.9011.b:0 "Ez sajnálatos."
+ akx.9011.c:0 "Ez csodálatos."
+
+ akx.9012.name:0 "A Horizont jel: Beavatkozás"
+ akx.9012.desc:0 "Ezúttal [horizonsignal_secondleader.GetName] az egyetlen személy a hajón. A hajó teljesen automatikusan működik... és a rendszerei, úgy vannak beállítva, hogy a hajtóműve felrobbanjon, pont akkor, mikor azok a körülmények elő állnak, ami első hajó eltűnésekor is jelen voltak. Ahogy megközelíti a kilépési pontot, a telemetrikus érzékelők lenyűgöző adatokkal szolgálnak. A tér ismét meggörbül, a gravitáció eltorzul. [horizonsignal_secondleader.GetName] felolvassa a telemetrikus adatokat. Rendkívül nyugodt, egy profit küldtünk oda. Egy kis időbe telik míg, hogy valaki felismerje, valami különleges van az időzítésben.\n\n[horizonsignal_secondleader.GetName] már nem ismételi az adatok felolvasását: Előre mondja. A telemetrikus érzékelők kijelzőin az általa meghatározott adatok jó pár másodperccel később jelennek csak meg. A megfigyelő csapat szerint az előrejelzések időtartama folyamatosan növekszik, aztán egy hirtelen energiakisülést érzékelnek.\n\nA hajtómű felrobbant: a kis villanás hamar eltűnt a(z) [horizonsignal_system.GetName] sötétjében. Bármivel is találkozunk ott, talán megbánta, hogy beavatkozott a mi valóságunkba. Talán sosem tudjuk meg. A Horizont jel nem tűnik fel újra. Azonban a tudósaink találnak valami érdekeset a hajó maradványai közt."
+ ##create HORIZON_DEBRIS_PROJECT
+ akx.9012.a:0 "És mégis, talán ez nem a vég."
+ 
+ akx.9013.name:0 "A Horizont jel: - üzenet vége -"
+ akx.9013.desc:0 "[horizonsignal_secondleader.GetName] mondta nyilvánvaló megkönnyebbüléssel a hangjában. A pszichológusuk az utóbbi időben olyan jelentéseket készített, amiben beszámol arról, hogy többeknek is visszatérő rémálmaik vannak lehetetlen útvesztőkről, melyek az űr sötétjében kavarognak. Egy otthoni év alatt az üzenet megszűnt."
+ akx.9013.a:0 "Egy elhibázott lehetőség."
+ akx.9013.b:0 "Nem sokon múlt, hogy megmenekültünk."
+ 
+ akx.9020.name:0 "A Horizont jel: §HAZ EGYÜTTÁLLÁS A SZÉP EGYÜTTÁLLÁS§!"
+ akx.9020.desc:0 "A Horizont jel a(z) [horizonsignal_system.GetName] rendszerben aktív. Emelte a tétet. Az adás ismét a kilépési pont koordinátáit tartalmazza. [horizonsignal_firstleader.GetName] és [horizonsignal_secondleader.GetName] privát kommunikációs azonosítóját tartalmazza. Ezúttal viszont egy régi programozási nyelven írt szöveggenerátort tartalmaz, mely úgy tűnik szerelmes verseket készít, mindet [horizonsignal_thirdleader.GetName] számára.\n\nNem kifejezetten jó szerelmes versek, de a tudósaink szerint nem egyszerű szerelmes verseket mesterségesen generálni, sőt az, hogy egy fekete lyuk szerelmes verseket küldjön, egész szokatlan."
+ akx.9020.a:0 "Rendben, mi szépen kértük. [horizonsignal_thirdleader.GetName] azonnal induljon a kilépési ponthoz."
+ akx.9020.a.tooltip:0 "§H[horizonsignal_thirdleader.GetName]§! §Y30 nap§! múlva fog a kilépési ponthoz érkezni."
+ akx.9020.b:0 "[horizonsignal_thirdleader.GetName] hajójának hajtóművét piszkálják meg, hogy felrobbanjon."
+ akx.9020.c:0 "Ez baljós, nevetséges hülyeség, és baljós. Hagyjuk az egészet."
+ 
+ akx.9021.name:0 "A Horizont jel: Honnan jön a Vég?"
+ akx.9021.desc:0 ""Ez lesz a végzetem," mondta [horizonsignal_thirdleader.GetName] az indulás előtt. "Tudom, hogy nem fogok visszatérni. Azt hiszem mindig is tudtam ezt. Bármi is van a lyukban, régóta vár minket - úgy hiszem régóta vár engem is, még mielőtt megszülethettem volna azelőtt is."\n\nÚjra egy egyszemélyes űrhajó közelíti meg a kilépési pontot. A tér ismét lázban ég. Az érzékelőink megint lenyűgöző adatokat vesznek, azonban [horizonsignal_thirdleader.GetName] teljesen szótlan. A telemetrikus érzékelők által biztosított adatok időszakossá válnak, majd pedig megszűnnek. A hajó elérte a kilépési pontot. A körülmények teljesen normálisnak tűnnek. Semmi sem történik.\n\nSemmi? Mordult fel dühösen a megfigyelő csapat. A hajó más lett... ami azt illeti, ez egy másik hajó. Ez [horizonsignal_firstleader.GetName] hajója, mely évek óta elveszett, és most a kilépési pont felől sodródik lassan. Az átszálló csapat teljesen üresen és érintetlenül találta. A legénységnek vagy erőszaknak semmi nyoma, csak egy naplóbejegyzést találtak, melyet [horizonsignal_firstleader.GetName] hagyott hátra. §HAMI MÁR VOLT, AZ MÉG LEHET§! címmel. Tudósaink idegesen vizsgálják át. "Lehetetlen," mondja az egyik. "Remélem," mondja egy másik.\n\nA hajót átnevezték "Elárvult"-ra, és visszahelyezték a szolgálatba. A Jel megszűnt, vagy csak szunnyad, nem mond semmit többé."
+ akx.9021.a:0 "És mégis, talán ez nem a vég."
+ 
+ akx.9022.name:0 "A Horizont jel: Beavatkozás"
+ akx.9022.desc:0 ""Ez lesz a végzetem," mondják az indulás előtt. "Tudom, hogy nem fogok visszatérni. Azt hiszem mindig is tudtam ezt. Bármi is van a lyukban, régóta vár minket - úgy hiszem régóta vár engem is, még mielőtt megszülethettem volna azelőtt is."\n\nÚjra egy egyszemélyes űrhajó közelíti meg a kilépési pontot. A tér ismét lázban ég. Az érzékelőink megint lenyűgöző adatokat vesznek, azonban [horizonsignal_thirdleader.GetName] teljesen szótlan. A telemetrikus érzékelők által biztosított adatok időszakossá válnak...\n\nÉs a hajtómű felrobban, aminek a fénye gyorsan eltűnik a(z) [horizonsignal_system.GetName] naprendszer sötétjében. Bármivel is találkozunk ott, talán megbánta, hogy beavatkozott a mi valóságunkba. Talán sosem tudjuk meg. A Horizont jel nem tűnik fel újra. Azonban a tudósaink találnak valami érdekeset a hajó maradványai közt."
+ ##create HORIZON_DEBRIS_PROJECT
+ akx.9022.a:0 "És mégis, talán ez nem a vég."
+
+
+ akx.9023.name:0 "A Horizont jel: - üzenet vége -"
+ akx.9023.desc:0 "[horizonsignal_thirdleader.GetName] mondta nyilvánvaló megkönnyebbüléssel a hangjában. A pszichológusuk az utóbbi időben olyan jelentéseket készített, amiben beszámol arról, hogy többeknek is visszatérő rémálmaik vannak lehetetlen útvesztőkről, melyek az űr sötétjében kavarognak. Egy otthoni év alatt az üzenet megszűnt."
+
+ akx.9090.name:0 "A Horizont jel: ok és hatás"
+ akx.9090.desc:0 "A megfigyelőink jelentették, hogy a(z) [horizonsignal_system.GetName] beszédes fekete lyuka egy nagyon rövid időre újra aktiválódott, nagyjából [horizonsignal_secondleader.GetName] halálának idején. Egy gyors és értelmetlen jel tört ki a fekete lyukból. Az egyik jó képzelőerővel megáldott megfigyelőnk szerint úgy, mint egy kozmikus dühkitörés."
+ akx.9090.a:0 "Még nincs vége."
+
+ akx.9091.name:0 "A Horizont jel: emlékül..."
+ akx.9091.desc:0 "A megfigyelőink jelentették, hogy a(z) [horizonsignal_system.GetName] beszédes fekete lyuka egy nagyon rövid időre újra aktiválódott, nagyjából [horizonsignal_thirdleader.GetName] halálának idején. Az eredeti versíró programot sugározta el háromszor. Ez, ahogy az egyik megfigyelőnk körülírta, olyan mint egy részeg gyászoló éneke."
+ akx.9091.a:0 "Még nincs vége."
+
+ akx.9095.name:0 "A Horizont jel: Lecke a hamvakból."
+ akx.9095.desc:0 "A fekete lyuk közelében lévő körülményekhez hasonlót alkottunk újra. Megállapítottuk, hogy az összeszedett darabok úgy változtatják az állapotukat, ahogy az elvileg lehetetlen, mintha az idő ide-oda mozogna rajtuk. Energiát tudunk kinyerni ezekből a változásokból, bár aggasztó változásokat érzékelünk a helyi tér-időben."
+
+ ########################################
+ ##THE LOOP TEMPLE: continuation of intro
+
+ akx.9100.name:0 "A Hurok-templom: Jelek a kőben"
+ akx.9100.desc:0 "A régészeink találtak egy rég elfeledett templomot a(z) [Root.GetName] egyik fennsíkján. Századokig be volt temetve, azonban egy földrengés a felszínre hozta. A kormeghatározó technikák szerint ez egy ipari kor előtti maradvány, kézzel faragott vulkanikus kőzetből készült. A falakon és a kör alakú oltáron fellelhető szimbólumnak, egy Möbius-szalagot formáló, saját farkát felemésztő kígyónak, nincs megfelelője a mi kultúránkban, és egy számunkra ismeretlen ábécével írták. Egy nyughatatlan régész szerint ez egy ismeretlen ősi faj építménye lehetett.\n\nKülönös egybeesés, hogy a földrengés pont abban az időben volt, mikor megkaptuk az utolsó üzenetet a(z) [horizonsignal_system.GetName] rendszerben lévő a fekete lyukból."
+ #create LOOP_TEMPLE_PROJECT
+ akx.9100.spiritual.a:0 "Egy új út nyílt meg előttünk."
+ akx.9100.neutral.a:0 "Ez megérdemli a tanulmányozást."
+ akx.9100.b:0 "Ez igen baljóslatúan hangzik."
+
+ akx.9101.name:0 "A Hurok-templom: Idő és kő"
+ akx.9101.desc:0 "A tudósaink sok mindent tanultak a föld alatti templomról, azonban még így is sok kérdés maradt megválaszolatlanul. A tetőnyílás a kör alakú oltárral valaha egy naptár lehetett, de a földrengés annyira megrongálta, hogy nem lehetünk biztosak benne. Ha az építők fontosnak tartottak egyes dátumokat, sosem fogjuk tudni melyek voltak azok. Nagyobb szerencsénk volt az "ismeretlen ábécével". Ez csupán egy nagyon korai változata az általunk ismert ősi papi írásoknak, nem pedig egy idegen szöveg. Miután erre rájöttünk, könnyen megfejtettük az írást. A templomot a Várakozó Féregnek szentelték. A legtöbb szöveg zengzetes költői megszólítás mely a féreg eljövetelét, visszafelé olvasva pedig a távozását kéri. Van még egy nagyobb szövegrészlet, mely "az univerzum működéséről" címet viseli. Néhány archeológusunk megesküszik rá, hogy egyes szövegrészek fejlett mezőegyenletekre utalnak, melyek manapság már közismertek, de a templom építési idejét tekintve fegyelemre méltó felfedezések. Még nem találtunk azonban olyan fizikust, aki hivatalosan is megerősítené az utalások értelmét.\n\nA templom nem rejt kozmikus titkokat vagy idegen fegyvereket, ahogy eddig láttuk. De egyes sötét részei fenyegető szépséget árasztanak. A Várakozó Féreg költészete népszerűvé vált, és számos megzenésített változata került be a köztudatba."
+ akx.9101.a.notspiritual:0 "Nyissák meg a Hurok-templomot a nyilvánosság előtt."
+ akx.9101.a.notspiritual.tooltip:0 "Valami a múltunkból újra a jelenünk lett. Ami már volt, az még lehet."
+ akx.9101.a.spiritual:0 "A Hurok-templomot nyilvánítsák zarándokhelynek."
+ akx.9101.a.spiritual.tooltip:0 "Az őseink rég elfeledett hite és tudása ismét jelenünkké vált. Ami már volt, az még lehet. Sok egyéb mellett nő a lakosok boldogsága ezen a bolygón."
+ akx.9101.b:0 "Korlátozzák a templomot a kutatók számára."
+ akx.9101.b.tooltip:0 "Korlátozzák a hozzáférést azoknak, akiknek szükséges."
+ akx.9101.c:0 "Valami nincs rendben itt. Mutassunk erőt azzal, hogy lezáratjuk a templomot."
+ #small bump to Influence, worm_events_available *not* set)
+ akx.9101.c.tooltip:0 "Jobb félni mint megijedni"
+
+ ##all the remaining story events below should only be triggered if the worm_events_available flag has been set and Omega Theory has not yet been researched.
+
+ ###################################
+ ##THE MESSENGER: Worm-related event
+
+ akx.9200.name:0 "A hírvivő: §HAmi már volt, az még lehet§!"
+ akx.9200.desc:0 "A(z) [Root.GetName] lokalizált egy kicsi, minimális energiával rendelkező mesterséges objektumot, mely egy ismétlődő jelet sugároz rövid távolságba. Ez a kis tárgyak általában mentőkabinok szoktak lenni, úgy tűnik ez is az. Nagyon régóta itt van már. Amikor a legénység a karantén előírások körültekintő betartása mellett felnyitotta egy ősi maradványt talált, melyet a kabin steril környezete kiváló állapotban őrzött meg. Ez eddig semmi különös. Arra viszont a(z) [Root.GetName] kapitánya szerint nem számítottak, hogy az §HAMI MÁR VOLT, AZ MÉG LEHET§! [Root.Owner.GetAdj] feliratot is megtalálják, amit a kabin szerencsétlenül járt utasa a saját testnedveivel írt fel a kabin falára, és akit mostantól a legénység csak Hírvivőnek hív. Ezzel együtt váratlanul sok anatómiai sajátosság egyezik a mi és a Hírvivő faja között."
+ #creates the MESSENGER_POD_PROJECT_1 special project
+ 
+ akx.9201.name:0 "A hírvivő: lehetőségek"
+ akx.9201.desc:0 "Megállapítottuk, hogy a mentőkabin a korábbi galaktikus civilizációknál általános technológiával rendelkezik. Semmi különöset nem fedeztük fel benne. A Hírvivő maradványai azonban már sokkal érdekesebbek. Vitathatatlanul őse, vagy egy változata a ma ismert [Root.Owner.GetAdj] fajnak. Talán vannak rokonaink odakint - vagy talán egy ősi faj genetikai manipulációjának a tárgyai vagyunk. [researchingscientist.GetName] engedélyt kér, egy szélesebb körű vizsgálat lefolytatásához."
+ akx.9201.militarist.a:0 "Engedélyezzék a vizsgálatot."
+ akx.9201.militarist.a.tooltip:0 "Előrelendíti a Genom feltérképezés technológia kutatását."
+ #create MESSENGER_POD_PROJECT_2_UNLEASHED project
+ akx.9201.notmilitarist.b:0 "Biztosítsák a forrásokat."
+ #create MESSENGER_POD_PROJECT_2_LEASHED project
+ akx.9201.notmilitarist.b.tooltip:0 "Előrelendíti a Genom feltérképezés technológia kutatását [közepes mértékkel]."
+ akx.9201.c:0 "Nem. És [researchingscientist.GetName] tegye közzé a kutatási eredményeit."
+ akx.9201.c.tooltip:0 "Vannak dolgok amiket jobb nem tudni."
+
+ akx.9210.name:0 "A hírvivő: elszabadult"
+ akx.9210.desc:0 "[researchingscientist.GetName] újraalkotta a Hírvivő fajt. A miénknél sokkal gyarlóbb, de jelentősen fejlett kognitív képességek vannak. Elég zavaros, hogy mi lettünk volna az kiinduló faj és ők csak valamiféle változatok, vagy pedig ők lettek volna az őseink. Kissé zavarba ejtő, hogy talán ezen erőtlen fajnak a leszármazottai lehetünk, azonban ezt [researchingscientist.GetName] biztosra veszi. Sőt, úgy gondolja, hogy a kognitív képességek elvesztése "tragédia" volt.\n\nInkább az a tragédia, hogy saját magukat alávetették egy retrovírusos eljárásnak, mely megváltoztatja a fiziológiájukat, hogy a Hírvivőkhöz hasonlatossá váljanak. Úgy gondolják, ez majd segíteni fogja őket a kutatásaiban."
+ akx.9210.a:0 "Igen kreatív formája ez az árulásnak. Kérem a kivégzésüket"
+ akx.9210.b:0 "Igen kreatív formája ez az árulásnak. Kérem a kivégzésüket A feljegyzéseiket semmisítsék meg."
+ akx.9210.c:0 "Ragyogó ötlet! Folytassa csak!"
+
+ akx.9211.name:0 "A hírvivő: az új fény"
+ akx.9211.desc:0 "[researchingscientist.GetName] újraalkotta a Hírvivő faj genetikus örökségét. Anélkül, hogy megkérdezték volna bárki véleményét a tudós és csapata létrehozott egy rendkívül fertőző retrovírust, mely alattomosan szétterjedt a világainkon. Ennek hatására az elsődleges fajunk tagjai egyfajta báb-kómába esnek egy napra, melyből a Hírvivő faj tulajdonságaival térnek magukhoz. Ha szabad ilyet mondani, nagy izgalmat okoz ez mindenkinek."
+ akx.9211.a:0 "Túl messzire ment ez a dolog. Ennek most vége. Korlátozni kell a járványt."
+ akx.9211.a.tooltip:0 "A szülőbolygó minden lakosa átalakul, de ezzel befejeződik a folyamat."
+ akx.9211.b:0 "Állítsák meg a vírus terjedését és irtsák ki az összes átváltozottat."
+ akx.9211.b.tooltip:0 "Ez §Rminden érintett lakos kiirtásához§! vezet: csaknem a(z) [Root.Capital.GetName] teljes lakosságát érinti."
+ akx.9211.c:0 "Ami már volt, az még lehet. Megváltozunk. Hozzanak nekem is egy mintát a vírusból."
+ akx.9211.c.tooltip:0 "Ez az egész fajunkat átalakítja."
+
+ akx.9220.name:0 "A hírvivő: megkötözve"
+ akx.9220.desc:1 "[researchingscientist9220.GetName] újraalkotta a Hírvivőt. Rendkívül lenyűgöző - már túlzottan is. A miénknél sokkal erősebb, ellenállóbb és agresszívabb. Elég zavaros, hogy mi lettünk volna az kiinduló faj és ők csak valamiféle változatok, vagy pedig ők lettek volna az őseink. [researchingscientist9220.GetName] biztosra veszi korábbi állítását, hogy korábban egy sokkal harciasabb fajt alkottunk, aztán egy ősi faj genetikailag beavatkozott a fejlődésünkbe. Sőt, úgy gondolja, hogy a kognitív képességek elvesztése "tragédia" volt.\n\nInkább az a tragédia, hogy saját magukat alávetették egy retrovírusos eljárásnak, mely megváltoztatja a fiziológiájukat, hogy a Hírvivőkhöz hasonlatossá váljanak. Úgy gondolják, ez majd segíteni fogja őket a kutatásaiban."
+ akx.9220.a:0 "Igen kreatív formája ez az árulásnak. Kérem a kivégzésüket"
+ akx.9220.b:0 "Igen kreatív formája ez az árulásnak. Kérem a kivégzésüket A feljegyzéseiket semmisítsék meg."
+ akx.9220.c:0 "Ragyogó ötlet! Folytassa csak!"
+
+ akx.9221.name:0 "A hírvivő: az éj leszáll"
+ akx.9221.desc:0 "[researchingscientist9220.GetName] újraalkotta a Hírvivő faj genetikus örökségét. Anélkül, hogy megkérdezték volna bárki véleményét a tudós és csapata létrehozott egy rendkívül fertőző retrovírust, mely alattomosan szétterjedt a világainkon. Ennek hatására az elsődleges fajunk tagjai egyfajta báb-kómába esnek egy napra, melyből a Hírvivő faj tulajdonságaival térnek magukhoz. Ha szabad ilyet mondani, nagy izgalmat okoz ez mindenkinek."
+ akx.9221.a:0 "Túl messzire ment ez a dolog. Ennek most vége. Korlátozni kell a járványt."
+ akx.9221.a.tooltip:0 "A szülőbolygó minden lakosa átalakul, de ezzel befejeződik a folyamat."
+ akx.9221.b:0 "Állítsák meg a vírus terjedését és irtsák ki az összes átváltozottat."
+ akx.9221.b.tooltip:0 "Ez §Rminden érintett lakos kiirtásához§! vezet: csaknem a(z) [Root.Capital.GetName] teljes lakosságát érinti."
+ akx.9221.c:0 "Ami már volt, az még lehet. Megváltozunk. Hozzanak nekem is egy mintát a vírusból."
+ akx.9221.c.tooltip:0 "Ez az egész fajunkat átalakítja."
+ 
+ ##################################
+ ##A RENDEZVOUS: Worm-related event
+ 
+ akx.9300.name:0 "A Találkozás"
+ akx.9300.desc:0 "A(z) [Root.Owner.GetName] §HSyzygy§! a(z) [Root.GetName] hajót hívja... Azzal együtt, hogy számunkra semmilyen felismerhető azonosítót nem tartalmaz a hívás, sosem állítottunk szolgálatba ilyen nevű hajót. A Syzygy parancsnoka azt állítja, hogy ő [mirrored_syzygy_admiral.GetName]."
+ akx.9300.a.admiralabsent:0 "Hm. Az ilyen nevű parancsnokunk él és virul, de valahol máshol van éppen."
+ akx.9300.a.admiralabsent.tooltip:0 "Nyissanak egy kommunikációs csatornát."
+ akx.9300.a.admiralpresent:0 "Milyen érdekes. Itt [mirrored_syzygy_admiral.GetName] beszél."
+ akx.9300.b:0 "Ezt biztosan csapda! Nem kockáztathatunk Harckészültség!"
+
+ akx.9310.name:0 "A találkozás: a parancsnok aki Volt"
+ akx.9310.desc:0 "A parancsnok, akit a képernyőn látunk [mirrored_syzygy_admiral.GetName] kiköpött mása, azonban egy sebhelyes meggyötört, legyengült kiadása. A mögötte látható híd sincs jobb állapotban nála, számtalan csatának a nyomai látszanak rajta. A parancsnok hangja erőteljes és tiszta.\n\n§G"VÉGRE itt vagytok. Oly rég óta várok erre. Az a büntetésem, hogy ellenetek harcolva haljak meg. Kérlek végezzetek velem. Sajnálom."§!"
+ akx.9310.a:0 "Mi történik itt? Valóban [mirrored_syzygy_admiral.GetName] vagy?"
+ akx.9310.a.response:0 "§G"Vagyok? Te ugyanaz a(z) [Root.GetSpeciesName] vagy, mint tavaly? Minden nap egy halál. Minden jövő egy választás. Az idő egy útvesztő, nem egy út."§!\n\nEgy kacaj: úgy hallatszik, hogy a nevetés fájdalmat okoz neki.\n\n§G"Kérdezd a Hurkot."§!"
+ akx.9310.b:0 "Ha véget akarsz vetni neki mire vársz? Egy hadihajón számtalan módon lehet elpusztulni."
+ akx.9310.b.response:0 "§G"em emlékeztek? Persze hogy nem, nem tudtok, még nem - talán nem is fogtok. Akkor nem, ha helyesen cselekedtek. A Hurok megköveteli az áldozatot, szüksége van rájuk."§! Egy fájdalmas kuncogást hallunk... §G"Nem vehetitek félvállról a Hurkot."§!"
+ akx.9310.c:0 "Mi az a Hurok?"
+ akx.9310.c.response:0 "§G"A Hurok az, ami először volt, és ami legközelebb lesz - a §!§HVárakozó Féreg§!§G -, és úgy gondolom a Féreg maga a Hurok. Tegyük fel, hogy az idő egy labirintus"§! - a parancsok legyintett egyet lemondóan. - §G"'és akkor a Hurok a benne lévő szörny, vagy annak létrehozója... nem nem tudom elmagyarázni, hamarosan ti is megtudjátok. Már megtettétek, az én múltamban. fegyverek készen állnak?"§!"
+ akx.9310.d.notpacifist:0 "Adja meg magát. Bármit it tett, mi segíthetünk."
+ akx.9310.d.notpacifist.response:0 "§G"Túl késő.!"§! Mondta a parancsnok sajnálattal, majd megszakította a kapcsolatot."
+ akx.9310.d.fanaticpacifist:0 "Bármi is történt, ezt mi nem így szoktuk bevégezni. Adja meg magát. Segítünk."
+ akx.9310.d.fanaticpacifist.response:0 "A parancsnok hosszú ideig tétovázott. Úgy látszik, hogy a Syzygy hídja teljesen üres: nincs a hajónak más legénysége.\n\n§G"Számomra már túl késő,"§! mondta végül a parancsnok, §G"de igazad van. Ezt nem így szoktuk bevégezni. Megteszem, amit kell."§! Megszakította az adást.\n\nAz érzékelők szerint a Syzygy fegyverei ki vannak kapcsolva; a hajó energiaellátása megszűnt, és hamar elsötétedett. Az átszálló csapat nem talált semmilyen élőlényt a hajón, a parancsnoknak nyoma sincs. Azonban valaki nemrégiben a meghajtó részben felülírta a biztonsági előírásokat, ami megakadályozta, hogy hozzá lehessen férni a maghoz."
+ akx.9310.e:0 "Akkor végezzünk fele."
+ akx.9310.e.response:0 "§G"[mirrored_syzygy_admiral.GetName] kiszáll."§!\n\nA parancsnok tisztelgett - az arca megrezdült a mozdulattól, biztos egy régi seb miatt - és megszakította az adást."
+ akx.9310.e.materialistic:0 "Mielőtt elmennél... Ahol te jártál, ott tanultál valami hasznosat?"
+ akx.9310.e.materialistic.response:0 "A parancsnok egy sebhelyes vigyorral válaszolt.\n\n§G"Reméltem, hogy rákérdeztek. Átküldöm az adatokat. [mirrored_syzygy_admiral.GetName] adás vége."§!"
+ akx.9310.e.spiritual:0 "Megemlékezünk rád az imáinkban."
+ akx.9310.e.spiritual.response:0 "§G"Nekem is van egy imám számotokra."§!\n\nA parancsnok elénekelt egy huszonhét szavas, furcsán hangzó palindrom imát, mely lenyűgözte a teológusainkat, majd megszakította az adást."
+ akx.9310.e.militarist:0 "Parancsnok. Tűzben és dicsőségben találkozunk újra."
+ akx.9310.e.militarist.response:0 "A parancsnok tisztelgett.\n\n§G"Remélem lesz majd valamiféle emlékmű..."§!\n\nA kapcsolat megszakadt."
+ akx.9310.e.fanaticcollectivist:0 "Bármi is történt, ezt mi nem így szoktuk bevégezni. Adja meg magát. Segítünk."
+ akx.9310.e.fanaticcollectivist.response:0 "A parancsnok hosszú ideig tétovázott. Úgy látszik, hogy a Syzygy hídja teljesen üres: nincs a hajónak más legénysége.\n\n§G"Számomra már túl késő,"§! mondta végül a másik [mirrored_syzygy_admiral.GetName] parancsnok, §G"de igazad van. Ezt nem így szoktuk bevégezni. Megteszem, amit kell."§! Megszakította az adást.\n\nAz érzékelők szerint a Syzygy fegyverei ki vannak kapcsolva; a hajó energiaellátása megszűnt, és hamar elsötétedett. Az átszálló csapat nem talált semmilyen élőlényt a hajón, a parancsnoknak nyoma sincs. Azonban valaki nemrégiben a meghajtó teremben felülírta a biztonsági előírásokat, ami megakadályozta volna, hogy hozzáférjünk a maghoz.."
+ akx.9310.f:0 "Áruló."
+ akx.9310.f.tooltip:0 "Adás vége"
+
+ akx.9315.name:0 "A találkozás: Hogyan ér véget"
+ akx.9315.desc:0 "A Syzygy élesíti a fegyvereit."
+ #spawn the Syzygy
+ akx.9315.a:0 "Bárcsak lenne más módja..."
+ akx.9315.b:0 "Hát legyen."
+
+ akx.9319.name:0 "A találkozás: Interferencia"
+ akx.9319.desc:0 "Egy statikus zörejtől nehezen kivehető üzenet érkezett a Syzygy parancsnokától, a(z) [syzygy_location.GetStarName] naprendszerből. Mögöttük füstbe burkolódzott a híd. §G"Túl késő,"§! - köhögés - §G"túl sokáig hagytátok itt. A Hurok nem fog megbocsájtani nekem. Kérem kérem -"§!\n\nAz üzenet itt véget ért."
+ akx.9319.a:0 "Ki tette ezt?"
+ akx.9319.a.tooltip:0 "A Syzygyt egy másik birodalom elpusztította. Ha elérjük a rendszert mielőtt a roncsok szétszóródnának, talán találhatunk még valamit."
+
+ akx.9320.name:0 "A találkozás: A parancsnok, aki lesz"
+ akx.9320.desc:0 "[mirrored_syzygy_admiral.GetName] az elkövetkező napokban csendben volt. Nem kis dolog parancsot adni a saját halálodra. Idővel a csend eltökéltséggé, már-már bizalmatlansággá válik."
+
+ akx.9321.name:0 "A találkozás: A parancsnok, aki lesz"
+ akx.9321.desc:0 "[mirrored_syzygy_admiral.GetName] az elkövetkező napokban csendben volt. Nem kis dolog hallani saját elmúlásod történetét. Idővel a csend eltökéltséggé, már-már bizalmatlansággá válik."
+ akx.9321.a:0 "Aggasztó."
+ akx.9321.b:0 "Ami már volt, az még lehet; ami még lehet, az már volt."
+
+ akx.9330.name:0 "A találkozás: A nap és az óra"
+ akx.9330.desc:0 "Az ezt követő években többször jelentették, hogy észlelték [Root.GetAdj] admirálist a(z) [From.GetName] űrben és azon túl is. Mikor egy ilyen ünnepelt vezető meghal, sokszor legendássá válnak életében véghez vitt tetteik alapján.  Számára a Syzygy találkozó volt egy ilyen esemény. Mindazonáltal nem lehetünk biztosak benne mi történik a jövőben."
+ akx.9330.a:0 "Talán sosem tudjuk meg."
+ akx.9330.b:0 "Ó, de igen is, tudhatjuk."
+
+ akx.9340.name:0 "A találkozás: Temetkezési kincsek"
+ akx.9340.desc:0 "A maradványok alapos vizsgálata furcsaságokat fedett fel előttünk. A hajó minden része egy időben épült és a mi építési technikáink nyomait viseli. Azonban néhány komponens több száz évvel idősebbnek tűnik a többinél. Egy épségben talált energiarács sokkal jobban teljesít, mint amire elvileg képes lehet.\n\nTovábbá... két mérnök, akik a maradványokat vizsgálták, rejtélyes módon kigyógyultak a krónikus betegségeikből. Az egyik esetben egy végső stádiumú betegségről volt szó. A kutatócsoport értetlenül szemlélte az eseményeket."
+
+ ######################################
+ ##THE COILS OF GOD: Worm-related event
+ akx.9400.name:0 "Isten tekercsei"
+ akx.9400.desc:0 "A(z) [coils_planet.GetName] bolygón lévő megfigyelő állomásunk egy szokatlan kisebbség felemelkedéséről számolt be. Ez a vallásos művészi csoport az Isten Tekercseinek nevezi magát. A primitív mechanikus órákat ereklyének tekintik, de egy év működés után rituálisan megsemmisítik őket. Mindent ami egy féreghez- vagy kígyóhoz hasonlítható megóvják a bajtól. A Tekercs papok azt mondják az idő egy labirintus. "Ami már volt, az még lehet; ami még lehet, az már volt," hangzik el mindennapi imájuk."
+ akx.9400.a:0 "Ismerősen hangzik. Amennyire csak lehet, nyomják el őket."
+ akx.9400.b:0 "Ismerősen hangzik. Amennyire csak lehet, figyeljék meg őket"
+ 
+ akx.9410.name:0 "Az Isten Tekercsei: egy apró üldözés"
+ akx.9410.desc:0 "Sikerült meggyőzünk a(z) [coils_planet.GetName] helyi vezetőit, hogy a Tekercs papok veszélyt jelentenek. A Tekercs papokat elbizonytalanították, bebörtönözték, illetve olykor sajnálatosan megégették. Az űrutazás előtt álló fajokban mélyen gyökereznek a gyűlölet és a gyanakvás magvai: olyan időket élünk, mikor ezek hasznosak lehetnek."
+ akx.9420.name:0 "Isten tekercsei: Mély gyökerek"
+ akx.9420.desc:0 "Sikerült meggyőzünk a(z) [coils_planet.GetName] helyi vezetőit, hogy a Tekercs papok veszélyt jelentenek. A Tekercs papokat elbizonytalanították, bebörtönözték, illetve olykor sajnálatosan megégették. De a kultuszuk állhatatosabb, mint gondoltuk. A megfigyelőink pedig attól tartanak, hogy csupán földalatti szervezetként működnek tovább."
+
+ akx.9450.name:0 "Az Isten Tekercsei: a labirintus szertartások"
+ akx.9450.desc:0 "Az Isten Tekercsei kultusz a(z) [coils_planet.GetName] bolygón szokatlan sebességgel terjed. A bolygó minden városában megtalálható és hosszadalmas szertartásokat honosítottak meg a polgárok életének minden szegletében. A teljes lakosság támogatja őket, méghozzá szokatlan lelkesedéssel. A gazdagok bonyolult körtáncokat alakítottak ki a szertartásaikhoz. A szegények pedig összetett ismétlődő mintákat rajzolnak ajtajaikra. Még a játszótéri dallamaik is az idő körforgásos természetéről szólnak."
+ akx.9450.a:0 "Ez nyugtalanító. Avatkozzanak be és állítsák meg őket, de igyekezzenek csendben csinálni."
+ ##create COILS_GOD_PROJECT_DISRUPT
+ akx.9450.b:0 "Ez már túl komolyra fordult. Akármilyen kockázattal jár, vessenek be mindent, hogy megállítsák őket."
+ ##create COILS_GOD_PROJECT_PREVENT:
+ akx.9450.c:0 "Lenyűgöző! Küldjenek le egy csapatot, hogy tanulmányozzák a rítusaikat, és ha lehet, vegyenek is részt bennük."
+ ##create COILS_GOD_PROJECT_PARTICIPATE
+ akx.9450.d:0 "A primitívek primitív dolgokat tesznek. Folytassák a megfigyelést."
+
+ akx.9460.name:0 "Isten tekercsei: a szertartások vége"
+ akx.9460.desc:0 "Az Isten Tekercsei szertartásainak a megzavarását célzó erőfeszítéseink elérték a céljukat. A(z) [coils_planet.GetName] nemessége elhagyta a kultuszt, a falakon lévő ismétlődő minták idővel lekopnak. A játszóterek dallamai közé visszatértek a kacérkodásról, gyilkolászásról és ehhez hasonló egészséges gyermeki tevékenységekről szóló motívumok. A Tekercs papok között igen nagy az öngyilkosságok száma. Ha volt is krízis, most már a múlté."
+ akx.9460.a:0 ""A Hurok sosem ér véget, de nem mindig fejeződik be.""
+ akx.9460.b:0 "Szép munka volt. Leállunk."
+
+ akx.9465.name:0 "Isten tekercsei: hírek a föld alól"
+ akx.9465.desc:0 "Az Isten Tekercsei szertartásainak a megzavarását célzó erőfeszítéseink nem elérték el a céljukat. A(z) [coils_planet.GetName] Tekercs papjainak buzgalma csak még nagyobb magasságokba hágott. Titokban találkoznak föld alatti templomaikban. A nemesség többé nem járja a labirintus táncot, de még mindig rejtett tetoválásokat hordanak, melyek a Féreg jelét mintázzák. A játszótereken még mindig felcsendül az "ami már volt, az még lehet" dallama."
+ akx.9465.a:0 ""A Hurok sosem ér véget.""
+ akx.9465.b:0 "Folytassák a megfigyelést."
+
+ akx.9470.name:0 "Az Isten Tekercsei: a papok vére"
+ akx.9470.desc:0 "Az ügynökeink könyörtelenek. Elraboltak vagy meggyilkoltak minden Tekercs papot, akire csak rátaláltak. Robbanó tölteteket helyeztek el a Hurok jelét viselő házakon. A(z) [coils_planet.GetName] utcái egy pletykától hangosak, hogy a Tekercsek istenkáromlása egy magasabb istenséget dühített fel. Nem sokkal később, a helybeliek maguk verték halálra a Tekercs papkat a nyílt utcán, az ügynökeink bármilyen beavatkozása nélkül. A megfigyelő csapatot elrettentették az események; de ezt a krízist valahogy meg kellett szüntetni."
+ akx.9470.a:0 ""A Hurok sosem ér véget, de nem mindig fejeződik be.""
+ akx.9470.b:0 "Szép munka volt. Leállunk."
+
+ akx.9480.name:0 "Isten tekercsei: tájékozódás a labirintusban"
+ akx.9480.desc:0 "A néprajzkutatóinkat lenyűgözték a szertartások összetettsége. Feltételezik, hogy létezik egy titkos kommunikációs csatorna, melyeket szteganografikusan az imákba kódoltak, vagy a rítusok szabályrendszerébe. Az utóbbit alátámasztó bizonyítékokat akartak megosztani velünk, amikor megszakadt a kommunikáció velük. Ami azt illeti a bolyhón minden kommunikáció megszűnt. A műholdakról és fürkésző drónokról semmilyen mozgást nem érzékelünk. Nem mozognak járművek az utakon, a városok központjából nem érzékeljük a lakosok hőjeleit. Az élet semmilyen formáját nem találjuk...\n\nÉs megérkeztek a végső jelentések. A(z) [coils_planet.Owner.GetSpeciesName] teljes lakossága - beleértve a néprajzkutató csoportunkat is - hirtelen tűnt el, de erőszaknak nyoma sincs. Az ebédek félig elfogyasztva hevernek az asztalon, a háziállatokat senki sem etette meg, egy-egy ház néhol kigyulladt az őrizetlenül maradt tűzhely miatt. Gravitációs anomáliákat érzékeltünk egy időben az eltűnések feltételezett idejében. Az utcákon, már csak a tekercseket mintázó jelek tanúskodnak, arról, hogy miben hittek az itt lakók."
+ akx.9480.a:0 ""A Hurok sosem ér véget.""
+ akx.9480.a.tooltip:0 "A tudományos hajónk eltűnt a teljes civilizációval együtt."
+ akx.9480.b:0 "Kemény lecke volt."
+
+ akx.9490.name:0 "Isten tekercsei: üres templomok"
+ akx.9490.desc:0 "Jelentés érkezett a(z) [coils_planet.GetName] megfigyelő csapatától: Az Isten Tekercseinek szertartásai befejeződtek. Ami azt illeti, a bolygón soha nem látott inaktivitást tapasztalnak. A jelentésben benne van az is, hogy lopakodó járművekkel megpróbálnak közelebbi vizsgálatokat végezni a sűrűn lakott területek felett...\n\nAz ezt követő jelentés megerősítette, hogy semmilyen aktivitás nincs a bolygó felszínén. Nem mozognak járművek az utakon, a városok központjából nem érzékeljük a lakosok hőjeleit. Az élet semmilyen formáját nem találjuk...\n\nÉs megérkeztek a végső jelentések. A(z) [coils_planet.Owner.GetSpeciesName] teljes lakossága hirtelen eltűnt, ám erőszaknak nyoma sincs. Az ebédek félig elfogyasztva hevernek az asztalon, a háziállatokat senki sem etette meg, egy-egy ház néhol kigyulladt az őrizetlenül maradt tűzhely miatt. Gravitációs anomáliákat érzékeltünk egy időben az eltűnések feltételezett idejében. Az utcákon, már csak a tekercseket mintázó jelek tanúskodnak, arról, hogy miben hittek az itt lakók."
+ akx.9490.a:0 ""A Hurok sosem ér véget.""
+ akx.9490.a.tooltip:0 "Egy civilizáció eltűnt."
+ akx.9490.b:0 "Kemény lecke volt."
+
+ #######################################
+ ##THE WAITING WORLD: Worm-related event
+ 
+ akx.9500.name:0 "A Várakozó Világ"
+ akx.9500.desc:1 "Úgy tűnik ez nem az első [Root.Owner.GetSpeciesAdj] település a bolygón. Jelentő mennyiségű üzem lett gondosan leállítva és a kerületeket is érintetlenül hagyták. Egy kis helyreállítás után jól fogja szolgálni az új kolóniánkat. Azonban semmilyen feljegyzés nem maradt hátra. Lehetséges, hogy a csempészek kikötője, vagy a politikai száműzöttek menedéke volt ez a hely korábban."
+ akx.9500.a:1 "Kiváló! Kezdjék meg a létesítmények helyreállítását."
+ akx.9500.b:1 "Túl szép, hogy igaz legyen. Rombolják le a kerületeket."
+ akx.9500.b.tooltip:0 "Ez boldogtalanságot fog okozni a gyarmati lakosok között."
+
+ akx.9505.name:0 "A Várakozó Világ: Rombolás"
+ akx.9505.desc:1 "A mérnökeink felhelyezték a robbanótölteteket és biztonságos távolba húzódtak. Az helyszínek romokban hevernek. Idővel a romok sziklákká, kavicsokká, porrá válnak, a szél, a növények és a víz lassú de kitartó munkája során. De a vázuk még évszázadokig is kitarthat. Sok történetet fogunk még hallani a sziklák közötti árnyékokról, és az éjszaka világító kék fényekről. A telepeseink nem foglalkoznak ezekkel, a romok nem vonzanak látogatókat."
+ akx.9505.a:0 "Mindennek megvan a vége."
+ akx.9505.a.tooltip:1 "A régi létesítményeket lerombolták."
+ akx.9505.b:0 "Semmit sem feledünk."
+ akx.9505.c:0 "Szeretem azokat a puffanó hangokat."
+
+ akx.9510.name:0 "A Várakozó Világ: Árnyak a falakban"
+ akx.9510.desc:1 "A telepeseink eleinte boldogok voltak, hogy használhatják a(z) [waiting_world.GetName] felszínén lévő kerületeket. A kolónia fejlődésének ez megadta a kezdő rúgást. Azonban most már idegesen fejlődik. Pletykák keringenek arról hogy a létesítményeknek még mindig vannak lakóik, vagy még aktív biztonsági berendezéseik. Azonban ezekre az állításokra semmilyen bizonyítékot nem találtunk. Néhány telepes titokzatosan ragaszkodik hozzá, hogy "árnyak vannak a falakban""
+ akx.9510.a:1 "Törjék le ezeket a babonákat. A kerületek évek munkáival készültek el."
+ akx.9510.b:0 "Minek vállaljuk a kockázatot? Ezek csak épületek. Rombolják le őket."
+ akx.9510.b.tooltip:0 "Ez boldogtalanságot fog okozni a gyarmati lakosok között."
+
+ akx.9520.name:0 "A Várakozó Világ: túl sok"
+ akx.9520.desc:1 "Érdekes híreket kaptunk a(z) [waiting_world.GetName] hatóságaitól, ahol az elhagyatott kerületeket találtuk. A népszámlálások során túl sok telepest regisztráltak. Egy új gyarmat feljegyzései rendre megbízhatatlanok, de amennyire tudjuk, elmondhatjuk róluk, hogy valós személyazonosító iratokkal rendelkeznek és az égvilágon senki nem utalt arra, hogy ismeretlenek lennének közöttük. Vagy a születések aránya magas hihetetlenül ezen a bolygón, vagy illegális bevándorlás folyik itt, vagy valami... egészen más. Valahogy a lakosság száma a vártnál magasabb."
+ akx.9520.a:1 "Rombolják le azokat a kerületeket. Sokkal korábban meg kellett volna már tennünk."
+ akx.9520.b:0 "Vizsgáljuk ki a legjobb tudásunk szerint; tartsuk szemmel a helyzetet."
+
+ akx.9525.name:0 "A Várakozó Világ: és még mindig jönnek"
+ akx.9525.desc:1 "Újabb jelentés érkezett a(z) [waiting_world.GetName] felszínélről, ahol azokat az elhagyatott létesítményeket találtuk. A telepesek száma továbbra is olyan ütemben nő, ahogy az nem lehetséges természetes módon. A feljegyzésekben számos rendellenességet találtunk, olyan családokat, olyan születési dátumokat, melyeknek nem lenne szabad ott lenniük. Valószínűleg az elveszett gyarmati lakosaok térnek vissza valahogyan, vagy csak az új lakosok szórakoznak velünk."
+ akx.9525.a:1 "Rombolják le azokat a kerületeket. Sokkal korábban meg kellett volna már tennünk."
+ akx.9525.b:0 "Különös! Azonban mindig elkél egy pár új szorgos kéz. Folytassák a megfigyelést."
+
+ akx.9530.name:0 "A Várakozó Világ: Kilépés"
+ akx.9530.desc:0 "A(z) [waiting_world.GetName] kommunikációs csatornái hirtelen és teljesen elcsendesedtek. Valahogyan túl sok telepesünk tartózkodott a gyarmaton, most azonban egyetlen egy sincs ott. Egyetlen éjszaka alatt a teljes lakosság köddé vált. Elhagyták volna a bolygót? Elrejtőztek volna? Bolygószintű népirtásnak estek áldozatul?"
+ akx.9530.a:0 "Küldjenek egy csapatot az eset kiviszgálására."
+ akx.9530.b:0 "Azonnal hagyják el a bolygót és helyezzék vesztegzár alá."
+ akx.9530.b.tooltip:0 "Ennek a döntésnek a következtében a bolygó örökre lakhatatlanná lesz nyilvánítva."
+
+ akx.9535.name:0 "A Várakozó Világ: a fény minősége"
+ akx.9535.desc:0 "A csapatunk jelenti, hogy a(z) [waiting_world.GetName] felszíne üres. Nemcsak, a telepesek tűntek el, de velük együtt minden nyoma eltűnt annak, hogy itt valaha is gyarmat lett volna. Az épületek, a műholdak, az űrállomások, mind odalettek. Még a légkörben sem találtuk semmi jelét annak, hogy itt egy fejlett civilizáció lett volna. A kutatócsoport szavaival élve a bolygót visszaállították egy korábbi állapotára.\n\nTovábbá a helyi napsugárzásnak olyan ingadozásait tapasztalták, melyek a kezdődő szupernova csillagokra jellemzőek. Számos "fény-eseményt" rögzítettek a felszínen, ami a légkör prizmaként való működésének eredménye. Nagyon érdekes adatok ezek, azonban nem tisztázzák, mi is történt a lakosokkal valójában."
+
+ akx.9540.name:0 "A Várakozó Világ: mindenki"
+ akx.9540.desc:0 "Újabb valószínűtlen hírek érkeztek a(z) [waiting_world.GetName] felszínéről, ahol a lakosság száma megmagyarázhatatlan módon növekedett. A lakosság létszáma most már megfelel az elvárásoknak, azonban valamiféle szabotázs történt, vagy... vagyis a hivatalnokaink nem biztosak benne. A bolygó lakosai közül senki sem szerepel a nyilvántartásainkban. Minden eredeti telepesünk eltűnt. Mintha teljesen idegenekre cserélték volna őket.\n\nEnnek ellenére, mindnyájan megesküdnek rá, hogy a(z) [Root.Owner.GetName] hű polgárai. Mindannyian épelméjűek és dolgoznak. Minden kommunikáció során tagadják, hogy bármi zavarról tudnának, és meg vannak győződve róla, hogy a hiba a mi részünkről történt."
+ akx.9540.a:0 "A gyarmatot azonnal eresszék el, mielőtt ez tovább terjedne."
+ ##grant independence to the colony
+ akx.9540.a.tooltip:0 "Ez a döntés függetlenséget biztosít a gyarmatnak."
+ akx.9540.b:0 "Irtsák ki őket és örökre helyezzék a bolygót vesztegzár alá."
+ ## Create the project WAITING_WORLD_PURGE
+ akx.9540.b.tooltip:0 "Ennek a döntésnek a következtében a bolygó örökre lakhatatlanná lesz nyilvánítva, de cserébe kapunk egy kis befolyást."
+ akx.9540.c:0 "Küldjenek egy csapatot az eset kiviszgálására."
+ ##create the project WAITING_WORLD_HYPERAPPEARANCE
+
+ akx.9541.name:0 "The Waiting World: a tisztogatás"
+ akx.9541.desc:0 "Talán ez egy szörnyű bűncselekmény lehetett. Vagy talán megmentheti a népünket valami sokkal rosszabbtól. A(z) [waiting_world.GetName] lakott részei a fegyvereink energiája alatt olvadnak szét. Amikor végzünk, minden épület egy csillogó masszává olvad szét és nem marad több érző lény életben"
+ akx.9541.a:0 "Töröljenek ki minden feljegyzést. Száz év múltán senki nem fogja tudni mit tettünk itt."
+ akx.9541.b:0 "Mondják el mindenkinek. Hadd gyűlölködjenek amíg félnek."
+
+ akx.9545.name:0 "A Várakozó Világ: minden és semmi"
+ akx.9545.desc:0 "A vizsgálódó csapatunk jelenti, hogy a bolygó lakossága egészséges, csak kissé felzaklatta őket a fontoskodás. Azért néhány különös dolog előfordul. Szokatlanul magas az ikerszülések száma; bolygó-szerte senki sem képes időben bárhova is megérkezni; valamint a helyi napsugárzásban érzékelt ingadozások melyek egy kezdődő szupernova csillagára jellemzőek. Számos "fény-eseményt" rögzítettek a felszínen, ami a légkör prizmaként való működésének eredménye. Nagyon érdekes adatok ezek, de lehet puszta egybeesés is. Ha történt is valami különös az itt lakókkal az örök rejtély marad."
+ akx.9545.a:0 ""Ami még lesz, az már volt.""
+ akx.9545.b:0 "Telepesek: a telepesek furák."
+
+ ####################################
+ ### THE RETAINER: Worm-related event
+ # This will appear if the player approaches a technosphere
+ # with worm_events_available, in place of the normal technosphere options.
+ 
+ akx.9600.name:0 "A Rögzítő"
+ akx.9600.desc:0 "Helló, helló. Üdvözlünk a(z) [Root.GetStarName] rendszerben. Ó, ti mások vagytok, nem igaz? Oly sokan vagytok. A formánkhoz hasonlóak, még is különbözőek. A segítségeteket kérjük: vannak forrásaitok a projektünk számára? A Hurok segít minket, de nehéz elérni. Költséges, tudniillik."
+ akx.9600.a:0 "A formátokhoz?"
+ akx.9600.a.response:0 "Igen; ez az ami mozgásban tart bennünket. Ti egy "civilizációnak" neveznétek, bár őszintén szólva ezt a kifejezést mindig is elbizakodottnak tartottuk. A civilizáció, ó, alig egynegyed galaktikus éve eltűnt. Nagyon sajnáljuk, hibáztunk. Hozzávetőlegesen újra tudnánk alkotni, a Hurok segítségével, de ahhoz a ti forrásaitokra van szükségünk."
+ akx.9600.b:0 "A Hurok?"
+ akx.9600.b.response:0 "Igen. A Furcsa Hurok; egy idő tekercs, egy igazi éhenkórász. Megemlített titeket, úgy hisszük. Vagy csak egy valakit közületek. Oly sokan vagytok. Ami már volt, az még lesz, legalábbis erről biztosít minket. Többé-kevésbé bissza tudja állítani a formánkat."
+ akx.9600.c:0 "Igen."
+ akx.9600.d:0 "Nem."
+ akx.9600.d.response:0 "Ó, mi megértjük, mi megértjük. Olyan kevés időtök van hátra. Hát, akkor töltsétek kellemesen. Szívélyes üdvözlet nektek."
+ akx.9600.e:0 "Talán később."
+ akx.9600.e.response:0 "Ez az amit a formám is folyton emlegetett. Később. De az ő későbbjük mindig is a mi jelenünk volt. Mennyire hiányoznak nekünk."
+
+ akx.9610.name:0 "Itt ismét a Rögzítő."
+ akx.9610.desc:0 "Igen? Melyik voltál te? Úgy gondoltuk talán emlékezünk rátok, de mostanában túl sok volt a villogás. Ó, ez te vagy? A napotok még nem égett ki? Ó! Azért jöttél, hogy megadd nekünk amire szükségünk van, hogy visszatérhessünk a formánkhoz?"
+ akx.9610.a:0 "Igen. Itt van."
+ akx.9610.b:0 "Nem."
+ akx.9610.b.response:0 "Persze hogy nem; amúgy is nehezen kuporgattátok össze amitek van. Mióta vagytok odakinn, egymillió galaktikus éve? Imádni való. Sok szerencsét."
+ akx.9610.c:0 "Talán később."
+ akx.9610.c.response:0 "Ez az amit a formám is folyton emleget. "Később." De az ő későbbjük mindig is a mi jelenünk volt. Mennyire hiányoznak nekünk."
+
+ akx.9620.name:0 "A Rögzítő utolsó küldetése"
+ akx.9620.desc:0 "A technogömb köszönet nélkül elnyelte az erőforrást. Minden kommunikáció nélkül energiát kezdett sugározni olyan fényeset, hogy az már veszélyes számunkra. Visszább kell húzódnunk. A fekete lyuk válaszol rá. A körötte lévő tér vetemedik és tekeredik olyan alakzatot formálva, mely az archívumainkban található a Horizont Jelre hasonlít. A technogömb kékes-fehér most. Hirtelen lángba borul, majd kialszik és alig marad belőle valami. \n\nVajon sikerült a formájukat visszaállítani? A naprendszerben nincs jele értelmes életnek. Azonban az érzékelők egy szokatlan hiperextremofil organizmust fedeztek fel alacsony pályán a fekete lyuk közelében. A tudományos tisztünk meg van győződve róla, hogy ez korábban nem volt ott. Nincs rá bizonyíték, hogy értelmes élet volna, talán a gömb készítőinek egy távoli leszármazottai. Talán a a készítők ősei."
+ akx.9620.a:0 "Örök élet?"
+
+ ######################################################
+ ### THE END IN THE BEGINNING: conclusion of Worm chain
+ ##hook to on_building_complete - when the Omega Alignment has been completed
+ 
+ akx.10000.name:0 "A vég a kezdetben"
+ akx.10000.desc:0 "Van valami tudatosság az időt és a téren kívül is. Egy labirintusféle a vágy és a kétségbeesés összefonódásából. Távoli őseink úgy hívták, hogy a Hurok, maga a Várakozó féreg. Találkozunk vele odakint, ahol az űr sötétjét a gravitáció kínozza. Úgy tűnt különösen érdeklődik irántunk. Matematikai bizonyítékaink vannak rá, hogy a Féreg szeret minket, azonban ez a szeretet nem hasonlítható semmihez ami a mi valóságunkban létezik.\n\nMindennel együtt amit tanultunk, úgy hisszük képesek vagyunk az Omega Igazodás segítségével egy belépési pontot létrehozni, hogy a Féreg testet ölthessen a szülőbolygónknál. (A Féreg kedveli a kezdeteket és ez a mi kezdetünk.) Milyen következményekkel járhat? Még nem találtunk senkit sem, aki meg tudná válaszolni a kérdést. Halhatatlanság, talán, vagy végítélet. Biztosan sokat tanulnánk belőle."
+ akx.10000.a:0 "Talán a Féreg szeretni fog minket, talán mi fogjuk őt."
+ akx.10000.b:0 "Ez nem egy biztonságos kísérlet. Azonban sokat tanulhatunk belőle."
+
+ ##(when WORM_ENTRY_POINT project is completed)
+ akx.10010.name:0 "A nap szíve"
+ akx.10010.desc:0 "A projekt elkészült. A gyorsítók működnek. A több tucatnyi várost ellátó energiahálózat készen áll az ál-szingularitás létrehozására az Igazodás belsejében. A tér úgy hajlik meg mint a szél csavarta ruhák. [Root.GetStarName]egy szívet megállító pillanatra elhalványul, majd kivilágosodik. Egy árnyék tekereg a szívében, a Féreg itt van. Úgy bontakozik ki akár az origami.\n\nA rendszerben az érzékelők rendellenes módon leállnak, ahogy a felfoghatatlan adatok tömkelege keresztülhalad rajtuk. A szülőbolygónkon sokan sikítanak és fedezéket keresnek, mert úgy érzik felkeltették, felkeltettük a Féreg érdeklődését. Egy szavak nélküli kérdést vet fel, vagy inkább mindig is a tudatában voltunk e kérdésnek, akárhányszor találkozunk már vele."
+ akx.10010.a:0 "IGEN. Bármit is kíván beleegyezünk."
+ akx.10010.b:0 "NEM. Mi hoztuk ide, hogy tanuljunk, de ha szükséges, elpusztítjuk."
+
+ akx.10020.name:0 "A jövő"
+ akx.10020.desc:0 "A Féreg szeret minket. Mindig is szeretett minket, mindig így volt ez. A napunk szíve körül tekereg. Minden jelentéktelen genetikus információ körül tekeredik. A szülőbolygónk kérgében rettenetes elmozdulásokat okoz, de ha amikor csillagunk kihűl e mozgások tartanak majd melegen minket. Oly sokkal többet értünk meg. Mindig azok leszünk amiknek lennünk kellett, szorosan egybefonódva a Féreg szeretetével."
+ akx.10020.a:0 "AMI MÁR VOLT, AZ MÉG LEHET; AMI MÉG LEHET, AZ MÁR VOLT."
+
+ akx.10021.name:0 "A megtört Hurok"
+ akx.10021.desc:0 "A Féreg úgy tört át a tér-idő határain mint egy éhes ragadozó, vagy mint egy megcsalt, dühöngő szerető. Még mindig odakint van valahol és akárhol is van, kétségkívül haragszik. De a miénk lettek izzó darabkái a megtestesülésének, melyekből tanulhatunk és kozmikus trófeának sem utolsó. A többi birodalom is megtudja majd mit értünk el ma itt."
+ akx.10021.a:0 "Nincs hozzánk hasonló! És talán nem is lesz soha."
+ 
+ NAME_Syzygy_Remains:0 "Syzygy Remains"
+ akx.9022.desc:0 ""This will be the end of me," they say at the briefing before launch. "I know I won't come back. But I think I always knew this would happen. Whatever is in the hole has been waiting for us for a long, long time - I think it's been waiting for me, since before I was born."\n\nOnce again, the single-pilot ship approaches the Exit Point. Once again, space boils like a fever. Again, our sensor arrays soak up fascinating data. This time, [horizonsignal_thirdleader.GetName] is silent. The telemetry becomes intermittent...\n\nAnd then the drive detonates: a brief flare of stellar fury, quickly lost in the darkness of the [horizonsignal_system.GetName] system. Whatever we encountered there, it may regret its interference. We'll never know. The Horizon Signal does not come again. But our team may find something interesting in the ashes of the ship."
+ akx.9310.a.response:0 "§G"Am I? Are you the same [Root.GetSpeciesName] you were last year? Every day is a death. Every future is a choice. Time is a labyrinth, not a road."§!\n\nA chuckle. It sounds like the chuckle hurts.\n\n§G"Ask the Loop."§!"
+ akx.9600.a.response:0 "Yes; the ones that set us in motion. You would call them a "civilization," we suppose, but in candor we have always found that term a little pretentious. They're gone, oh, almost a quarter of a galactic year, now. We are very sorry: we made mistakes. We can recreate them, approximately, with the Loop's assistance, but we do need resources."

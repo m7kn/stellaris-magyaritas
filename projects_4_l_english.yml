@@ -1,0 +1,46 @@
+﻿l_english:
+
+ ####################################
+ # Special Projects
+ ####################################
+
+ hallucinogen_removal:0 "Hallucinogén eltávolítása"
+ hallucinogen_removal_DESC:1 "Megpróbáljuk eltávolítani a [Root.GetName] atmoszférájából a hallucinogén szereket."
+ impact_defence_system:0 "Aszteroida védelmi rendszer"
+ impact_defence_system_DESC:0 "Ki kell vizsgálnunk, hogy a [Root.GetName] gyarmatát milyen módon tudjuk megvédeni a bolygót fenyegető gyakori aszteroida becsapódásoktól."
+ titanic_life_study_normal:0 "Titáni életformák tanulmányozása"
+ titanic_life_study_normal_DESC:1 "A [Root.GetName] titáni életformáinak tanulmányozásával talán sikerül őket megérteni, és esetlég még kommunikálni is lehetne velük."
+ titanic_life_study_mean:0 "Titáni életformák felboncolása"
+ titanic_life_study_mean_DESC:1 "A [Root.GetName] titáni életformáinak begyűjtésével hamarosan rájövünk, hogy milyen módon tudjuk azokat a legjobban kihasználni!"
+ titanic_life_study_nice:0 "Titáni életformák monitorozása"
+ titanic_life_study_nice_DESC:1 "A [Root.GetName] titáni életformáinak óvatos megfigyelésével remélhetőleg békés együttélésre jutunk."
+ retaliatory_genome_mapping:0 "Válaszcsapás genom feltérképezés"
+ retaliatory_genome_mapping_DESC:0 "Hajót küldünk az idegen szülőbolygóra, és így megtudhatjuk, hogy milyen adatok állnak a rendelkezésükre rólunk."
+ woodwind_instrument_investigation:0 "Fafúvós hangszerek kivizsgálása"
+ woodwind_instrument_investigation_DESC:0 "Meg kell találnunk annak a rejtélyes eszköznek az alapanyagát, amely a mi biológiai felépítésünkre annyira megnyugtató hatású."
+ disappearing_pops_project:0 "Eltűnések a(z) [missing_pops_planet.GetName] bolygón"
+ disappearing_pops_project_DESC:0 "[missing_pops_planet.GetName] helyi rendfenntartó szerveinek katonai segítségre van szüksége a rejtélyes eltűnések miatt egyre növekvő elégedetlenség megfékezésére."
+ mystery_cream_project:0 "Kortalan"
+ mystery_cream_project_DESC:0 "A Kortalan márkájú öregedésgátló krém népszerűsége futótűzként terjed az egész birodalomban, és ígéretes eredményei alapján valóban serkenti a sejtek megújulását. Ha esetleg azonosítani tudnánk az aktív hatóanyagát, akkor talán még tovább tartó hatását is ki tudnánk fejleszteni."
+ cream_origin_project:0 "A ráncmentes lét nyomában"
+ cream_origin_project_DESC:0 "Meg kell találnunk, hogy ez a krém honnan származik"
+ MAGNETIC_PLANET_RESEARCH_PROJECT:0 "Investigate the Magnetic Mystery of [Root.GetName]"
+ MAGNETIC_PLANET_RESEARCH_PROJECT_DESC:0 "Several strange magnetic disturbances have unsettled life on [Root.GetName]. Until recently their cause was a complete mystery, but with the data gathered from repeated events it should now be possible to uncover the truth behind them."
+ ROGUEMOON_PROJECT:0 "Investigate the Mysterious Moon of [Root.GetName]"
+ ROGUEMOON_PROJECT_DESC:0 "Conduct a detailed survey of [event_target:roguemoon.Planet.GetName] and attempt to figure out where it came from."
+ DPORTAL_PROJECT:0 "Probe the Dimensional Portal on [Root.GetName]"
+ DPORTAL_PROJECT_DESC:0 "Investigate where the Dimensional Portal leads to."
+ DPORTAL_PROJECT_SCIENCE:0 "Close the portal!"
+ DPORTAL_PROJECT_SCIENCE_DESC:0 "There has to be a way to close this portal, and science will find it!"
+ DPORTAL_PROJECT_PRAYER:0 "Close the portal!"
+ DPORTAL_PROJECT_PRAYER_DESC:0 "Such a portal can surely be countered with positive energy!"
+ DPORTAL_PROJECT_PSI_PRAYER:0 "Close the portal!"
+ DPORTAL_PROJECT_PSI_PRAYER_DESC:0 "Such a portal can surely be countered with Psionic energy!"
+ DPORTAL_PROJECT_ROCKS:0 "Close the portal!"
+ DPORTAL_PROJECT_ROCKS_DESC:0 "Perhaps dumping enough rock into the portal will block it up?"
+
+ 
+ SNEK_SCIENCE_PROJECT:0 "Use Science"
+ SNEK_SCIENCE_PROJECT_DESC:1 "Science! We're using science! After a series of careful observations and productive meetings, we intend to find patterns in the ophidians' behaviors and methodically adopt plans to counter them. If we can find evidence of tool use and adaptive strategy, we may even be able to reason with them! We just need to make sure not to corrupt the data by interfering with their activities, even when they're biting colonists and siphoning power."
+ SNEK_WAR_PROJECT:0 "Use Soldiers"
+ SNEK_WAR_PROJECT_DESC:1 "War! We're going to war! We don't know why they came here. We don't fully know what they do here. But we do know this: they hate us, so they must learn to fear us. It's time to post some sentries, set up some patrols, and work our way through from home to home with ophidian incenerators. Burn them out! No matter what the cost, we've got to stand and deliver against anything that slithers."

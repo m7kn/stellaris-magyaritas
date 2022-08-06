@@ -1,0 +1,915 @@
+﻿l_english:
+ ####################################
+ #	Pop factions
+ ####################################
+ # Demand TITLES are run straight from a pop faction with no
+ # assembled event scope, [Owner.GetName] to get country name.
+ # Tooltips, DESCS and events use the usual [Root.Owner.GetName]
+
+
+ ### NEW FACTIONS
+
+ # Descriptors
+ pft_supremacist:2 "Felsőbbrendűségi frakció"
+ pft_supremacist_desc:4 "A felsőbbrendűségi frakciók azt szeretnék, hogy a Birodalom alapító faja uralkodjon. Olyan politikákat akarnak, amelyek a saját fajukat előnyben részesítik, más fajokat pedig hátrányosan érintenek.\n\n§LXenofób ethosz§!"
+ pft_traditionalist:0 "Hagyományőrző frakció"
+ pft_traditionalist_desc:1 "A hagyományőrző frakció tagjai a hagyományos értékekhez való visszatérést kívánják, amelyek a Birodalom csillagokig való eljutása előtt akár léteztek, akár nem. Kedvelik a megszorításokat, nem szeretnek bizonyos technológiai haladásokat és a nem spiritiszta értékeket.\n\n§LSpirituális ethosz§!"
+ pft_progressive:0 "Progresszív frakció"
+ pft_progressive_desc:1 "A progresszív frakciók a megkülönböztetés hiányát kívánják a már meglévő társadalmi struktúrákban, és nem kedvelik a nem reprezentatív kormányzati formákat.\n\n§LEgalitariánus ethosz§!"
+ pft_imperialist:0 "Imperialista frakció"
+ pft_imperialist_desc:1 "Az imperialista frakciók uralkodni kívánnak más birodalmak felett. Kedvelik a rivalizálást és más birodalmak leigázását, valamint nem szeretnek másokra támaszkodni.\n\n§LMilitarista ethosz§!"
+ pft_isolationist:0 "Izolációs frakció"
+ pft_isolationist_desc:2 "Az izolációs frakció tagjai a teljes elszigetelődést kedvelik, amelyben a lehető legkevesebb a más birodalmakkal való kapcsolat. Nem szeretik az agresszív háborúkat, és azt sem, ha könnyű célpontnak látszanak.\n\n§LXenofób ethosz§!"
+ pft_technologist:0 "Technológus frakció"
+ pft_technologist_desc:1 "A technológus frakciók birodalmi szinten kívánják a tudományos fejlődés és a technológiai haladás gyümölcseit élvezni. Nem szeretik, ha politikai okokból tiltanak be egyes kutatási területeket, illetve ha a tudományos fejlődésben egy másik birodalom mögött haladnak.\n\n§LMaterialista ethosz§!"
+ pft_totalitarian:0 "Totalitárius frakció"
+ pft_totalitarian_desc:1 "A totalitárius frakciók szigorúan rétegzett társadalmakra vágynak, amelyet egyetlen egyetlen erős személy, vagy egy kemény kézzel kormányzó titkos társasák irányít.\n\n§LAutoriter ethosz§!"
+ pft_xenoist:0 "Xenoista frakció"
+ pft_xenoist_desc:1 "A xenoista frakciók nagyobb értéket tulajdonítanak az idegen életnek és kultúrának. Szeretik az elétérő fajokból álló népességeket, és a más fajokkal való együttműködést. Nem szeretik az egész fajokat sújtó rabszolgaságot és tisztogatást.\n\n§LXenofil ethosz§!"
+ pft_prosperity:0 "Jóléti frakció"
+ pft_prosperity_desc:2 "A jóléti frakciók gazdasági növekedésre és erőforrások megszerzésére vágynak. Kedvelik az energiakrediteket és a stratégiai erőforrásokat, és nem kedvelik azokat a fegyveres konfliktusokat, amelyek megzavarják a belső fejlődést.\n\n§LPacifista ethosz§!"
+ pft_democratic_election_1:0 "Demokrata párt frakció"
+ pft_democratic_election_1_desc:0 "A demokrata párt frakciók a birodalmi választások idején jelennek meg, és tűnnek el annak lezárása után. Általában egy-egy konkrét, népszerű vezért szeretnének rivaldafénybe juttatni."
+ pft_democratic_election_2:0 "$pft_democratic_election_1$"
+ pft_democratic_election_2_desc:0 "$pft_democratic_election_1_desc$"
+ pft_democratic_election_3:0 "$pft_democratic_election_1$"
+ pft_democratic_election_3_desc:0 "$pft_democratic_election_1_desc$"
+ pft_democratic_election_4:0 "$pft_democratic_election_1$"
+ pft_democratic_election_4_desc:0 "$pft_democratic_election_1_desc$"
+
+ # SUPREMACISTS
+ SUPREMACIST_RULER_SAME_SPECIES:0 "[Root.Owner.GetSpeciesName] [Root.Owner.GetRulerTitle]"
+ SUPREMACIST_RULER_NOT_SAME_SPECIES:0 "[Root.Owner.GetRulerTitle] egy xeno"
+ SUPREMACIST_RULER_NOT_SAME_SPECIES_DESC:0 "A [Root.GetName] azt akarja, hogy uralkodónk a fajukból származzon, és dühös lesz nem- [Root.Owner.GetSpeciesName] személyre, aki abban a [Root.Owner.GetRulerTitle] található."
+ SUPREMACIST_UNRESTRICTED_STUDY:0 "Invázív xeno tanulmányok"
+ SUPREMACIST_UNRESTRICTED_STUDY_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha a primitív bennszülött civilizációkat a Bennszülöttek korlátlan tanulmányozása politika legalizálásával maximális mértékben lehet kihasználni."
+ SUPREMACIST_NO_UNRESTRICTED_STUDY:0 "$SUPREMACIST_UNRESTRICTED_STUDY$"
+ SUPREMACIST_SLAVERY_ALLOWED:0 "Potenciális rabszolgák"
+ SUPREMACIST_SLAVERY_ALLOWED_DESC:0 "A(z) [Root.GetName] nem abban hisz, hogy vannak, akik másoknál többet érnek, hanem egyszerűen csak vannak, akik bizonyos feladatokra sokkal megfelelőbbek. A §Yrabszolgatrtás§! betiltását rossz néven veszik."
+ SUPREMACIST_SLAVERY_OUTLAWED:0 "Betiltott rabszolgatartás"
+ SUPREMACIST_HAS_ALIEN_SLAVES:0 "Elérhető xeno rabszolgák"
+ SUPREMACIST_NO_ALIEN_SLAVES:0 "Nincsenek xeno rabszolgák"
+ SUPREMACIST_NO_FREE_ALIENS:1 "Jogfosztott xenók"
+ SUPREMACIST_HAS_FREE_ALIENS:0 "$SUPREMACIST_NO_FREE_ALIENS$"
+ SUPREMACIST_ALIEN_SLAVES_DESC:1 "A(z) [Root.GetName] megelégedéssel nyugtázza, ha a birodalmunkban nincsenek teljes állampolgári jogokkal rendelkező xeno fajok."
+ SUPREMACIST_ALL_SLAVERY_ALLOWED:0 "[Root.Owner.GetSpeciesName] Legalizált rabszolgatartás"
+ SUPREMACIST_ALL_SLAVERY_DESC:0 "A(z) [Root.GetName] felháborodással veszik tudomásul annak az ötletét, hogy egy [Root.Owner.GetSpeciesName]t is lehet rabszolgasorsba taszítani, és azt szeretnék, hogy rabszolgák csak a xenókból lehessenek."
+ LEADER_IS_OWNER_SPECIES:0 "[Root.Owner.GetRulerTitle] egy [Root.Owner.GetSpeciesName]"
+ SUPREMACIST_NO_MIGRATION_TREATIES:0 "Nincs bevándorlás"
+ SUPREMACIST_MIGRATION_TREATIES:0 "$SUPREMACIST_NO_MIGRATION_TREATIES$"
+ SUPREMACIST_NO_MIGRATION_TREATIES_DESC:0 "Bármely §Migrációs szerződés aláírása§! a(z) [Root.GetName] felháborodásához vezet."
+ SUPREMACIST_CORE_WORLD_EXCLUSIVITY:0 "Központi világok kizárólagossága"
+ SUPREMACIST_CORE_WORLD_EXCLUSIVITY_DESC:0 "A(z) [Root.GetName] megelégedéssel nyugtázza, ha a birodalmunk központi bolygót fenntartjuk a [Root.Owner.GetSpeciesNamePlural] és rabszolgáik számára."
+ SUPREMACIST_CORE_WORLD_NONEXCLUSIVITY:0 "$SUPREMACIST_CORE_WORLD_EXCLUSIVITY$"
+ SUPREMACIST_DOMINATION:0 "Felsőbbrendűség villogtatása"
+ SUPREMACIST_DOMINATION_DESC:0 "A(z) [Root.GetName] egy ideig megelégedéssel nyugtázza, ha egy vagy több xeno birodalomnak hadat üzenünk."
+ SUPREMACIST_NO_DOMINATION:0 "$SUPREMACIST_DOMINATION$"
+ SUPREMACIST_GENE_MOD:0 "Genetikai tisztaság"
+ SUPREMACIST_GENE_MOD_DESC:1 "A(z) [Root.GetName] örülni fog annak, ha az összes [Root.Owner.GetSpeciesPlural] Nép ugyanazokkal a genetikai vonásokkal rendelkezik."
+ SUPREMACIST_IMPURE:0 "[Root.Owner.GetSpeciesAdj] Tisztátlanság"
+ SUPREMACIST_NO_HARMONY:0 "Diszharmónia"
+ SUPREMACIST_HARMONY:0 "$SUPREMACIST_NO_HARMONY$"
+ SUPREMACIST_NO_HARMONY_DESC:0 "A Harmónia hagyományok bevezetésével arra utalunk, hogy az alantasabb fajok egyenjogúsága elfogadott, ezt pedig a(z) [Root.GetName] nem veszi jó néven."
+ SUPREMACIST_FANATIC_PURIFIERS:1 "$civic_fanatic_purifiers$"
+ SUPREMACIST_NOT_FANATIC_PURIFIERS:1 "$civic_fanatic_purifiers$"
+ SUPREMACIST_FANATIC_PURIFIERS_DESC:1 "$civic_fanatic_purifiers_desc$"
+ SUPREMACIST_DOMINATION_TRADITION:0 "Hagyományörző domináció"
+ SUPREMACIST_NO_DOMINATION_TRADITION:1 "$SUPREMACIST_DOMINATION_TRADITION$"
+ SUPREMACIST_DOMINATION_TRADITION_DESC:0 "A(z) [Root.GetName] jó néven vesz minden olyan hagyomány elfogadását, amely a §Dominációt§ növeli."
+ SUPREMACIST_GIANT_MASSACRE:0 "Óriásmészárlás"
+ SUPREMACIST_NO_GIANT_MASSACRE:0 "$SUPREMACIST_GIANT_MASSACRE$"
+ SUPREMACIST_GIANT_MASSACRE_DESC:0 "A(z) [Root.GetName] egy ideig megelégedéssel nyugtázza, ha elpusztítunk egy hatalmas xeno §Yleviatánt§!."
+ SUPREMACIST_ISOLATIONIST_NO_FEDERATION:0 "Egyedül erős"
+ SUPREMACIST_ISOLATIONIST_NO_FEDERATION_DESC:1 "Egy §Yföderációhoz való csatlakozás§! a(z) [Root.GetName] szerint [Root.Owner.GetName] idegen érdekek általi kihasználásához vezet, és ezt nem veszik jó néven."
+ SUPREMACIST_ISOLATIONIST_FEDERATION:1 "$SUPREMACIST_ISOLATIONIST_NO_FEDERATION$"
+ SUPREMACIST_PROCLAIM_SUPREMACY:0 "A történelem megvetése"
+ SUPREMACIST_NO_PROCLAIM_SUPREMACY:0 "$SUPREMACIST_PROCLAIM_SUPREMACY$"
+ SUPREMACIST_PROCLAIM_SUPREMACY_DESC:0 "A(z) [Root.GetName] egy ideig megelégedéssel nyugtázza az ősi civilizációk megvetését, amikor azok kisebb leleteit pusztítod el."
+ SUPREMACIST_CELEBRATE_DIVERSITY:0 "Gyengeség ünneplése"
+ SUPREMACIST_NO_CELEBRATE_DIVERSITY:0 "$SUPREMACIST_CELEBRATE_DIVERSITY$"
+ SUPREMACIST_CELEBRATE_DIVERSITY_DESC:0 "A(z) [Root.GetName] egy ideig megelégedéssel nyugtázza, ha alacsonyabb rendű civilizációk kisebb leleteit állítod ki."
+ 
+ # XENOISTS
+ XENOIST_PASSIVE_STUDY:0 "Közvetett xenológia"
+ XENOIST_PASSIVE_STUDY_DESC:0 "A(z) [Root.GetName] jó néven veszi, ha a Beavatkozás a bennszülöttekbe álláspontunk a Passzív tanulmányozás."
+ XENOIST_NO_PASSIVE_STUDY:0 "$XENOIST_PASSIVE_STUDY$"
+ XENOIST_NO_SLAVES:1 "Nincs egész faj rabszolgasága"
+ XENOIST_NO_SLAVES_DESC:3 "Ha nem sikerült megakadályozni egy egész faj rabszolgasorsba tasztítását, azt a(z) [Root.GetName] nagyon rossz néven veszi."
+ XENOIST_SLAVES:0 "$XENOIST_NO_SLAVES$"
+ XENOIST_NO_PURGE:1 "Nincsenek tisztogatások"
+ XENOIST_NO_PURGE_DESC:2 "Ha nem sikerült megakadályozni faj tisztítását, kipusztítását, azt a(z) [Root.GetName] nagyon rossz néven veszi."
+ XENOIST_PURGE:0 "$XENOIST_NO_PURGE$"
+ XENOIST_ENCLAVE_BORDERS:0 "Területen belüli enklávék"
+ XENOIST_ENCLAVE_BORDERS_DESC:0 "A határainkon belüli enklávék elősegítik a kulturális csereprogramokat, és erra a(z) [Root.GetName] pozítívan tekint."
+ XENOIST_NO_ENCLAVE_BORDERS:1 "$XENOIST_ENCLAVE_BORDERS$"
+ XENOIST_MULTICULTURALISM:0 "Multikulturális társadalom"
+ XENOIST_MULTICULTURALISM_DESC:0 "A(z) [Root.GetName] jó néven veszi, ha legalább §Y4§! különálló faj lakik a birodalmunkban."
+ XENOIST_NO_MULTICULTURALISM:0 "$XENOIST_MULTICULTURALISM$"
+ XENOIST_REFUGEES_WELCOME:0 "Minden menekültet befogadunk"
+ XENOIST_REFUGEES_WELCOME_DESC:0 "A háborúk és a tisztogatások elől menekülő idegen fajok megkülönböztetés nélküli befogadását a(z) [Root.GetName] jó néven veszi."
+ XENOIST_REFUGEES_UNWELCOME:0 "$XENOIST_REFUGEES_WELCOME$"
+ XENOIST_DIPLO_TIES:0 "Külföldi kapcsolatok"
+ XENOIST_DIPLO_TIES_DESC:0 "Az összes közvetlen szomszédunkkal létesített diplomáciaia kapcsolatot a(z) [Root.GetName] jó néven veszi."
+ XENOIST_FEW_DIPLO_TIES:0 "$XENOIST_DIPLO_TIES$"
+ XENOIST_RECENT_UPLIFT:0 "Felemelés a közelmúltban"
+ XENOIST_RECENT_UPLIFT_DESC:0 "Egy idegen állati faj intelligenciára való felemelését a(z) [Root.GetName] egy ideig jó néven veszi."
+ XENOIST_NO_RECENT_UPLIFT:0 "$XENOIST_RECENT_UPLIFT$"
+ XENOIST_RECENT_ENLIGHTENMENT:0 "Felvilágosítás a közelmúltban"
+ XENOIST_RECENT_ENLIGHTENMENT_DESC:0 "Az idegen primitívek űrutazásra való felvilágosítását, különösen ha az nem invázív módon történt, egy ideig a(z) [Root.GetName] jó néven veszi."
+ XENOIST_NO_RECENT_ENLIGHTENMENT:0 "$XENOIST_RECENT_ENLIGHTENMENT$"
+ XENOIST_DIPLOMACY_TRADITION:1 "[Root.GetDiplomacyTraditionName] Hagyományok"
+ XENOIST_NO_DIPLOMACY_TRADITION:0 "$XENOIST_DIPLOMACY_TRADITION$"
+ XENOIST_DIPLOMACY_TRADITION_DESC:1 "A(z) §Y[Root.GetDiplomacyTraditionName]§! hagyományok elfogadását a(z) [Root.GetName] jó néven veszi."
+ XENOIST_PRE_SAPIENT_SURVIVAL:0 "Értelem előtti fajok túlélése"
+ XENOIST_NO_PRE_SAPIENT_SURVIVAL:0 "$XENOIST_PRE_SAPIENT_SURVIVAL$"
+ XENOIST_PRE_SAPIENT_SURVIVAL_DESC:0 "Az értelem előtti fajok túlélését biztosító jogi környezet hiányát a(z) [Root.GetName] rossz néven veszi."
+ XENOIST_NO_PRIMITIVE_INVASION:0 "Földbitorlási tiltakozás"
+ XENOIST_PRIMITIVE_INVASION:0 "$XENOIST_NO_PRIMITIVE_INVASION$"
+ XENOIST_NO_PRIMITIVE_INVASION_DESC:0 "Primitív világok lerohanását a(z) [Root.GetName] nem veszi jó néven."
+ XENOIST_FEDERATED:0 "Föderációs"
+ XENOIST_NOT_FEDERATED:0 "$XENOIST_FEDERATED$"
+ XENOIST_FEDERATED_DESC:0 "A(z) [Root.GetName] örül egy §Yföderációhoz§! való csatlakozásnak."
+ XENOIST_RECENT_COMMS:0 "Új kapcsolat"
+ XENOIST_NO_RECENT_COMMS:0 "$XENOIST_RECENT_COMMS$"
+ XENOIST_RECENT_COMMS_DESC:0 "Más birodalmakkal való kapcsolatfelvétel a közelmúltban egy ideig örömöt szerez a(z) [Root.GetName] frakciónak."
+ XENOIST_CELEBRATE_DIVERSITY:0 "Sokféleség ünneplése"
+ XENOIST_NO_CELEBRATE_DIVERSITY:0 "$XENOIST_CELEBRATE_DIVERSITY$"
+ XENOIST_CELEBRATE_DIVERSITY_DESC:0 "A(z) [Root.GetName] egy ideig jó néven veszi, ha a kisebb leletek kiállításával ünnepled az univerzum életének sokfeléségét."
+ XENOIST_PROCLAIM_SUPREMACY:0 "Könyvégető"
+ XENOIST_NO_PROCLAIM_SUPREMACY:0 "$XENOIST_PROCLAIM_SUPREMACY$"
+ XENOIST_PROCLAIM_SUPREMACY_DESC:0 "A(z) [Root.GetName] egy ideig felháborodással veszi tudomásul, ha a xenofóbok lekenyerezésére más civilizációk kisebb leleteit pusztítod el."
+
+ # IMPERIALISTS
+ IMPERIALIST_PHILOSOPHY:0 "Agresszív diplomácia"
+ IMPERIALIST_PHILOSOPHY_DESC:2 "A támadó hadviselés nem engedélyezését a(z) [Root.GetName] rossz néven veszi."
+ IMPERIALIST_NO_PHILOSOPHY:0 "$IMPERIALIST_PHILOSOPHY$"
+ IMPERIALIST_CONQUEST:2 "Hódítás"
+ IMPERIALIST_CONQUEST_DESC:1 "Idegen bolygók meghódítása egy ideig örömöt szerez a(z) [Root.GetName] frakciónak."
+ IMPERIALIST_NO_CONQUEST:0 "$IMPERIALIST_CONQUEST$"
+ IMPERIALIST_FRONTIER_OUTPOSTS:0 "Határbővítés"
+ IMPERIALIST_FRONTIER_OUTPOSTS_DESC:1 "A területünk bővítését szolgáló §Yhatármenti előörs§! építését a(z) [Root.GetName] egy ideig jó néven veszi."
+ IMPERIALIST_NO_RECENT_FRONTIER_OUTPOSTS:0 "$IMPERIALIST_FRONTIER_OUTPOSTS$"
+ IMPERIALIST_RIVALS1:0 "Helyi rivalizálás"
+ IMPERIALIST_RIVALS_DESC1:1 "A(z) [Root.GetName] jó néven veszi, ha legalább §Y1 birodalmat§! a riválisunkként nevezünk meg."
+ IMPERIALIST_FEW_RIVALS1:0 "$IMPERIALIST_RIVALS1$"
+ IMPERIALIST_RIVALS2:0 "Szomszédsági rivalizálás"
+ IMPERIALIST_RIVALS_DESC2:1 "A(z) [Root.GetName] jó néven veszi, ha legalább §Y2 birodalmat§! a riválisunkként nevezünk meg."
+ IMPERIALIST_FEW_RIVALS2:0 "$IMPERIALIST_RIVALS2$"
+ IMPERIALIST_RIVALS3:0 "Galaktikus ellenségeskedés"
+ IMPERIALIST_RIVALS_DESC3:1 "A(z) [Root.GetName] jó néven veszi, ha legalább §Y3 birodalmat§! a riválisunkként nevezünk meg."
+ IMPERIALIST_FEW_RIVALS3:0 "$IMPERIALIST_RIVALS3$"
+ IMPERIALIST_OVERLORD:0 "Birodalmi hegemónia"
+ IMPERIALIST_NOT_OVERLORD:0 "$IMPERIALIST_OVERLORD$"
+ IMPERIALIST_OVERLORD_DESC:0 "A(z) [Root.GetName] örül annak, ha egy vagy több idegen hatalom §Yhűbérurává§! válunk."
+ IMPERIALIST_SUPREMACY_TRADITION:0 "Hagyományos felsőbbrendűség"
+ IMPERIALIST_NO_SUPREMACY_TRADITION:0 "$IMPERIALIST_SUPREMACY_TRADITION$"
+ IMPERIALIST_SUPREMACY_TRADITION_DESC:0 "A(z) [Root.GetName] jó néven vesz minden olyan hagyomány elfogadását, amely a §Felsőbbrendűséget§ növeli."
+ IMPERIALIST_SLAYER:0 "Leviatánok mészárosa"
+ IMPRERIALIST_NOT_SLAYER:0 "$IMPERIALIST_SLAYER$"
+ IMPERIALIST_SLAYER_DESC:0 "A(z) [Root.GetName] egy ideig örülni fog annak, ha űrlakó §Yleviatánokat§! pusztítunk el."
+ IMPERIALIST_UNDERLING:0 "Alattvaló állam"
+ IMPERIALIST_NOT_UNDERLING:0 "$IMPERIALIST_UNDERLING$"
+ IMPERIALIST_UNDERLING_DESC:0 "Egy idegen §Yhűbérúr§! alatti alattvalói státuszának a(z) [Root.GetName] nagyon nem örül"
+ IMPERIALIST_MILITARY_APPLICATIONS:0 "Leletek katonai lefoglalása"
+ IMPERIALIST_NO_MILITARY_APPLICATIONS:0 "$IMPERIALIST_MILITARY_APPLICATIONS$"
+ IMPERIALIST_MILITARY_APPLICATIONS_DESC:0 "A(z) [Root.GetName] egy ideig megelégedéssel veszi tudomásul, ha a kisebb leletek katonai alkalmazásra kerülnek."
+ IMPERIALIST_PEACEFUL_APPLICATIONS:0 "Leletek pazarlása"
+ IMPERIALIST_NO_PEACEFUL_APPLICATIONS:0 "$IMPERIALIST_PEACEFUL_APPLICATIONS$"
+ IMPERIALIST_PEACEFUL_APPLICATIONS_DESC:0 "A(z) [Root.GetName] egy ideig felháborodással veszi tudomásul, ha a más civilizációk kisebb leleteit haszontalanságra pazarlod el."
+
+ # ISOLATIONISTS
+ ISOLATIONIST_PHILOSOPHY:0 "Rendíthetelen védelem"
+ ISOLATIONIST_PHILOSOPHY_DESC:1 "A §Ykorlátlan háborúk§! betiltását a(z) [Root.GetName] jó néven veszi."
+ ISOLATIONIST_NO_PHILOSOPHY:0 "$ISOLATIONIST_PHILOSOPHY$"
+ ISOLATIONIST_NO_AGGRESSIVE_WAR:0 "Kelletlen agresszió"
+ ISOLATIONIST_AGGRESSIVE_WAR:0 "$ISOLATIONIST_NO_AGGRESSIVE_WAR$"
+ ISOLATIONIST_NO_AGGRESSIVE_WAR_DESC:0 "A(z) [Root.GetName] rossz néven veszi, hogy [Root.Owner.GetAdj] életeit kockáztatjuk azáltal, hogy agresszív háborúkkal avatkozunk bele a galaktikus ügyekbe."
+ ISOLATIONIST_NO_DEFENSIVE_WAR:0 "Kelletlen ellenállás"
+ ISOLATIONIST_DEFENSIVE_WAR:0 "$ISOLATIONIST_NO_DEFENSIVE_WAR$"
+ ISOLATIONIST_NO_DEFENSIVE_WAR_DESC:0 "A fegyverek használata, még akár önvédelmi célból is, egy ideig a(z) [Root.GetName] elégedetlenségéhez vezet."
+ ISOLATIONIST_NO_DIPLO:0 "Minimális diplomácia"
+ ISOLATIONIST_NO_DIPLO_DESC:1 "Az idegen hatalmakkal folytatott, nem alapvető fontosságú kapcsolatok fenntartását (ilyenek például a migrációs szerződések, a kutatási megállapodások és a védelmi paktumok) a(z) [Root.GetName] rossz néven veszi."
+ ISOLATIONIST_DIPLO:0 "$ISOLATIONIST_NO_DIPLO$"
+ ISOLATIONIST_MOVEMENT_RESTRICTED:0 "Korlátozott mozgási lehetőségek"
+ ISOLATIONIST_MOVEMENT_UNRESTRICTED:0 "$ISOLATIONIST_MOVEMENT_RESTRICTED$"
+ ISOLATIONIST_MOVEMENT_RESTRICTED_DESC:0 "Bármilyen xenók birodalomba való érkezését, legyenek azok menekültek, vagy egy migrációs szerződés alapján érkező bevándorlók, a(z) [Root.GetName] rossz néven veszi."
+ ISOLATIONIST_REFUGEES_RESTRICTED:0 "Menekültek korlátozása"
+ ISOLATIONIST_REFUGEES_RESTRICTED_DESC:1 "A menekültek birodalmunkba való áramlásának a(z) [Root.GetName] nem örül."
+ ISOLATIONIST_REFUGEES_UNRESTRICTED:0 "$ISOLATIONIST_REFUGEES_RESTRICTED$"
+ ISOLATIONIST_NON_AGGRESSION1:0 "Megnemtámadási paktum"
+ ISOLATIONIST_NON_AGGRESSION_DESC1:1 "Egy másik birodalommal kötött §Ymegnemtámadási paktum§!nak a(z) [Root.GetName] örülni fog."
+ ISOLATIONIST_FEW_NON_AGGRESSION1:0 "$ISOLATIONIST_NON_AGGRESSION1$"
+ ISOLATIONIST_NON_AGGRESSION2:0 "Megnemtámadási kötelezettség"
+ ISOLATIONIST_NON_AGGRESSION_DESC2:1 "Szükséges más birodalmakkal megnemtámadási paktumot kötni, és a(z) [Root.GetName] örülni fog annak, ha legalább §Y2§ ilyennel rendelkezünk."
+ ISOLATIONIST_FEW_NON_AGGRESSION2:0 "$ISOLATIONIST_NON_AGGRESSION2$"
+ ISOLATIONIST_NON_AGGRESSION3:0 "Megnemtámadási jegyzőkönyv"
+ ISOLATIONIST_NON_AGGRESSION_DESC3:1 "Szükséges más birodalmakkal megnemtámadási paktumot kötni, és a(z) [Root.GetName] örülni fog annak, ha legalább §Y3§ ilyennel rendelkezünk."
+ ISOLATIONIST_FEW_NON_AGGRESSION3:0 "$ISOLATIONIST_NON_AGGRESSION3$"
+ ISOLATIONIST_PEACE1:0 "Béke"
+ ISOLATIONIST_PEACE_DESC1:0 "A(z) [Root.GetName] örülni fog annak, ha §Ylegalább 10 éven át§! kimaradunk a nagyméretű galaktikus összetűzésekből."
+ ISOLATIONIST_NO_PEACE1:0 "$ISOLATIONIST_PEACE1$"
+ ISOLATIONIST_PEACE2:0 "Tartós béke"
+ ISOLATIONIST_PEACE_DESC2:0 "A(z) [Root.GetName] örülni fog annak, ha §Ylegalább 25 éven át§! kimaradunk a nagyméretű galaktikus összetűzésekből."
+ ISOLATIONIST_NO_PEACE2:0 "$ISOLATIONIST_PEACE2$"
+ ISOLATIONIST_PEACE3:0 "Örök béke"
+ ISOLATIONIST_PEACE_DESC3:0 "A(z) [Root.GetName] örülni fog annak, ha §Ylegalább 50 éven át§! kimaradunk a nagyméretű galaktikus összetűzésekből."
+ ISOLATIONIST_NO_PEACE3:0 "$ISOLATIONIST_PEACE3$"
+ ISOLATIONIST_STRONG_ARMY:0 "Állandó hadsereg"
+ ISOLATIONIST_STRONG_ARMY_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha a [Root.Owner.GetAdj] legalább §Y5§! Nép által lakott összes világán bolygónként legalább §Y3§! védelmi sereget állomásoztatunk."
+ ISOLATIONIST_WEAK_ARMY:0 "Elégtelen fegyverkezés"
+ ISOLATIONIST_DEFENSIVE_STATIONS:0 "Mélyűri védelem"
+ ISOLATIONIST_DEFENSIVE_STATIONS_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha az összes lakott naprendszerünkben legalább §Y1§ katonai űrállomást tartunk fenn."
+ ISOLATIONIST_FEW_DEFENSIVE_STATIONS:0 "$ISOLATIONIST_DEFENSIVE_STATIONS$"
+
+ # TRADITIONALISTS
+ TRADITIONALIST_NO_ROBOTS:0 "Szerves élet"
+ TRADITIONALIST_NO_ROBOTS_DESC:1 "A(z) [Root.GetName] nem fogja jó néven venni, ha a szerves életet robotmunkásokkal váltják ki."
+ TRADITIONALIST_ROBOTS:0 "Üres héj"
+ TRADITIONALIST_NO_ROBOT_RIGHTS:0 "Nincsenek synth jogok"
+ TRADITIONALIST_NO_ROBOT_RIGHTS_DESC:0 "A(z) [Root.GetName] nem veszi jó néven, ha nem ütközik törvénybe az az istenkáromlás, amit a gondolkodó gépek jelentenek."
+ TRADITIONALIST_ROBOT_RIGHTS:0 "$TRADITIONALIST_NO_ROBOT_RIGHTS$"
+ TRADITIONALIST_NO_FULL_ROBOT_RIGHTS:0 "Nincsenek synth jogok"
+ TRADITIONALIST_NO_FULL_ROBOT_RIGHTS_DESC:0 "A(z) [Root.GetName] nagyon nem beszi jól néven, ha a lélektelen szintetikusok teljes állampolgári jogokhoz jutnak."
+ TRADITIONALIST_FULL_ROBOT_RIGHTS:0 "Istenkáromló gépek"
+ TRADITIONALIST_SPIRITUALIST_GOVERNMENT:0 "Jámbor politika"
+ TRADITIONALIST_SPIRITUALIST_GOVERNMENT_DESC:1 "A(z) [Root.GetName] örülni fog annak, ha a birodalmunkat kormányzó értékrend a spirituális ethoszt vallja magáénak."
+ TRADITIONALIST_SECULAR_GOVERNMENT:0 "Világi állam"
+ TRADITIONALIST_SPIRITUALIST_POPS:0 "Homogenitás"
+ TRADITIONALIST_SPIRITUALIST_POPS_DESC:0 "A jámbor lelkek mind ugyanúgy gondolkodnak, és a(z) [Root.GetName] örülni fog annak, ha a népességünk legalább §Y25%§!-a a spiritualizmus valamelyik formáját vallja magáénak."
+ TRADITIONALIST_FEW_SPIRITUALIST_POPS:0 "$TRADITIONALIST_SPIRITUALIST_POPS$"
+ TRADITIONALIST_UNSPIRITUALIST:0 "Elnyomott kisebbség"
+ TRADITIONALIST_NOT_UNSPIRITUALIST:0 "$TRADITIONALIST_UNSPIRITUALIST$"
+ TRADITIONALIST_UNSPIRITUALIST_DESC:0 "A(z) [Root.GetName] nem fog örülni annak, ha a spirituális hit [Root.Owner.GetName] szerte kisebbségi hitnek számít."
+ TRADITIONALIST_FRUGALITY:0 "Takarékosság"
+ TRADITIONALIST_FRUGALITY_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha a fogyasztási cikkekre fordított kiadások alacsony szinten maradnak."
+ TRADITIONALIST_BIG_SPENDING:0 "Zabolátlan pazarlás"
+ TRADITIONALIST_NO_TOMB_WORLDS:0 "Megszentségtelenített talaj"
+ TRADITIONALIST_NO_TOMB_WORLDS_DESC:1 "Egy §Ysírhant világ§! bármiféle megérintése, még ha terraformálásról is legyen szó, felháborodást kelt a(z) [Root.GetName] köreiben."
+ TRADITIONALIST_TOMB_WORLDS:0 "$TRADITIONALIST_NO_TOMB_WORLDS$"
+ TRADITIONALIST_GAIA_WORLDS:1 "Felszentelt világ"
+ TRADITIONALIST_GAIA_WORLDS_DESC:2 "A(z) [Root.GetName] jó néven veszi, ha a határainkon belül található, érintetlen §Ygaia bolygókat§! §Yfelszenteltnek§! minősítik."
+ TRADITIONALIST_NO_GAIA_WORLDS:0 "$TRADITIONALIST_GAIA_WORLDS$"
+ TRADITIONALIST_UNBLISSED:0 "Áldottan mámortalan"
+ TRADITIONALIST_BLISSED:0 "$TRADITIONALIST_UNBLISSED$"
+ TRADITIONALIST_UNBLISSED_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha a népesség teljes öntudatánál van, tisztában van felelősségeivel és kötelezettségeivel, mivel egyikükre sem vonatkozik a vegyi mámor életkörülmény."
+ TRADITIONALIST_PLANETBOUND:0 "Agyagkunyhó"
+ TRADITIONALIST_PLANETBOUND_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha csak a bolygók felszínén építünk lakóhelyeket, és nem létesítünk habitatokat az űr mélyében."
+ TRADITIONALIST_SPACEBOUND:0 "Élet a sötétségben"
+ TRADITIONALIST_FLESH_IS_STRONG:0 "A test erős"
+ TRADITIONALIST_FLESH_IS_STRONG_DESC:0 "A(z) [Root.GetName] nagyon nem fog annak örülni, ha a természet adta testünket kibernetikus implantátumokkal korcsosítjuk el."
+ TRADITIONALIST_FLESH_IS_WEAK:0 "A test erőtlen"
+ TRADITIONALIST_PURITY_TRADITION:0 "Hagyományos tisztaság"
+ TRADITIONALIST_NO_PURITY_TRADITION:0 "$TRADITIONALIST_PURITY_TRADITION$"
+ TRADITIONALIST_PURITY_TRADITION_DESC:0 "A(z) [Root.GetName] jó néven vesz minden olyan hagyomány elfogadását, amely a §Tisztaságot§ növeli."
+ TRADITIONALIST_PSIONIC_PURSUIT:2 "Pszionikus haladás"
+ TRADITIONALIST_NO_PSIONIC_PURSUIT:1 "$TRADITIONALIST_PSIONIC_PURSUIT$"
+ TRADITIONALIST_PSIONIC_PURSUIT_DESC:2 "§YA gondolat ereje§! felemelkedési bónusz bevezetését a(z) [Root.GetName] jó néven veszi."
+ TRADITIONALIST_SHROUD_BOON:0 "Rejtett áldás"
+ TRADITIONALIST_NO_SHROUD_BOON:0 "$TRADITIONALIST_SHROUD_BOON$"
+ TRADITIONALIST_SHROUD_BOON_DESC:0 "A Rejtett jótékony hatásainak elnyerését a(z) [Root.GetName] egy ideig jó néven veszi."
+ TRADITIONALIST_SHROUD_CURSE:0 "Rejtett átok"
+ TRADITIONALIST_NO_SHROUD_CURSE:0 "$TRADITIONALIST_SHROUD_CURSE$"
+ TRADITIONALIST_SHROUD_CURSE_DESC:0 "A Rejtett ártó hatásainak kiváltását a(z) [Root.GetName] egy ideig rossz néven veszi."
+ TRADITIONALIST_HARMONY:0 "Harmonikus birodalom"
+ TRADITIONALIST_NO_HARMONY:0 "$TRADITIONALIST_HARMONY$"
+ TRADITIONALIST_HARMONY_DESC:0 "A §YHarmónia§! hagyományok elfogadását a(z) [Root.GetName] jó néven veszi."
+ TRADITIONALIST_RELIGIOUS_FINDING:0 "Vígasz a múltban"
+ TRADITIONALIST_NO_RELIGIOUS_FINDING:0 "$TRADITIONALIST_RELIGIOUS_FINDING$"
+ TRADITIONALIST_RELIGIOUS_FINDING_DESC:0 "A(z) [Root.GetName] egy ideig megelégedéssel veszi tudomásul, ha a kisebb leletek vallási jelentést kapnak."
+ 
+ # TECHNOLOGISTS
+ TECHNOLOGIST_ROBOTS:0 "Gépi szerelem"
+ TECHNOLOGIST_ROBOTS_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha legalább §Y6§ robotféle Népünk van."
+ TECHNOLOGIST_FEW_ROBOTS:0 "$TECHNOLOGIST_ROBOTS$"
+ TECHNOLOGIST_ROBOTS_ALLOWED:0 "Engedélyezett AI"
+ TECHNOLOGIST_ROBOTS_ALLOWED_DESC:1 "Engedélyezi a robotika és a mesterséges intelligencia tanulmányozását és fejlesztését."
+ TECHNOLOGIST_ROBOTS_BANNED:0 "Tiltott AI"
+ TECHNOLOGIST_TECH_LEAP:0 "Élvonal"
+ TECHNOLOGIST_TECH_LEAP_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha a többi birodalom kutatásait magunk mögött tudjuk, és nem hagyjuk, hogy bármelyikük is a miénkével §Ymegegyező§! technológiai szintet érjen el."
+ TECHNOLOGIST_TECH_LAG:0 "Tompa élvonal"
+ TECHNOLOGIST_RESEARCH_TREATIES:0 "Tudomány határok nélkül"
+ TECHNOLOGIST_RESEARCH_TREATIES_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha legalább §Y3§! másik birodalommal van kutatási szerződésünk."
+ TECHNOLOGIST_FEW_RESEARCH_TREATIES:0 "$TECHNOLOGIST_RESEARCH_TREATIES$"
+ TECHNOLOGIST_NO_SYNTH_ENVY:0 "Synth irigység"
+ TECHNOLOGIST_NO_SYNTH_ENVY_DESC:0 "A(z) [Root.GetName] biztosan nem fog örülni annak, hogy ha más birodalmak robotikus Népeket vonultatnak fel, míg a mi világainkon egy sem található."
+ TECHNOLOGIST_SYNTH_ENVY:0 "$TECHNOLOGIST_NO_SYNTH_ENVY$"
+ TECHNOLOGIST_DISCOVERY:0 "Felfedezés hagyományai"
+ TECHNOLOGIST_NO_DISCOVERY:0 "$TECHNOLOGIST_DISCOVERY$"
+ TECHNOLOGIST_DISCOVERY_DESC:0 "A §YFelfedezés§! hagyományok elfogadását a(z) [Root.GetName] jó néven veszi."
+ TECHNOLOGIST_SECRET_KNOWLEDGE:0 "Titkos ismeretek"
+ TECHNOLOGIST_NO_SECRET_KNOWLEDGE:0 "$TECHNOLOGIST_SECRET_KNOWLEDGE$"
+ TECHNOLOGIST_SECRET_KNOWLEDGE_DESC:0 "Bármiféle titkos ismerethez való hozzáférést a(z) [Root.GetName] jó néven vesz, például ősi §Yéleslátást§! vagy §Yadattárolót§!."
+ TECHNOLOGIST_ARCANA:0 "A múlt ismerete"
+ TECHNOLOGIST_NO_ARCANA:0 "$TECHNOLOGIST_ARCANA$"
+ TECHNOLOGIST_ARCANA_DESC:0 "A(z) [Root.GetName] egy ideig örömmel nyugtázza, ha a más civilizációk kisebb leleteit tanulmányozod."
+ TECHNOLOGIST_PRECURSOR_SECRETS:0 "Az elődök titkai"
+ TECHNOLOGIST_NO_PRECURSOR_SECRETS:0 "$TECHNOLOGIST_PRECURSOR_SECRETS$"
+ TECHNOLOGIST_PRECURSOR_SECRETS_DESC:0 "A(z) [Root.GetName] örömmel nyugtázza, ha kibogozod az elődök ősi titkait."
+
+ # PROGRESSIVES
+ PROGRESSIVE_NO_AUTO:0 "Anti-autokratikus"
+ PROGRESSIVE_AUTO:0 "$PROGRESSIVE_NO_AUTO$"
+ PROGRESSIVE_DEMOCRATIC_GOVERNMENT_DESC:1 "Egy névlegesen választott kormányt a(z) [Root.GetName] jó néven veszi."
+ PROGRESSIVE_FREE_MOVEMENT:0 "Szabad mozgás"
+ PROGRESSIVE_NO_FREE_MOVEMENT:0 "$PROGRESSIVE_FREE_MOVEMENT$"
+ PROGRESSIVE_FREE_MOVEMENT_DESC:1 "A(z) [Root.GetName] örülni fog annak, ha szavatoljuk a Népek szabad mozgását azáltal, hogy betiltjuk a kényszerített áttelepítést, valamint megszüntetjük a migrációs korlátozásokat."
+ PROGRESSIVE_REPRODUCTIVE_FREEDOM:0 "Szaporodási szabadságjogok"
+ PROGRESSIVE_REPRODUCTIVE_FREEDOM_DESC:2 "A szelektív népességkorlátozás betiltását a(z) [Root.GetName] jó néven veszi."
+ PROGRESSIVE_NO_REPRODUCTIVE_FREEDOM:1 "$PROGRESSIVE_REPRODUCTIVE_FREEDOM$"
+ PROGRESSIVE_SLAVERY_BANNED:1 "A rabszolgaság betiltása"
+ PROGRESSIVE_SLAVERY_BANNED_DESC:1 "A(z) [Root.GetName] nem veszi jó néven, ha a rabszolgatartás gyakorlatát nem tiltjuk be."
+ PROGRESSIVE_SLAVERY_ALLOWED:0 "Legalizált rabszolgatartás"
+ PROGRESSIVE_NO_STRATIFIED:0 "Rétegellenesség"
+ PROGRESSIVE_NO_STRATIFIED_DESC:0 "A(z) [Root.GetName] nagyon nem veszi jó néven, ha a birodalmunk bármelyik lakosának egy §Yrétegződött gazdaságban§! tagjaként kell élnie."
+ PROGRESSIVE_STRATIFIED:0 "$PROGRESSIVE_NO_STRATIFIED$"
+ PROGRESSIVE_NO_ELITISM:0 "Egyenlőnek született"
+ PROGRESSIVE_NO_ELITISM_DESC:0 "A(z) [Root.GetName] jó néven veszi, ha nem vezetünk be semmilyen olyan politikát, ami valamilyen módon favorizálná az uralkodói elitet."
+ PROGRESSIVE_ELITISM:0 "$PROGRESSIVE_NO_ELITISM$"
+ PROGRESSIVE_SOCIAL_EQUALITY:0 "Egyenlő polgárság"
+ PROGRESSIVE_SOCIAL_EQUALITY_DESC:0 "A(z) [Root.GetName] megelégedéssel nyugtázza, ha a birodalmunkban minden faj élvezheti a teljes állampolgárság összes előjogát."
+ PROGRESSIVE_NO_SOCIAL_EQUALITY:0 "$PROGRESSIVE_SOCIAL_EQUALITY$"
+
+ # TOTALITARIANS
+ TOTALITARIAN_AUTOCRACY:0 "Autokrácia"
+ TOTALITARIAN_AUTOCRACY_DESC:0 "Az önkényuralom uralom (§Ybirodalmi vagy diktatorikus hatalom§!) fenntartását a(z) [Root.GetName] jó néven veszi."
+ TOTALITARIAN_NO_AUTOCRACY:0 "$TOTALITARIAN_AUTOCRACY$"
+ TOTALITARIAN_DEMOCRACY:0 "Demokráciaellenes"
+ TOTALITARIAN_DEMOCRACY_DESC:0 "A(z) [Root.GetName] nagyon rossz néven veszi, ha §Ydemokratikus hatalom§! alatt kell élnie."
+ TOTALITARIAN_NO_DEMOCRACY:0 "$TOTALITARIAN_DEMOCRACY$"
+ TOTALITARIAN_STRATIFICATION:0 "Rétegzett társadalom"
+ TOTALITARIAN_STRATIFICATION_DESC:1 "Egy rétegzett társadalmi berendezkedést a(z) [Root.GetName] jó néven veszi, legyen az rétegződött gazdaság, rabszolgatartás vagy akár tisztogatás."
+ TOTALITARIAN_NO_STRATIFICATION:0 "$TOTALITARIAN_STRATIFICATION$"
+ TOTALITARIAN_SLAVERY:0 "Alapvető rabszolgaság"
+ TOTALITARIAN_SLAVERY_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha legalább §Y12§! rabszolgasorsba juttatott Nép marad rabszolga."
+ TOTALITARIAN_NO_SLAVERY:0 "$TOTALITARIAN_SLAVERY$"
+ TOTALITARIAN_ELITISM:0 "Elitizmus"
+ TOTALITARIAN_ELITISM_DESC:0 "A vezérek továbbfejlesztését lehetővé tevő politikák bevezetését a(z) [Root.GetName] jó néven veszi."
+ TOTALITARIAN_NO_ELITISM:0 "$TOTALITARIAN_ELITISM$"
+ TOTALITARIAN_GOVERNORS:0 "Regionális kormányzás"
+ TOTALITARIAN_GOVERNORS_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha minden szektor felvirágzását egy §Ykormányzó§! felügyeli."
+ TOTALITARIAN_FEW_GOVERNORS:0 "$TOTALITARIAN_GOVERNORS$"
+ TOTALITARIAN_STRONG_ARMY:0 "Katonai fegyelem"
+ TOTALITARIAN_STRONG_ARMY_DESC:0 "A(z) [Root.GetName] örülni fog annak, ha a [Root.Owner.GetAdj] összes világán bolygónként legalább §Y6§! bármilyen sereget állomásoztatunk."
+ TOTALITARIAN_WEAK_ARMY:0 "$TOTALITARIAN_STRONG_ARMY$"
+ TOTALITARIAN_DOMINATION:0 "Hagyományörző domináció"
+ TOTALITARIAN_NO_DOMINATION:0 "$TOTALITARIAN_DOMINATION$"
+ TOTALITARIAN_DOMINATION_DESC:0 "Az §YUralkodás§! hagyományok elfogadását a(z) [Root.GetName] jó néven veszi."
+ TOTALITARIAN_EXTRANATIONAL_AUTHORITY:0 "Nemzeten túli hatalom"
+ TOTALITARIAN_NO_EXTRANATIONAL_AUTHORITY:0 "$TOTALITARIAN_EXTRANATIONAL_AUTHORITY$"
+ TOTALITARIAN_EXTRANATIONAL_AUTHORITY_DESC:0 "A hatalmon olyan szintű kiterjesztését a(z) [Root.GetName] jó néven veszi, amikor §Yalattvaló nemzetek§! felett uralkodunk."
+ TOTALITARIAN_UNDERLING:0 "Alattvaló"
+ TOTALITARIAN_NOT_UNDERLING:0 "$TOTALITARIAN_UNDERLING$"
+ TOTALITARIAN_UNDERLING_DESC:0 "Egy idegen §Yhűbérúr§! alattvalói státuszának a(z) [Root.GetName] nem örül"
+
+ # PROSPERITY
+ PROSPERITY_PHILOSOPHY:0 "Védekező álláspont"
+ PROSPERITY_PHILOSOPHY_DESC:0 "A politikánk §YCsak védekező háborúkra§! korlátozását a(z) [Root.GetName] jó néven veszi."
+ PROSPERITY_NO_PHILOSOPHY:0 "$PROSPERITY_PHILOSOPHY$"
+ PROSPERITY_LIQUIDITY:0 "Folyamatos likviditás"
+ PROSPERITY_NO_LIQUIDITY:0 "$PROSPERITY_LIQUIDITY$"
+ PROSPERITY_LIQUIDITY_DESC:1 "A(z) [Root.GetName] örülni fog annak, ha mindenkoron legalább £energy£ §Y5000§! található a nemzeti számlákon."
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE1:0 "Stratégiai erőforrás megszerzése"
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE2:0 "Stratégiai erőforrás ellenőrzése"
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE3:0 "Stratégiai erőforrás uralma"
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE_DESC1:0 "Legalább §Y1§ stratégiai erőforrás megszerzését a(z) [Root.GetName] jó néven veszi."
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE_DESC2:0 "Legalább §Y5§ stratégiai erőforrás megszerzését a(z) [Root.GetName] jó néven veszi."
+ PROSPERITY_WANTS_STRATEGIC_RESOURCE_DESC3:0 "Legalább §Y10§ stratégiai erőforrás megszerzését a(z) [Root.GetName] jó néven veszi."
+ PROSPERITY_NO_STRATEGIC_RESOURCE1:0 "$PROSPERITY_WANTS_STRATEGIC_RESOURCE1$"
+ PROSPERITY_NO_STRATEGIC_RESOURCE2:0 "$PROSPERITY_WANTS_STRATEGIC_RESOURCE2$"
+ PROSPERITY_NO_STRATEGIC_RESOURCE3:0 "$PROSPERITY_WANTS_STRATEGIC_RESOURCE3$"
+ PROSPERITY_TRADITION:0 "Hagyományos jólét"
+ PROSPERITY_NO_TRADITION:0 "$PROSPERITY_TRADITION$"
+ PROSPERITY_TRADITION_DESC:0 "A(z) [Root.GetName] jó néven vesz minden olyan hagyomány elfogadását, amely a §Jólétet§ növeli."
+ PROSPERITY_PEACE:0 "Békében"
+ PROSPERITY_NO_PEACE:0 "$PROSPERITY_PEACE$"
+ PROSPERITY_PEACE_DESC:0 "A fejlesztés stabilitást igényel - a háborúktól való távolmaradást a(z) [Root.GetName] jó néven veszi."
+ PROSPERITY_NOT_AGGRESSOR:0 "Erőszakmentesség"
+ PROSPERITY_AGGRESSOR:0 "$PROSPERITY_NOT_AGGRESSOR$"
+ PROSPERITY_NOT_AGGRESSOR_DESC:0 "Életek és erőforrások agresszív háborúban való elpazarlását a(z) [Root.GetName] rossz néven veszi."
+ PROSPERITY_MILITARY_APPLICATIONS:0 "Leletek pazarlása"
+ PROSPERITY_NO_MILITARY_APPLICATIONS:0 "$PROSPERITY_MILITARY_APPLICATIONS$"
+ PROSPERITY_MILITARY_APPLICATIONS_DESC:0 "A(z) [Root.GetName] egy ideig felháborodással veszi tudomásul, ha más civilizációk kisebb leletei katonai alkalmazásra kerülnek."
+ PROSPERITY_PEACEFUL_APPLICATIONS:0 "A társadalom javítása"
+ PROSPERITY_NO_PEACEFUL_APPLICATIONS:0 "$PROSPERITY_PEACEFUL_APPLICATIONS$"
+ PROSPERITY_PEACEFUL_APPLICATIONS_DESC:0 "A(z) [Root.GetName] egy ideig elégedetten veszi tudomásul, ha más civilizációk kisebb leletei polgári alkalmazásra kerülnek."
+
+ FACTION_COUNTRY_SEPARATIST:0 "[parameter:owner.GetSpeciesAdj] szeparatisták"
+
+ # Generic Actions
+ FACTION_ACTION_SUPPRESS_FOLLOWERS:0 "Követők elnyomása"
+ FACTION_ACTION_SUPPRESS_FOLLOWERS_DESC:0 "A követők életének megnehezítése hatákony elrettentő faktor lehet."
+ FACTION_ACTION_SUPPRESS_FOLLOWERS_VALID:0 ""
+ FACTION_ACTION_ASSASSINATE_LEADER:0 "Vezér meggyilkolása"
+ FACTION_ACTION_ASSASSINATE_LEADER_DESC:0 "A frakció vezetőjének eltüntetése biztosan lecsillapítja őket, legalábbis egy időre."
+ FACTION_ACTION_ASSASSINATE_LEADER_INVALID:1 "Az elmúlt három hónapban nem volt merényletkísérlet a frakció vezérei ellen."
+ FACTION_ACTION_FAVOR:0 "Kegyelt"
+ FACTION_ACTION_FAVOR_DESC:0 "A rezsimhez hű emberek jutalmazása"
+ FACTION_ACTION_FAVOR_TOOLTIP:0 "§YKegyelt§! jelzőt kap §Y[Root.GetName]§! minden lakója, mely némileg növeli az elégedettséget."
+ FACTION_ACTION_FAVOR_INVALID:0 "Évente csak egyszer jutalmazhatunk valakit kedvencként, ennél gyakrabban hatástalanná válna."
+ FACTION_ACTION_TYRANNIZE:0 "Zsarnokság"
+ FACTION_ACTION_TYRANNIZE_DESC:0 "Szándékosan csökkenti a rezsim népszerűségét."
+ FACTION_ACTION_TYRANNIZE_TOOLTIP:0 "A §YZsarnokság§! módosítót kapja §Y[Root.GetName]§! összes Népe, ezzel jelentősen csökken a boldogságuk."
+ FACTION_ACTION_TYRANNIZE_INVALID:0 "Csak hat havonta lehet egy alattvalón zsarnokoskodni, ennél gyakrabban hatásnalanná válna."
+ ACCEPT_DEMANDS_NO_ACTIVE_DEMANDS:1 "§REnnek a frakciónak jelenleg nincsenek ügyei§!"
+
+ # Generic Support Effects
+ SUPPORT_EFFECT_RADICALIZATION:0 "Radikalizálódás veszélye"
+ SUPPORT_EFFECT_RADICALIZATION_DESC:0 "A radikális retorika ugársszerű növekedése növeli a szervezet harciasságát."
+ SUPPORT_EFFECT_REVOLT:0 "Lázadási kockázat"
+ SUPPORT_EFFECT_REVOLT_DESC:0 "A frakció egy fegyveres felkelést tervez az egyik kolóniánkon."
+ SUPPORT_EFFECT_RIOT:0 "Zavargási kockázat"
+ SUPPORT_EFFECT_RIOT_DESC:1 "A frakció tüntetni kezd és lerombolja a gyarmati világ épületeit."
+
+ # No Demands
+ POP_FACTION_NO_DEMANDS:1 "Nincsenek ügyei"
+ POP_FACTION_NO_DEMANDS_DESC:1 "A $FACTION$ frakció elkötelezte magát $COUNTRY$ mellett, ezért soha nem lesznek ügyeik."
+ POP_FACTION_NO_CURRENT_DEMANDS:1 "Nincsenek aktuális ügyeik"
+ POP_FACTION_NO_CURRENT_DEMANDS_DESC:1 "A $FACTION$ frakciónak jelenleg nincsenek ügyei."
+
+# No effects
+ POP_FACTION_NO_EFFECTS:0 "Nincs hatása."
+ POP_FACTION_NO_EFFECTS_DESC:0 "A $FACTION$ frakciónak soha nem lesz semmilyen hatása."
+ POP_FACTION_NO_CURRENT_EFFECTS:0 "Jelenleg nincs hatása."
+ POP_FACTION_NO_CURRENT_EFFECTS_DESC:0 "A $FACTION$ frakciónak jelenleg nincsenek hatásai."
+ 
+ ### SEPARATIST
+
+ # Separatist Demands
+ POP_FACTION_SEPARATIST_DEMAND_TITLE_1:0 "§H[parameter:planet.GetName]§! autonómiája"
+ POP_FACTION_SEPARATIST_DEMAND_DESC_1:0 "Új szektor megalapítása, amelynek §H[parameter:planet.GetName]§! a fővárosa."
+ POP_FACTION_SEPARATIST_DEMAND_TITLE_2:0 "§H[parameter:planet.GetName]§! függetlensége"
+ POP_FACTION_SEPARATIST_DEMAND_DESC_2:0 "§H[parameter:planet.GetName]§! felszabadítása egy független birodalom fővárosaként"
+ 
+ ### PLANET SEPARATISTS
+ POP_FACTION_PLANET_SEPARATIST_DEMAND_TITLE:1 "Független [parameter:Planet.GetName]"
+ POP_FACTION_PLANET_SEPARATIST_DEMAND_DESC:0 "A szeparatisták egy független §Y[parameter:Planet.GetName]§!t szeretnének."
+ POP_FACTION_PLANET_SEPARATIST_STRIKES_TITLE:0 "Sztrájk"
+ POP_FACTION_PLANET_SEPARATIST_STRIKES_DESC:0 "Munkaerő hiány miatt visszaesett a bolygó termelése"
+ POP_FACTION_PLANET_SEPARATIST_REBELLION_TITLE:0 "Lázadás"
+ POP_FACTION_PLANET_SEPARATIST_OCCUPIED:0 "A bolygót elfoglalták"
+ POP_FACTION_PLANET_SEPARATIST_COMBAT:0 "Felszíni összecsapás"
+ POP_FACTION_PLANET_SEPARATIST_LEADER_IS_RULER:0 "A frakcióvezető az uralkodó"
+ POP_FACTION_PLANET_SEPARATIST_REBELLION_DESC:1 "Mindegyik Nép egy a §Rvédelmi sereget§! hoz létre, és megpróbálja átvenni a bolygó feletti irányítást."
+ POP_FACTION_PLANET_SEPARATIST_GATHER_SUPPORT:0 "Támogatás megszilárdítása"
+ POP_FACTION_PLANET_SEPARATIST_GATHER_SUPPORT_DESC:0 "A szeparatisták támogatást szereznek vagy az ethosz megváltoztatása, vagy a többi Nép boldogságának csökkentése által."
+ POP_FACTION_PLANET_SEPARATIST_REORGANIZING:0 "Átszervezés"
+ POP_FACTION_PLANET_SEPARATIST_RECENTLY_FULL_SUPPORT:1 "A bolygón minden Nép a frakció tagja"
+ POP_FACTION_PLANET_SEPARATIST_IS_NOT_OCCUPIED:0 "A bolygó nincs megszállva"
+ POP_FACTION_PLANET_SEPARATIST_NO_GROUND_COMBAT:0 "A bolygón nincs felszíni összecsapás"
+ POP_FACTION_PLANET_SEPARATIST_GRANT_INDEPENDENCE_TITLE:0 "Függetlenség biztosítása"
+ POP_FACTION_PLANET_SEPARATIST_GRANT_INDEPENDENCE_DESC:0 "§Y[parameter:Planet.GetName]§! gyarmati bolygójának függetlenséget ad, és egy csatlós birodalommá válik."
+ POP_FACTION_PLANET_SEPARATIST_SABOTAGE_TITLE:0 "Zavargások"
+ POP_FACTION_PLANET_SEPARATIST_RECENT_SABOTAGE:0 "Felkelések a közelmúltban"
+ POP_FACTION_PLANET_SEPARATIST_SABOTAGE_DESC:0 "A bolygó zavargásai §Rromba döntöttek§! egy épületet."
+ POP_FACTION_PLANET_SEPARATIST_NOTHING_TO_RUIN:0 "Nincsenek sértetlen épületek"
+ 
+ ### Sector separatists
+ pft_sector_separatists:0 "Szektor szeparatisták"
+ pft_sector_separatists_desc:0 "A szektor szeparatisták olyan bolygókon jelenhetnek meg, amelyek szektorhoz tartoznak, és a szektort szertnék felszabadítani a birodalmi uralom alól. Elegendő népszerűségnél még akár hadba is szállnak.\n\n§HSzektor szeparatisták soha nem fognak a központi szektorunkban megjelenni.§!"
+ POP_FACTION_SECTOR_SEPARATIST_DEMAND_TITLE:1 "Független [parameter:sector.GetName] szektor"
+ POP_FACTION_SECTOR_SEPARATIST_DEMAND_DESC:0 "A szektor szeparatisták egy független §Y[parameter:sector.GetName]§!t szektort szeretnének."
+ POP_FACTION_SECTOR_SEPARATIST_GRANT_INDEPENDENCE_TITLE:0 "Függetlenség biztosítása"
+ POP_FACTION_SECTOR_SEPARATIST_GRANT_INDEPENDENCE_DESC:0 "§Y[parameter:sector.GetName] szektor§! bolygóinak függetlenné tétele."
+ POP_FACTION_SECTOR_SEPARATIST_IS_NOT_OCCUPIED:0 "Egyik szektor bolygót sem foglalták el"
+ POP_FACTION_SECTOR_SEPARATIST_NO_GROUND_COMBAT:0 "Egyik szektor bolygón nincsen felszíni harc"
+ 
+ 
+ 
+ ### NATIONALISTS
+
+ pft_nationalist:0 "Hazatelepítési frakció"
+ pft_nationalist_desc:0 "A hazatelepítési frakció Népei függetlenedni szeretnének birodalmunktól, hogy visszatérhessenek saját Birodalmukhoz. Más Népek is csatlakozhatnak hozzájuk, ha az idegen uralmat csábítóbbnak találják a mienknél."
+
+ POP_FACTION_NATIONALIST_DEMAND_TITLE:0 "§Y[parameter:country.GetName]§! számára visszaadás."
+ POP_FACTION_NATIONALIST_DEMAND_DESC:0 "Minden bolygót, melyen ezen frakció Népei találhatóak, visszaadsz §H[parameter:country.GetName]§! nemzetnek."
+ POP_FACTION_NATIONALIST_SABOTAGE_TITLE:0 "Szabotázs"
+ POP_FACTION_NATIONALIST_SABOTAGE_DESC:0 "A frakció tagjai §rombadöntöttek§! Egy épületet."
+ POP_FACTION_NATIONALIST_CORRUPTION_TITLE:0 "Korrupció"
+ POP_FACTION_NATIONALIST_CORRUPTION_DESC:1 "A termelés csökkent, minden bolygón ahol található Nép amely ehhez a frakcióhoz tartozik."
+ POP_FACTION_NATIONALIST_REBELLION_TITLE:0 "Lázadás"
+ POP_FACTION_NATIONALIST_REBELLION_DESC:1 "$POP_FACTION_PLANET_SEPARATIST_REBELLION_DESC$"
+ POP_FACTION_NATIONALIST_LEADER_IS_RULER:1 "A frakcióvezető az uralkodó"
+ POP_FACTION_NATIONALIST_RECENT_SABOTAGE:0 "Szabotázs a közelmúltban"
+ POP_FACTION_NATIONALIST_MEMBERS_OCCUPIED:0 "Megszállások"
+ POP_FACTION_NATIONALIST_MEMBERS_GROUND_COMBAT:0 "Felszíni összecsapás"
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_1_TITLE:0 "Integrációs hadjárat  1"
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_1_DESC:0 "Csökkenti a nacionalisták frusztrációját, segít nekik a társadalomba való beilleszkedésben."
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_2_TITLE:0 "Integrációs hadjárat  2"
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_2_DESC:0 "Csökkenti a nacionalisták frusztrációját, segít nekik a társadalomba való beilleszkedésben."
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_3_TITLE:0 "Integrációs hadjárat  3"
+ POP_FACTION_NATIONALIST_INTEGRATION_CAMPAIGN_3_DESC:0 "Csökkenti a nacionalisták frusztrációját, segít nekik a társadalomba való beilleszkedésben."
+ POP_FACTION_NATIONALIST_RELEASE_PLANETS_TITLE:0 "Bolygók visszaszolgáltatása"
+ POP_FACTION_NATIONALIST_RELEASE_PLANETS_DESC:0 "Visszaad minden bolygót, melyen ezen frakció Népei találhatóak, a §Y[parameter:country.GetName]§! nemzetnek."
+ POP_FACTION_NATIONALIST_RELEASE_PLANETS_OCCUPIED:0 "Egyik bolygó sincs megszállva"
+ POP_FACTION_NATIONALIST_RELEASE_PLANETS_COMBAT:0 "Egyik bolygón sincs felszíni ütközet."
+
+ ### SLAVES
+
+ slave_attraction_title:0 "§R---§!"
+ docile_slaves_attraction_desc:0 "Rabszolgasorban levő Népek mindig a rabszolga frakcióhoz tartoznak, az öntudatlan robotokat kivéve. Semmilyen más Nép nem fog csatlakozni.\n\n§HEz az érték a rabszolga Népek vonzódását mutatja, az engedelmes szolgák felé.§!"
+
+ malcontent_slaves_attraction_desc:0 "Rabszolgasorban levő Népek mindig a rabszolga frakcióhoz tartoznak, az öntudatlan robotokat kivéve. Semmilyen más Nép nem fog csatlakozni.\n\n§HEz az érték a rabszolga Népek vonzódását mutatja, az elégedetlen szolgák felé.§!"
+
+ purged_attraction_title:1 "§R---§!"
+ purged_attraction_desc:1 "A tisztogatás alatt álló Népek mindig a tisztogatás ellenes frakcióhoz tartoznak, kivéve az öntudatlan robotokat.\n\nMás Nép nem fog csatlakozni."
+
+ # Slave Demands
+ pft_slave:1 "Rabszolga frakció"
+ pft_slave_desc:1 "A rabszolga frakció birodalmunk rabszolgasorba taszított Népeiből áll. Első számú követelésük a felszabadítás.\n\n§HMinden rabszolga Nép automatikusan csatlakozik ehhez a frakcióhoz.§!"
+
+ pft_docile_slaves:0 "Engedelmes rabszolga frakció"
+ pft_docile_slaves_desc:0 "Az engedelmes rabszolga frakció birodalmunk rabszolgasorba taszított Népeinek egy részéből áll. Általánosságban engedelmesek, és csak jobb munkakörülményeket szeretnének.\n\n§HMinden rabszolga vagy az engedelmes vagy az elégedetlen frakcióhoz tartozik.§!"
+
+ pft_malcontent_slaves:0 "Elégedetlen rabszolga frakció"
+ pft_malcontent_slaves_desc:0 "Az elégedetlen rabszolga frakció birodalmunk rabszolgasorba taszított Népeinek egy részéből áll. Lázadozóak és felszabadítást akarnak.\n\n§HMinden rabszolga vagy az engedelmes vagy az elégedetlen frakcióhoz tartozik.§!"
+
+ pft_emancipation:0 "$POP_FACTION_SLAVE_DEMAND_TITLE_1$"
+ pft_emancipation_desc:1 "Ez a frakció a rabszolgaság végét szeretné."
+
+ POP_FACTION_DOCILE_SLAVES_DEMAND_TITLE_1:0 "Szabalyozott rabszolgatartás"
+ POP_FACTION_DOCILE_SLAVES_DEMAND_DESC_1:0 "Ennek a frakciónak a tagjai valamivel kényelmesebb rabszolga életet szeretnének a §HSzabályozott rabszolgatartás§!on keresztül."
+
+ POP_FACTION_MALCONTENT_SLAVES_DEMAND_TITLE_1:0 "$POP_FACTION_SLAVE_DEMAND_TITLE_1$"
+ POP_FACTION_MALCONTENT_SLAVES_DEMAND_DESC_1:0 "$POP_FACTION_SLAVE_DEMAND_DESC_1$"
+
+ POP_FACTION_SLAVE_DEMAND_TITLE_1:1 "Felszabadítás"
+ POP_FACTION_SLAVE_DEMAND_DESC_1:1 "Ebbe a frakcióba tartozó Népeknek egy követelése van: szabadnak lenni."
+ FACTION_ACTION_SLAVE_EMANCIPATE_ALL:0 "Rabszolgák felszabadítása"
+ FACTION_ACTION_SLAVE_EMANCIPATE_ALL_DESC:1 "Minden rabszolga Nép felszabadítása"
+
+ # Slave Actions
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_1:0 "Legalább §R4§! Nép van a frakcióban."
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_2:1 "Legalább §R6§! Nép van a frakcióban."
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_3:1 "Legalább §R8§! Nép van a frakcióban."
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_4:1 "Több mint §R10§! Nép van a frakcióban."
+
+
+ FACTION_ACTION_SLAVE_HARSH_TREATMENT:0 "Kíméletlen bánásmód"
+ FACTION_ACTION_SLAVE_HARSH_TREATMENT_DESC:0 "Rakd helyre a jobbágyokat."
+ FACTION_ACTION_SLAVE_FORCE_FEEDING:0 "Tömés"
+ FACTION_ACTION_SLAVE_FORCE_FEEDING_DESC:0 "Erőszakkal lásd el az éhségsztrájkolókat a szükséges tápanyagokkal."
+
+ docile_slaves_demand_fulfilled:0 "Követeléseik teljesülése után, ennek a frakciónak nem lesz több hatása., és nem lehet lépni ellenük."
+
+ ### EMANCIPATION MOVEMENT
+
+ # Emancipation Movement Demands
+ POP_FACTION_EMANCIPATION_DEMAND_TITLE_1:0 "Hat órás rabszolga munkanap"
+ POP_FACTION_EMANCIPATION_DEMAND_TITLE_2:0 "Minden rabszolga felszabadítása"
+ POP_FACTION_EMANCIPATION_DEMAND_TITLE_3:0 "Rabszolgaság betiltása"
+ POP_FACTION_EMANCIPATION_DEMAND_DESC_1:0 "Kötelező pihenőidő meghosszabbítása."
+ POP_FACTION_EMANCIPATION_DEMAND_DESC_2:0 "Minden [Root.Owner.GetName] rabszolgát elengedni a fogságból."
+ POP_FACTION_EMANCIPATION_DEMAND_DESC_3:0 "Letiltani a  §Yrabszolgaság engedélyezve§! politikát."
+
+ # Emancipation Movement Actions
+
+ # Emancipation Movement Support Effects
+
+ POP_FACTION_EMANCIPATION_STOKING_THE_FIRE:0 "A tűz szítása"
+ POP_FACTION_EMANCIPATION_STOKING_THE_FIRE_DESC:0 "A frakció ügynökei azon dolgoznak, hogy radikalizáljanak és felszereljenek Népeket."
+ POP_FACTION_EMANCIPATION_RECENT_STOKING_THE_FIRE:0 "A mozgalom meghúzta magát a legutóbbi sikeres radikalizálás után."
+ SUPPORT_EFFECT_EMANCIPATION_RADICALIZE_SLAVES:0 "Rabszolgák radikalizálása"
+ SUPPORT_EFFECT_EMANCIPATION_RADICALIZE_SLAVES_DESC:0 "Egy titkos, de koordinált kísérlet, a rabszolgafelkelés kivizsgálására."
+ SUPPORT_EFFECT_EMANCIPATION_SMUGGLE_OFF_WORLD:0 "Csillagközi vasút"
+ SUPPORT_EFFECT_EMANCIPATION_SMUGGLE_OFF_WORLD_DESC:0 "Egy rabszolga Népet kicsempésztek más világra, soha nem látjuk őket viszont."
+
+ ### PEACE MOVEMENT
+
+ # Demands
+ POP_FACTION_PEACE_DEMAND_TITLE_1:0 "Vége a háborúnak"
+ POP_FACTION_PEACE_DEMAND_DESC_1:0 "Vágj el minden diplomáciai kapcsolatot amely megköveteli, hogy részt vegyél a konfliktusban [parameter:enemy.GetName] ellen, és ajánlj feltétel nélküli békét."
+
+ # Actions
+
+ # Support Effects
+ SUPPORT_EFFECT_PEACE_STRIKE:0 "Sztrájk"
+ SUPPORT_EFFECT_PEACE_STRIKE_DESC:0 "A békéért tüntető Népek megtagadhatják a munkát, amely ideiglenes termelékenység visszaesést okozhat."
+ SUPPORT_EFFECT_PEACE_SABOTAGE:0 "Szabotázs"
+ SUPPORT_EFFECT_PEACE_SABOTAGE_DESC:0 "Figyuzzatok, szabotázs"
+
+ ### PURGED
+
+ pft_purged:0 "Tisztogatás ellenes frakció"
+ pft_purged_desc:1 "A tisztogatás ellenes frakció azokból a Népekből áll, amelyeket birodalmunk éppen tisztogat, és azokból akik szimpatizálnak a helyzetükkel. Első számú követelésük, hogy élhessenek.\n\n§HMinden Nép amit épp tisztogatunk automatikusan csatlakozik ehhez a frakcióhoz.§!"
+
+ # Demands
+ POP_FACTION_PURGED_DEMAND_TITLE_1:0 "Minden tisztogatás beszüntetése"
+ POP_FACTION_PURGED_DEMAND_DESC_1:0 "Véget vet a [Root.Owner.GetName] népei szisztematikus kiirtásának."
+
+ # Support Effects
+
+ SUPPORT_EFFECT_PURGED_DEATH_STRUGGLE:0 "Haláltusa"
+ SUPPORT_EFFECT_PURGED_DEATH_STRUGGLE_DESC:0 "A tisztogatásra ítéltek és támogatóik véletlenszerű pusztítást vihetnek véghez."
+ SUPPORT_EFFECT_PURGED_DEATH_REBELLION:0 "Tisztogatás lázadás"
+ SUPPORT_EFFECT_PURGED_DEATH_REBELLION_DESC:0 "Azok akik tisztogatásra vannak ítélve, lehet nem vesznek szó nélkül a homályba, helyette lázadó milíciát alapítanak."
+
+ ### LIBERATE
+
+ # Demands
+ POP_FACTION_LIBERATE_DEMAND_TITLE_1:0 "§H[parameter:planet.GetName]§! felszabadítása"
+ POP_FACTION_LIBERATE_DEMAND_DESC_1:0 "Hadüzenet [parameter.enemy.GetName] népének [parameter:planet.GetName] bolygó visszaszerzésére."
+
+ # Support Effects
+ SUPPORT_EFFECT_LIBERATE_INSULT_HIJACK:0 "Kommunikáció eltérítése"
+ SUPPORT_EFFECT_LIBERATE_INSULT_HIJACK_DESC:0 "A [Root.GetName] megmérgezi diplomáciai kapcsolatunkat §H[parameter:enemy.GetName]§! népeivel."
+ SUPPORT_EFFECT_LIBERATE_HAWKISH_REBELS:0 "Háborús lázadási kockázat"
+ SUPPORT_EFFECT_LIBERATE_HAWKISH_REBELS_DESC:0 "A [Root.GetName] felkel a gyáva [Root.Owner.GetSpeciesAdj] kormánya ellen"
+
+ ### XENOSLAVER
+
+ # Demands
+ POP_FACTION_XENOSLAVER_DEMAND_TITLE_1:0 "Xeno rabszolgasítás"
+ POP_FACTION_XENOSLAVER_DEMAND_DESC_1:0 "Az összes §H[parameter:xeno.GetSpeciesAdj]§! §YNép§! rabszolgasorsba taszítása."
+
+ # Actions
+
+ # Support Effects
+ SUPPORT_EFFECT_XENOSLAVER_TAKE_SLAVES:0 "Törvényen kívüli rabosítás"
+ SUPPORT_EFFECT_XENOSLAVER_TAKE_SLAVES_DESC:0 "Harcias frakciók illegálisan szolgálatukba állíthatnak Népeket."
+ SUPPORT_EFFECT_XENOSLAVER_SLAVER_CONFEDERACY:0 "Rabszolga konföderáció"
+ SUPPORT_EFFECT_XENOSLAVER_SLAVER_CONFEDERACY_DESC:0 "A frakció egy fegyveres felkeléshez mozgósít."
+
+ ### CRUSADER
+
+ # Demands
+ POP_FACTION_CRUSADE_DEMAND_TITLE_1:0 "Kereszteshadjárat"
+ POP_FACTION_CRUSADE_DEMAND_DESC_1:0 "Szent háborút indítása a pogány [parameter:heathens.GetName] ellen."
+
+ # Actions
+
+ # Support Effects
+ SUPPORT_EFFECT_CRUSADE_INSULT:0 "Arcátlan szentségtörés"
+ SUPPORT_EFFECT_CRUSADE_INSULT_DESC:0 "A [Root.GetName] a [parameter:heathens.GetName]t okolja, emiatt romlik a diplomáciai kapcsolat."
+ SUPPORT_EFFECT_CRUSADE_INSURRECTION:0 "Kultista felkelés"
+ SUPPORT_EFFECT_CRUSADE_INSURRECTION_DESC:0 "[Root.GetName] puccsot indít egy kolónián."
+
+ ### CONQUEROR
+
+ # Support Effects
+ SUPPORT_EFFECT_CONQUER_INSULT:0 "Sértő közlemény"
+ SUPPORT_EFFECT_CONQUER_INSULT_DESC:0 "A [Root.GetName] egy sértő közleményt küldd, mely növeli köztünk és §H[parameter:foreign_power.GetName]§! között a feszültséget."
+
+ ### PRETENDER
+
+ pft_pretender:0 "Trónkövetelő frakció"
+ pft_pretender_desc:0 "A trónkövetelő támogatói ehhez a frakcióhoz közelednek, és azon munkálkodnak, hogy uralkodói pozícióba helyezzék."
+
+ POP_FACTION_PRETENDER_ATTRITION_TITLE:0 "Lemorzsolódás"
+ POP_FACTION_PRETENDER_ATTRITION_DESC:0 "Egy Nép elveszíti az érdeklődését ebben az ügyben ezért, §Gdezertál a frakcióból§!."
+ POP_FACTION_PRETENDER_DEMAND_TITLE:0 "A trón feladása §Y[parameter:pretender.GetName]§! javára"
+ POP_FACTION_PRETENDER_DEMAND_DESC:0 "[Root.Owner.GetRulerTitle] §Y[Root.Owner.GetRulerName]§! Száműzve lesz, és §Y[parameter:pretender.GetName]§! veszi át a trónt."
+ POP_FACTION_PRETENDER_INSTALL_TITLE:0 "Trónkövetelő hatalomra juttatása"
+ POP_FACTION_PRETENDER_INSTALL_DESC:0 "§Y[parameter:pretender.GetName]§! új uralkodóként való beiktatása."
+ 
+ ########################################
+ # FACTION EVENTS
+ ########################################
+ 
+ ### New Events
+ factions.1.title:0 "Frakciót hoztak létre"
+ factions.1.desc:0 "[Root.Owner.GetName] politikai életében egy új frakció kezdett egyre inkább vonzóvá válni. Önmaguknak a(z) [Root.GetName] nevet adták, és [Root.Leader.GetName] [Root.Leader.GetTitle] vezetése alatt a tagjaik erősen agitálnak az őket érintő különféle témák figyelembe vétele céljából.\n\nA jövőben további frakciók megjelenésére számíthatunk, ahogy a népességünk növekszik és az ethoszuk más irányokba sodródik. Egy elégedetlen frakció bajt fog okozni, ugyanakkor a kormány lépéseivel egyetértő frakciók még hasznosnak bizonyulhatnak..."
+ factions.1.desc.start:0 "[Root.Owner.GetName] politikai életében egy új frakció kezdett egyre inkább vonzóvá válni. §H[Root.Leader.GetName] [Root.Leader.GetTitle]§! irányítása alatt új nevet adtak maguknak: §H[Root.GetName]§!. "
+ factions.1.desc.firstfinisher:0 "Egy elégedetlen frakció bajt fog okozni, ugyanakkor egy, a kormány lépéseivel egyetértő frakció még hasznosnak bizonyulhat..."
+ factions.1.desc.imperialist:0 "A tagjaik erősen agitálnak amellett, hogy a katonai uralmunkat a galaxis többi részére is kiterjesszük.\n\n"
+ factions.1.desc.isolationist:0 "A tagjaik a lezárt határok és a galaktikus ügyektől való távolmaradás mellett agitálnak.\n\n"
+ factions.1.desc.progressive:0 "A tagjaik a birodalmunk összes lakóinak egyenlősége és igazságossága céljából dolgoznak.\n\n"
+ factions.1.desc.prosperity:1 "A tagjaik a pénzügyi növekedést és a békés eszközökkel kivívható stabilitást szorgalmazó nemzeti politikákra összpontosítanak.\n\n"
+ factions.1.desc.supremacist:0 "A tagjaik a(z) [Root.Owner.GetSpeciesAdj] faj felsőbbrendűségének elismerésére törekednek, még akkor is, ha ez az idegenek jogainak megrövidítésével jár.\n\n"
+ factions.1.desc.technologist:0 "A tagjaik a tudományos kutatás továbbfejlesztése mellett szállnak síkra.\n\n"
+ factions.1.desc.totalitarian:0 "A tagjaik a politikai és katonai hatalom szélsőséges központosítása mellett szállnak síkra.\n\n"
+ factions.1.desc.traditionalist:0 "A tagjaik spirituális és konzervatív értékeket képviselnek.\n\n"
+ factions.1.desc.xenoist:0 "A tagjaik az idegen fajokkal folytatott kapcsolatok továbbfejlesztése mellett szállnak síkra.\n\n"
+ 
+ factions.2000.title:0 "Kormányzati ethoszok sodrodása: [TargetFaction.Owner.GetName]"
+ factions.2000.desc.start:0 "A(z) §Y[TargetFaction.GetName]§! hosszú ideje tartó támogatása után a(z) §Y[TargetFaction.Owner.GetName]§! végre magáévá tette a frakciót és elfogadta annak alapvető értékeit és politikáit."
+ factions.2000.desc.imperialist:0 "A frakció kormányba való bevonása eredményeképpen egyre inkább §Hmilitaristává§! váltak.\n\n"
+ factions.2000.desc.isolationist:0 "A frakció kormányba való bevonása eredményeképpen egyre inkább §Hxenofóbbá§! váltak.\n\n"
+ factions.2000.desc.progressive:0 "A frakció kormányba való bevonása eredményeképpen egyre inkább §Hegalitarianistává§! váltak.\n\n"
+ factions.2000.desc.prosperity:0 "A frakció kormányba való bevonása eredményeképpen egyre inkább §Hpacifistává§! váltak.\n\n"
+ factions.2000.desc.supremacist:0 "A frakció kormányba való bevonása eredményeképpen egyre inkább §Hxenofóbbá§! váltak.\n\n"
+ factions.2000.desc.technologist:0 "A frakció kormányba való bevonása eredményeképpen egyre inkább §Hmaterialistává§! váltak.\n\n"
+ factions.2000.desc.totalitarian:0 "A frakció kormányba való bevonása eredményeképpen egyre inkább §Hautoriterré§! váltak.\n\n"
+ factions.2000.desc.traditionalist:0 "A frakció kormányba való bevonása eredményeképpen egyre inkább §Hspiritualistává§! váltak.\n\n"
+ factions.2000.desc.xenoist:0 "A frakció kormányba való bevonása eredményeképpen egyre inkább §Hxenofillé§! váltak.\n\n"
+ 
+ ### Loyalists
+ faction.4.title:0 "Lojalista követelések"
+ faction.4.desc:0 "A lojalisták elkötelezettek a [Root.Owner.GetName] bolygón uralkodó [Root.Owner.GetRulerName] [Root.Owner.GetRulerTitle] iránt, és nincs követelésük."
+
+ ### Slaves
+ faction.6.title:0 "Éhségsztrájk!"
+ faction.6.desc:0 "[Root.Owner.GetName] rabszolgái összegyűltek, hogy szándékos éhezéssel szabotálják a termelési eszközeinket - a testüket. A [Root.GetName] frakció tagjai szabályosan §Ymegtisztítják§! maguktól [Root.Owner.GetName]-t.\n\nHa ez a helyzet sokáig ellenőrizetlen marad, fenn áll a veszélye, hogy elveszítjük a rabszolgáink egy jelentős részét. Hagyhatjuk nyomorultakat meghalni, vagy kereshetünk valami megoldást, hogy elbánjunk ezzel a zabolátlan frakcióval."
+
+ faction.7.title:0 "Rabszolga felkelés!"
+ faction.7.desc:0 "[slave_planet.GetName] rabszolgái felkeltek gazdáik ellen, egy illegális rabszolga koalició alakításával akarják megtörni [Root.Owner.GetName] törvényes uralmát!"
+
+ faction.8.title:0 "Tömés"
+ faction.8.desc:0 "Egy rabszolga teste nem az ő tulajdona, hogy megsebezze vagy visszatartsa.\n\nFelelőtlen tisztogatásuk véget ért, és minden érintett aki él megfelelő mennyiségű tápanyagot kapott."
+
+ faction.10.title:0 "Rabszolgalázadás!"
+ faction.10.desc:0 "A széleskörű nyugtalanság [unrest_planet.GetName] rabszolgáinak körében negatívan hat a termelékenységükre."
+ faction.10.desc.colle:0 "Émelygés terjed a [Root.Owner.GetName] rabszolgák soraiban, melynek középpontja [unrest_planet.GetName] holdja:[unrest_planet.GetPlanetMoon] ."
+ faction.10.a.tooltip:0 "§H[unrest_planet.GetName]§! §Hrabszolga népei§! §Rnyugtalanság§! Módosítót kapnak §Y4 évig§!."
+
+ faction.15.title:0 "Rabszolga erőszak!"
+ faction.15.desc:0 "Elhagyott rabszolgákból álló kósza csőcselék erőszakos ütközetbe keveredett a népesség más tagjaival [roving_gangs_planet.GetName] felszínén. Az összecsapás eredménye képpen egy Nép meghalt.\n\nA hozzátartozók reakcióját egyelőre homály fedi."
+ faction.15.a.tooltip:0 "[roving_gangs_planet]:\n§Y1 Nép§! §Rmeghalt§!."
+
+ faction.50.title:0 "Csillagközi vasút!"
+ faction.50.desc:0 "Úgy tűnik, néhány radikálisabb része a rabszolga populációnknak összefogott, hogy eltávolítsák [Root.Owner.GetAdj] területeiről a rabszolgákat.\n\nNem tudjuk, hogy ekkora bűntényt hogyan követtek el, de abban biztosak vagyunk, hogy a rabszolgák most már szabadok, valahol [Root.Owner.GetAdj] határain túl."
+ faction.50.desc.colle:0 "Jó néhány rabszolga kicsempészésével [Root.Owner.GetAdj] határain kívülre egy félrevezetett frakció jónak látta [Root.Owner.GetName] megsebzését.\n\nIdővel meggyógyulunk, és reméljük, hogy az elveszettek végső soron visszatalálnak [Root.Owner.GetName] nemzetéhez, életük értelméhez."
+ faction.50.a:0 "De kár."
+ faction.50.1.tooltip:0 "[Root.Owner.GetName]:\nNép rabszolgásítása: §R-1§!"
+ faction.50.3.tooltip:0 "[Root.Owner.GetName]:\nNép rabszolgásítása: §R-3§!"
+ faction.50.4.tooltip:0 "[Root.Owner.GetName]:\nNép rabszolgásítása: §R-4§!"
+ faction.50.5.tooltip:0 "[Root.Owner.GetName]:\nNép rabszolgásítása: §R-5§!"
+
+ faction.55.title:0 "Elégedetlen rabszolga zavargás!"
+ faction.55.desc.colle:0 "A [Root.GetName] frakció egy részét elragadta a vágy, hogy ártson [Root.Owner.GetName] nemzetének. Elpusztítottak egy termékeny létesítményt a [riots_planet.GetName] bolygón. Csak feltételezni tudjuk, hogy bármilyen károsodás is gátolja meg őket, hogy elfogadják helyüket [Root.Owner.GetAdj] részeként, az hajtja őket az önkárosítás körforgásában is."
+ faction.55.desc:0 "Lázadozó rabszolgák romba döntöttek  egy épületet [riots_planet.GetName] felszínén. Meg kell javítani mielőtt a termelést folytathatnánk."
+
+ faction.60.title:0 "Elégedetlen rabszolga lázadás!"
+ faction.60.desc:0 "A rabszolgáink radikálisabb része - egyesek szerint nem meglepő módon - fegyvert fogott jogos uralmunk ellen.\n\nJelentések szerint, a nyugtalanság [revolt_planet.GetName] felszínén kezdődött, és már tovább is terjedhetett."
+ faction.60.desc.colle:0 "A [Root.Owner.GetName] dicsőségéért és jobbá tételéért a kétkezű munkások között kirobbant nézeteltérés elérte a robbanáspontot.\n\nLimitált képességük nem engedi, hogy lássák a nagyobb képet, és az ő helyüket benne, ezért nyílt lázadást indítottak [revolt_planet.GetName] bolygó [revolt_planet.GetPlanetMoon] holdján, és nemsokára más világok is követhetik őket."
+ faction.60.a:0 "Katasztrófa."
+ faction.60.b:0 "Tudatlan bolondok..."
+ faction.60.a.tooltip:0 "Az §Helégedetlen rabszolgák§! frakció §Yfellázad§!!"
+
+ faction.80.title:0 "Radikalizálódott rabszolgák!"
+ faction.80.desc:0 "A helyi [Root.GetName] tagjai, úgy tűnik sikeresen radikalizáltak [Root.Owner.GetAdj] számos rabszolgáját, megerősítve az elégedetlen rabszolgák erőit."
+
+ ### Separatists
+ # From = pop faction
+ # Parameters = planet
+
+ pft_planet_separatists:0 "Bolygóközi szeparatista frakció"
+ pft_planet_separatists_desc:0 "Bolygóközi szeparatisták gyarmatosított világokon jelenhetnek meg, és a bolygó birodalmi uralom alól való felszabadítására törekszenek. Elegendő népszerűségnél még akár hadba is szállnak.\n\n§HBolygóközi szeparatisták csak közvetlenül irányított bolygókon jelennek meg§!"
+
+ # Separatists rebel
+ faction.100.title:0 "Szeparatista lázadás!"
+ faction.100.desc:3 "A nyugtalanság on [planet.GetName] felszínén elérte a kirtikus tömeget. A helyi szeparatista frakció fegyveres felkelést indított, hogy átvegye a bolygó feletti irányítást."
+
+ # Separatists riot
+ faction.101.title:1 "Szeparatista zavargások!"
+ faction.101.desc:1 "A polgári nyugtalanság §Y[planet.GetName]§! bolygón elérte a robbanás pontot. §Y[Root.GetName]§! tagjai az utcákon fosztogatnak és gyújtogatnak.\n\nA jelentések szerint egy nagyobb létesítmény rombadőlt."
+
+ # Separatist leader assassinated
+ faction.102.title:1 "Meggyilkolták a frakcióvezért!"
+ faction.102.desc:1 "[Root.Leader.GetName] vezér váratlan halálát követően [Root.GetName] káoszba süllyedt.\n\nA [Root.Owner.GetSpeciesAdj] nyilvánossága számára ez egy [Root.GetName] tagjai közötti belső hatalmi harc következménye. Habár már hatalomra lépett egy új vezér, az incidens a népszerűség csökkenését eredményezte."
+
+ # Separatist sector created
+ faction.103.title:0 "Szektor létrehozva!"
+ faction.103.desc:0 "[Root.GetName] egy szinte önálló szektort kapott, melynek helyi kormánya [parameter:planet.GetName] felszínén található."
+
+ faction.104.title:0 "Birodalom felszabadítva!"
+ faction.104.desc:0 "Hogy lecsillapítsuk, és hatásosan eltávolítsuk a szeparatistákat, [parameter:planet.GetName] gyarmata függetlenedett [Root.Owner.GetName] rendszereitől.\n\n[Root.GetName] saját nemzetet alapított."
+
+ ### Crusaders
+
+ # Crusaders want to a crusade to against the heathens, conquer their capital
+ faction.200.title:0 "[Root.GetName] Megbélyegzett pogány [parameter:heathens.GetName]!"
+ faction.200.desc:1 "Kijelölnek egy területet egy idegen erő fővárosán és át akarják venni."
+
+ holy_war_title:0 "Szent háború"
+ holy_war_desc:0 "Kereszteshadjárat vezetése [parameter:heathens.GetName] ellen."
+ holy_war_1_poi:0 "Fő naprendszer"
+ holy_war_1_poi_desc:0 "A pogányok bolygója"
+ profane_planets_seized:0 "Szentségtörő bolygók megtisztítva"
+
+ # Capital conquered
+ faction.201.title:0 "Pogány főváros elfoglalva"
+ faction.201.desc:0 "Az eltorzult templomaik után az isteneik elhagyták őket."
+
+ faction.202.title:0 "[parameter:heathens.GetName] megsértve"
+ faction.202.desc:0 "Egy kínos biztonsági hiba [Root.GetName] rövid ideig hozzáférést szerzett a diplomatikus csatornáinkhoz. Kihasználva az alkalmat eretnekségük és hitükkel járó morális hibáik miatt elítélték és inzultálták a [parameter:heathens.GetName]t.\n\nAz incidens nem esett jól a mélyen vallásos [parameter:heathens.GetSpeciesPlural] nemzetnek."
+ faction.202.a:0 "Milyen kínos."
+ faction.202.a.tooltip:0 "§Y[parameter:enemy.GetName]§! hozzáadja §Yfrakció inzultált§! vélemény módosítót a §Ybirodalmunkkal§! szemben."
+ faction.203.title:0 "Megkísérelt sértés"
+ faction.203.desc:0 "Ismét egy kínos biztonsági hiba [Root.GetName] rövid ideig hozzáférést szerzett a diplomatikus csatornáinkhoz. Ismét kihasználták az alkalmat, hogy ócsárolják a [parameter:heathens.GetName] pogány hitvallást.\n\nUgyanakkor a [parameter:heathens.GetSpeciesPlural] érthetően nem lepődtek meg a megismétlődött incidensen, és látszólag nem törődtek vele."
+ faction.203.a:0 "Sóhaj..."
+
+ faction.204.title:0 "Vallási felkelés!"
+ faction.204.desc:0 "Jelentések érkeztek, miszerint a [Root.GetName] fegyveres felkelést tervez [planet.GetName] nevű bolygónkon.\n\nA felkelésük még gyermekcipőben jár, és javasolt lenne csírájában elfojtani."
+ faction.204.a:0 "Rendben."
+ faction.204.a.tooltip:0 "[planet.GetName]:\nFelkelés!"
+
+ ### Nationalists
+ faction.301.title:2 "Nacionalista szabotázs!"
+ faction.301.desc:2 "A [Root.GetName] radikális tagjai romba döntöttek egy épületet a [planet.GetName] bolygó [planet.GetPlanetMoon] nevű holdján."
+ faction.301.desc.phobe:0 "[Root.GetName] xeno állatai rombadöntöttek egy épületet a [planet.GetName] bolygón, hogy életmódunk eltörlésének érdekében ártsanak [Root.Owner.GetAdj] népének."
+ faction.301.desc.phile:0 "A [Root.GetName] egyébként szeretetre méltó tagjai úgy gondolták, hogy uralkodásunkkal való elégedetlenségüket úgy fejezik ki, hogy kikapcsolják - egyesek szerint szabotálják - [planet.GetName] felszínén az egyik épületet."
+
+ faction.302.title:1 "Nacionalista lázadás!"
+ faction.302.desc:3 "A  népszerűségtől felbátorodva, [Root.GetName] fegyvert ragadt, és erőszakkal kísérli meg visszaszerezni a területeit."
+ faction.302.desc.phobe:0 "A [Root.GetName] lázadó xenói egy nyílt lázadással próbálják megdönteni [Root.Owner.GetAdj] uralmát."
+ faction.302.desc.phile:0 "Felismervén, hogy követeléseiknek nem teszünk eleget, [Root.GetName] egy nyílt lázadásban felkelt ellenünk."
+
+ ### Peace Movement
+
+ faction.400.title:0 "Flotta szabotálva!"
+ faction.400.desc:0 "Valamikor [From.GetName] radikális tagjai sikeresen behatoltak legalább egy [Root.Owner.GetSpeciesAdj] katonai hajóba, hogy oda robbanószereket telepítsenek. Ezeket a robbanószerkezeteket most működésbe hozták, elpusztítva [Root.GetName] egészét.\n\n[From.GetName] vezére, [From.Leader.GetName] kiadott egy nyilatkozatot, mely szerint ez a lépés az erőszak gyűlöletes természetére utal általánosságban, közvetlenül pedig [Root.Owner.GetName] és [From.parameter:enemy.GetName] közötti fegyveres konfliktusra."
+ faction.400.a:0 "Képmutatók."
+ faction.400.a.tooltip:0 "§R[Root.GetName] megsemmisítve.§!"
+
+ faction.401.title:0 "Hadiállapot megszüntetése"
+ faction.401.desc:0 "Megszakítottunk minden olyan diplomáciai kapcsolatot, amely a [From.parameter:enemy.GetName] elleni konfliktust tette kötelezővé, és status quo békejavaslatot tettünk."
+ faction.401.a:0 "Reméljük boldogak ezzel."
+
+ faction.402.title:0 "Hadiállapot megszüntetése"
+ faction.402.desc:0 "Status quo békét ajánlottunk [From.parameter:enemy.GetName] részére, remélhetőleg végetvetve a háborúnak."
+ faction.402.a:0 "Mire jó ez?"
+
+ ### Liberation Faction
+
+ faction.501.title:0 "[parameter:enemy.GetName] megsértve"
+ faction.501.desc:0 "Egy kínos biztonsági hiba [Root.GetName] rövid ideig hozzáférést szerzett a diplomatikus csatornáinkhoz. A lehetőséget kihasználva mélyen megsértették [parameter:enemy.GetName] nemzetét, és követelték [parameter:planet.GetName]. bolygó azonnali visszaszolgáltatását.\n\nEz az akció nem tetszett különösebben [parameter:enemy.GetSpeciesPlural] népének."
+ faction.501.a:0 "Milyen kínos."
+ faction.501.a.tooltip:0 "§Y[parameter:enemy.GetName]§! hozzáadja §Yfrakció inzultált§! vélemény módosítót a §Ybirodalmunkkal§! szemben."
+ faction.502.title:0 "Megkísérelt sértés"
+ faction.502.desc:0 "Ismét egy kínos biztonsági hiba [Root.GetName] rövid ideig hozzáférést szerzett a diplomatikus csatornáinkhoz. Ismét kihasználták az alkalmat, hogy mélyen megsértsék a [parameter:enemy.GetName] nemzetét és követeljék [parameter:planet.GetName]. bolygó azonnali visszaszolgáltatását.\n\nUgyanakkor a [parameter:enemy.GetSpeciesPlural] érthetően nem lepődött meg a megismétlődött incidensen, és látszólag nem törődtek vele."
+ faction.502.a:0 "Sóhaj..."
+ faction.503.title:0 "Háborús lázadás!"
+ faction.503.desc:0 "Jelentések érkeztek, miszerint a [Root.GetName] radikális tagjai jól szervezett, lázadó miliciákat hoztak létre [planet.GetName] nevű bolygónkon.\n\nA felkelésük még gyermekcipőben jár, és javasolt lenne csírájában elfojtani."
+ faction.503.a:0 "Rendben."
+ faction.503.a.tooltip:0 "[planet.GetName]:\n§RLázadás!§!"
+
+ ### Emancipation Faction
+ faction.600.title:0 "Radikalizált rabszolgák"
+ faction.600.desc:0 "A [Root.GetName] tagjai állítólag nézeteltérést szítanak a rabosított lakosság köreiben. Az a hír járja, hogy [parameter:slave_faction.GetName] szélsőségeseit kiképzik és felfegyverzik, de ez olyan felháborítóan hangzik, hogy nem lehet igaz."
+ faction.600.a:0 "Ennek ellenére aggasztó."
+ faction.600.a.tooltip:0 "[parameter:slave_faction.GetName]:\n§R+50%§! Harciasság\n§R+30%§! Támogatás"
+ faction.601.title:0 "A csillagközi vasút"
+ faction.601.desc:0 "Elért minket egy hír, miszerint a [Root.GetName] radikálisabb tagjai felszabadítottak egy csoport rabszolgát a [railroad_planet.GetName] bolygón, és elmenekítették oda ahol [Root.Owner.GetName] nem éri el őket."
+ faction.601.a:0 "Jobban kell rájuk figyelnünk."
+ faction.601.a.tooltip:0 "[railroad_planet.GetName]:\nRabosított népek: §R-1§!"
+
+ ### Xenoslaver Faction
+ faction.700.title:0 "Elrabolt rabszolgák!"
+ faction.700.desc:0 "A fanatikus [Root.GetName] állítólag szolgálatába kényszerített [Root.Owner.GetName]felszínén élő nem [Root.Owner.GetSpeciesAdj] Népet."
+ faction.700.a:0 "Ez felháborító."
+ faction.700.a.tooltip:0 "Rabszolgák:\n§Y+2§! Nép"
+
+ faction.701.title:0 "A [parameter:rebelling_faction.GetName] lázadás"
+ faction.701.desc:0 "[Root.Owner.GetName] közöttünk élő, állatias idegenekhez való puhány hozzáállását megunva, az állítólagos rabszolga tulajdonosok a [parameter:planet.GetName] bolygón megalapították a közösségek konföderációját, és kikiáltották függetlenségüket."
+ faction.701.a:0 "Igazán, igazán, igazán felháborító."
+
+ ### Purged Faction
+ faction.801.title:0 "Haláltusák"
+ faction.801.desc:0 "Elkeseredettség miatt pár egyén a tisztogatásra ítéltetett [riot_planet.GetName] felszínén úgy döntött, hogy megtámad és felgyújt egy létesítményt a bolygón."
+
+ faction.803.title:0 "A [Root.GetName] lázadás!"
+ faction.803.desc:0 "Elkeseredettség miatt a tisztogatásra ítéltetett [death_planet.GetName] felszínén egy népcsoport fegyvert ragadt, és roskatag erejével lázadást indított [Root.Owner.GetName] ellen."
+ #mockup: "\n\n\n§HSuppress Followers§!\nCost: £influence£ §R150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
+ #mockup2: "\n\n\n§HSuppress Followers§!\nCost: £influence£ §Y150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
+
+ henrik.1234.name:0 "§HIdőgyorsított primitívek§!: Frissítés"
+ henrik.1234.desc:0 "A §YTerra-1444§! primitív világa körül keringő megfigyelő űrállomás elkészítette a jelentését a közelmúlt eseményeiről.\n\n§S--- --- ---§!\n\nBolygó időszámítás szerinti §Y1698§!:\nEgy §Yvalószínűtlen diplomáciai szövetség§! váratlanul megakadályozott egy §Yközelgő háborút§! egy §Yfiatal uralkodó ellen§! az §Yészak-európai kontinensen§!.\n\n§S--- --- ---§!\n\nBolygó időszámítés szerinti §Y1700§!:\nAz §Yegyre betegesebb Habsburg alfaj tagai§! kihaltak az §YEurópa§! §YSpanyolország§! nevű alrégiójában.\n\n§S--- --- ---§!\n\nBolygó időszámítás szerinti §Y1702§!:\n§YEurópa nyugati és délnyugati§! területein felborult az erőegyensúly, ami végül egy §Yvéres összecsapáshoz vezetett§!."
+ henrik.1234.a:0 "Imádkozunk azért, hogy ezek a vademberek soha ne jussanak túl a bolygójukon."
+
+ henrik.12344.name:0 "§HPrimitívek§!: Frissítés"
+ henrik.12344.desc:0 "A §Y34. Rjukju agressziós háború§! lezárulásával a §YFöld-5§! primitív világa egyetlen kormányzat alatti egyesülés küszöbén áll."
+ henrik.12344.b:0 "De ha rajtunk múlik, akkor soha, §RDDRJake§! sógun."
+ henrik.12344.b.tooltip:0 "Készítsék elő az összes sereget a §Ycsillagközi invázióra§!."
+ henrik.12344.a:0 "Imádkozunk azért, hogy ezek a vademberek soha ne jussanak túl a bolygójukon."
+ SUPREMACIST_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "Aggressive First Contact Protocols"
+ SUPREMACIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "$SUPREMACIST_AGGRESSIVE_FIRST_CONTACT_POLICY$"
+ SUPREMACIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY_DESC:0 "The [Root.GetName] demand that we have the right to take all necessary measures against unknown threats we may encounter as we travel the stars."
+ SUPREMACIST_OPPRESSIVE_SUBJUGATION_POLICY:0 "Oppressive Subjugation Policy"
+ SUPREMACIST_NO_OPPRESSIVE_SUBJUGATION_POLICY:0 "$SUPREMACIST_OPPRESSIVE_SUBJUGATION_POLICY$"
+ SUPREMACIST_NO_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Our subjects are here to serve us, and they should always know it. Showing leniency towards them will upset the [Root.GetName]."
+ XENOIST_PROACTIVE_FIRST_CONTACT_POLICY:0 "Proactive First Contact Protocols"
+ XENOIST_ADOPT_PROACTIVE_FIRST_CONTACT_POLICY:0 "$XENOIST_PROACTIVE_FIRST_CONTACT_POLICY$"
+ XENOIST_PROACTIVE_FIRST_CONTACT_POLICY_DESC:0 "Enshrining a peaceful and §Yproactive§! approach to establishing first contact into our law codes will please the [Root.GetName] in this age of exploration."
+ XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "Aggressive First Contact Protocols"
+ XENOIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "$XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY$"
+ XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY_DESC:0 "Failure to legislate against §Yaggression§! towards those we meet in our travels will displease the [Root.GetName] in this age of exploration."
+ XENOIST_OPPRESSIVE_SUBJUGATION_POLICY:0 "Oppressive Subjugation Policy"
+ XENOIST_NO_OPPRESSIVE_SUBJUGATION_POLICY:0 "$XENOIST_OPPRESSIVE_SUBJUGATION_POLICY$"
+ XENOIST_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Our mission should be to bring enlightenment and prosperity to the galaxy. Subjects should be nurtured, and exploiting them will displease the [Root.GetName]."
+ XENOIST_BENEVOLENT_SUBJUGATION_POLICY:0 "Benevolent Subjugation Policy"
+ XENOIST_ADOPT_BENEVOLENT_SUBJUGATION_POLICY:0 "$XENOIST_BENEVOLENT_SUBJUGATION_POLICY$"
+ XENOIST_BENEVOLENT_SUBJUGATION_POLICY_DESC:0 "Taking care of our subjects and helping them grow will please the [Root.GetName]."
+ IMPERIALIST_BULWARK:0 "$IMPERIALIST_UNDERLING$"
+ IMPERIALIST_NOT_BULWARK:0 "$IMPERIALIST_UNDERLING$"
+ IMPERIALIST_BULWARK_DESC:0 "Being a non-Bulwark subject of a foreign §YOverlord§! will greatly displease the [Root.GetName]."
+ IMPERIALIST_BENEVOLENT_SUBJUGATION_POLICY:0 "Benevolent Subjugation Policy"
+ IMPERIALIST_NO_BENEVOLENT_SUBJUGATION_POLICY:0 "$IMPERIALIST_BENEVOLENT_SUBJUGATION_POLICY$"
+ IMPERIALIST_BENEVOLENT_SUBJUGATION_POLICY_DESC:0 "The strong rule; the weak serve. Showing compassion towards our subjects will upset the [Root.GetName]."
+ IMPERIALIST_OPPRESSIVE_SUBJUGATION_POLICY:0 "Oppressive Subjugation Policy"
+ IMPERIALIST_ADOPT_OPPRESSIVE_SUBJUGATION_POLICY:0 "$IMPERIALIST_OPPRESSIVE_SUBJUGATION_POLICY$"
+ IMPERIALIST_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "An iron fist in an iron glove. Making sure that our subjects know their place will please the [Root.GetName]."
+ ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY:0 "Proactive First Contact Protocols"
+ ISOLATIONIST_NO_PROACTIVE_FIRST_CONTACT_POLICY:0 "$ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY$"
+ ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY_DESC:0 "The [Root.GetName] do not consider it appropriate to broadcast information about ourselves across the stars to anyone who may be listening."
+ TRADITIONALIST_PSIONIC_TEACHINGS:0 "Psionic Teachings"
+ TRADITIONALIST_NO_PSIONIC_TEACHINGS:0 "$TRADITIONALIST_PSIONIC_TEACHINGS$"
+ TRADITIONALIST_PSIONIC_TEACHINGS_DESC:0 "Researching the £society£ §Y$tech_psionic_theory$§! Technology will please the [Root.GetName]."
+ PROGRESSIVE_BENEVOLENT_SUBJUGATION_POLICY:0 "Benevolent Subjugation Policy"
+ PROGRESSIVE_BENEVOLENT_NO_OPPRESSIVE_SUBJUGATION_POLICY:0 "$PROGRESSIVE_BENEVOLENT_SUBJUGATION_POLICY$"
+ PROGRESSIVE_BENEVOLENT_NO_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Our subjects look to us for guidance and protection, and we should strive to repay their trust by respecting their liberties. Adopting a benevolent approach to subjugation will please the [Root.GetName]."
+ TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY:0 "Benevolent Subjugation Policy"
+ TOTALITARIAN_NO_BENEVOLENT_SUBJUGATION_POLICY:0 "$TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY$"
+ TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY_DESC:0 "A firm [Owner.Species.GetHandName] is required to guide our subjects, lest they grow indolent and complacent. Granting them too many liberties will displease the [Root.GetName]."
+ TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY:0 "Oppressive Subugation Policy"
+ TOTALITARIAN_ADOPT_OPPRESSIVE_SUBJUGATION_POLICY:0 "$TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY$"
+ TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Like [Owner.Species.GetSpawnNamePlural], our subjects need guidance if they are to learn discipline. Keeping them on a short leash will please the [Root.GetName]."

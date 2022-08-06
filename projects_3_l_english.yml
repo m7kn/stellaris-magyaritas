@@ -1,0 +1,43 @@
+﻿l_english:
+
+ ####################################
+ # Special Projects
+ ####################################
+
+ ### Anomaly Events
+ DERELICT_SHIP_PROJECT:0 "Elhagyott hajó"
+ DERELICT_SHIP_PROJECT_DESC:0 "Egy űrben sodródó hajó, semmiféle jelet sem ad le vagy fogad be. Közelebbi megvizsgálásával talán kiderül, hogy mi történt a hajó személyzetével."
+ ODD_STAR_PROJECT:0 "A kohó tüze"
+ ODD_STAR_PROJECT_DESC:0 "Ez a csillag úgy tűnik, hogy képes a berillium fúziójára, ami elvileg lehetetlen."
+ IMPROBABLE_TEAPOT_PROJECT:0 "Valószínűtlen kerámia"
+ IMPROBABLE_TEAPOT_PROJECT_DESC:0 "Egy kerámiaedény kering a nap körül... ez még a valószínűtlennél is hihetetlenebb. Sok időbe fog telni, míg kiderül mit is keres ott. Ki tudja, mi lesz a válasz, ha egyáltalán létezik."
+ AI_ADMIRAL_PROJECT:0 "Homoki harcos"
+ AI_ADMIRAL_PROJECT_DESC:0 "Egy réges régi flotta zuhant le ennek a sivatagi bolygónak a felszínére, fedélzetükön a mai napig aktív AI-val. Ha most nem kezdjük meg az elpusztítását, akkor később rosszabbra fordulhat a helyzet."
+ MINING_GEAR_PROJECT:0 "Dühöngő fúrógép"
+ MINING_GEAR_PROJECT_DESC:0 "Egy réges régi exkavátor ássa egyre mélyebben magát egy hatalmas aszteroida mélyébe. Ha még azelőtt sikerül leállítanunk, hogy az akna beomlása maga alá temetné, akkor talán valami hasznosat is megtudhatunk a szerkezetéből."
+ ABANDONED_ARRAY_PROJECT:0 "Elhagyatott szenzorrendszer"
+ ABANDONED_ARRAY_PROJECT_DESC:0 "Egy elhagyatott szenzorrendszer tányérantennája még működőképes állapotban van. Ha megjavítjuk és kiderítjük a működését, akkor talán többet is megtudhatunk a szomszédos naprendszerekről."
+ ALIEN_RACER_PROJECT:0 "Sodródás"
+ ALIEN_RACER_PROJECT_DESC:0 "Az aszteroida övben egy idegen hajó sodródik. A kapcsolatfelvételi kísérleteinkre nem reagál. Ki kellene vizsgálnunk a hajót."
+ PSIONIC_HORSES_PROJECT:0 "A síkságok uralkodói"
+ PSIONIC_HORSES_PROJECT_DESC:0 "Hatalmas méretű emlős állatok kérődznek a lápos füveken. Félénknek tűnnek, de figyelik a közeledésünket. Közeli tanulmányozásukkal talán még többet tudhatunk meg."
+ ROBOT_CLEANERS_PROJECT:0 "A hátrahagyott gépek"
+ ROBOT_CLEANERS_PROJECT_DESC:0 "Egy távoli bolygón robotokkal tömött gyárra bukkantunk. Ha esetleg újraaktiváljuk őket, akkor talán megtudhatjuk, honnan származnak."
+ ALIEN_MONSTER_ON_SHIP:0 "Idegen lény a fedélzeten"
+ ALIEN_MONSTER_ON_SHIP_DESC:0 "[Root.Owner.GetMonsterOnShipDesc]" #A custom scripted desc that allows for MI support
+ TREE_OF_LIFE:0 "A fa"
+ TREE_OF_LIFE_DESC:0 "A fa dacosan sodródik az űr semmiségében. A nedvei hatalmas űrbéli szerves anyagokat vonz magához. Ki kellene vizsgálnunk, hogy mi a célja."
+ MASTERS_WRITINGS_POLITICS:0 "Telepesek írásainak lefordítása"
+ MASTERS_WRITINGS_POLITICS_DESC:0 "Felfedeztünk egy halom dokumentumot, amely fontos lehetett a mára már kihalt társadalom számára. Lefordításukkal biztosan többet tudunk meg a történelmükről és kultúrájukról."
+ MASTERS_WRITINGS_PHILOSOPHY:0 "Felfedezők írásainak lefordítása"
+ MASTERS_WRITINGS_PHILOSOPHY_DESC:0 "Egy idegen expedíció maradványainál találtunk néhány írásos dokumentumot. Lefordításukkal talán többet is megtudhatunk az előző tulajdonosuk életéről."
+ MASTERS_WRITINGS_DIPLOMACY:0 "Kereskedők írásainak lefordítása"
+ MASTERS_WRITINGS_DIPLOMACY_DESC:0 "Egy vélhetően csillagközi kereskedelmi központként funkcionáló romhalmaz átkutatásánál írásos dokumentációra bukkantunk. Ha ezeket lefordítjuk, akkor talán többet is megtudhatunk az alapítóiról."
+ MASTERS_WRITINGS_WAR:0 "Harcosok írásainak lefordítása"
+ MASTERS_WRITINGS_WAR_DESC:0 "Egy rég elhagyatott csatatéren egy harcos nép maradványaira bukkantunk, és olyan írásos dokumentumokat találtunk náluk, amelyek valószínűleg nagyon fontosak voltak nekik. Ha ezeket lefordítjuk, akkor talán többet is megtudhatunk erről a népről és az általuk megvívott háborúkról."
+ CRYOPOD_FOUND_PROJECT:0 "Földalatti óvóhely"
+ CRYOPOD_FOUND_PROJECT_DESC:0 "Egy hegy gyomrában értékes információkat vagy felszerelést rejtő felépítményre bukkantunk. Veszedelmes vadállatok veszik azonban körül, és ezeket először le kell győzni, mielőtt a bunker zsilipéhez érünk."
+ CRYOPOD_OPENING_PROJECT:0 "Óvatos nyitás"
+ CRYOPOD_OPENING_PROJECT_DESC:0 "A földalatti óvóhelyen csak egyetlen egy tárgyat, valamiféle tárolót találtunk. Ha meg szeretnénk tudni, hogy mit is rejt, ahhoz először ki kell találnunk, hogy miként is nyílik."
+ ANCIENT_OCEAN_SHIP:0 "Elsüllyedt cirkáló"
+ ANCIENT_OCEAN_SHIP_DESC:0 "[Root.GetName] hullámai alatt egy idegen csatacirkáló nyugszik. Kiemelésével értékes technológiákhoz vagy erőforrásokhoz juthatunk."
