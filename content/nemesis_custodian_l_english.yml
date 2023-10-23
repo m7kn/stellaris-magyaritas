@@ -212,3 +212,8 @@
  OUTLINER_ICON_ARMADA:0 "Imperial Armada Fleet"
  OUTLINER_ICON_ARMADA_DESC:0 "This Fleet is part of the Imperial Armada, controlled by the ruler of the Galactic Imperium."
  IMPERIUM:0 "Imperium"
+ DEFENSE_FORCE:0 "Galactic Defense Force"
+ MESSAGE_CUSTODIAN_ENDED_SESSION_PREMATURELY_KEY: "Galactic Custodian Concluded Senate Session"
+ MESSAGE_EMPEROR_ENDED_SESSION_PREMATURELY_KEY: "Galactic Emperor Concluded Senate Session"
+ MESSAGE_RESOLUTION_FROZEN_BY_CUSTODIAN_KEY: "$MESSAGE_RESOLUTION_FROZEN_BY_CUSTODIAN_TITLE$ By Galactic Custodian"
+ MESSAGE_RESOLUTION_FROZEN_BY_EMPEROR_KEY: "$MESSAGE_RESOLUTION_FROZEN_BY_EMPEROR_TITLE$ By Galactic Emperor"

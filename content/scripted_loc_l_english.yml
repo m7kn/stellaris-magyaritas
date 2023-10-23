@@ -84,3 +84,33 @@
  submantle_mantle:0 "mantle-dwelling"
  SubMantle_Sub:0 "Subterranean"
  SubMantle_Mantle:0 "Mantle-Dwelling"
+ avian_species:0 "avian" # lower-case adjective, used for 'GetSpeciesClass'
+ mammalian_species:0 "mammalian" # lower-case adjective, used for 'GetSpeciesClass'
+ reptilian_species:0 "reptilian" # lower-case adjective, used for 'GetSpeciesClass'
+ fungoid_species:0 "fungoid" # lower-case adjective, used for 'GetSpeciesClass'
+ mollusc_species:0 "molluscoid" # lower-case adjective, used for 'GetSpeciesClass'
+ human_species:0 "human" # lower-case adjective, used for 'GetSpeciesClass'
+ arthropoid_species:0 "arthropoid" # lower-case adjective, used for 'GetSpeciesClass'
+ plantoid_species:0 "plantoid" # lower-case adjective, used for 'GetSpeciesClass'
+ aquatic_species:0 "aquatic" # lower-case adjective, used for 'GetSpeciesClass'
+ toxic_species:1 "toxoid" # lower-case adjective, used for 'GetSpeciesClass'
+ necroid_species:1 "necroid" # lower-case adjective, used for 'GetSpeciesClass'
+ lithoid_species:0 "lithoid" # lower-case adjective, used for 'GetSpeciesClass'
+ getscientist_machine_capital:0 "Science Unit"
+ getscientist_hive_capital:0 "Science Drone"
+ getscientist_normal_capital:0 "Scientist"
+ getscientistplural_machine_capital:0 "Science Units"
+ getscientistplural_hive_capital:0 "Science Drones"
+ getscientistplural_normal_capital:0 "Scientists"
+ getcolonist_machine: "colonization unit"
+ getcolonist_hive: "colonization drone"
+ getcolonist_normal: "colonist"
+ getcolonist_machine_capital: "Colonization Unit"
+ getcolonist_hive_capital: "Colonization Drone"
+ getcolonist_normal_capital: "Colonist"
+ getcolonistplural_machine: "colonization units"
+ getcolonistplural_hive: "colonization drones"
+ getcolonistplural_normal: "colonists"
+ getcolonistplural_machine_capital: "Colonization Units"
+ getcolonistplural_hive_capital: "Colonization Drones"
+ getcolonistplural_normal_capital: "Colonists"

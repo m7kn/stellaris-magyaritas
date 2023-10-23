@@ -120,3 +120,5 @@
  SHIP_COLOSSUS_SECTION:0 "Kolosszus"
  CORE_JUGGERNAUT_SECTION:0 "Juggernaut"
  GHOST_SHIP_SECTION:0 "Ghost Ship Frame"
+ lost_swarm_adult:0 "Locust"
+ lost_swarm_adult_plural:0 "Locusts"

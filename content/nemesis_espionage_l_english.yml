@@ -558,3 +558,8 @@
 
  ESPIONAGE_INTEL_GAINED_TITLE:0 "Intel Gained from Double Agents"
  ESPIONAGE_INTEL_GAINED_DESC:0 "Our Double Agents in the $COUNTRY|Y$ have delivered us useful intel following the failure of one of their espionage operations."
+ op_cat_infiltration:0 "Infiltration"
+ op_cat_infiltration_desc:0 "Undercover operations to subtly influence a society from within."
+ mod_op_cat_infiltration_difficulty_add:0 "Operation Difficulty ($op_cat_infiltration$)"
+ mod_hostile_op_cat_infiltration_difficulty_add:0 "Hostile Operation Difficulty ($op_cat_infiltration$)"
+ mod_op_cat_infiltration_skill_add:0 "Operation Skill ($op_cat_infiltration$)"

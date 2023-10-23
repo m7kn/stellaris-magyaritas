@@ -21,3 +21,4 @@
  SHIP_GRAPHICS_COLONIZER_DESC:0 "Colony Ships carry settlers from settled planets to new ones for colonization. Being a civilian ship, they are unarmored, unarmed and vulnerable."
  SHIP_GRAPHICS_SHIP_SIZE_LOCKED_DESC:0 "§RThis ship class requires the DLC $SHIP_SIZE_NAME$.§!"
  
+ SHIP_GRAPHICS_FRIGATE_DESC:0 "Frigates are an advanced variant of the Corvette that specialize torpedo delivery. They may be slower and more vulnerable, but can be devastating against large targets."
