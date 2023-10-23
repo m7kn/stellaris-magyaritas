@@ -2,7 +2,10 @@
 
 Stellaris magyar fordítások
 
-**Tesztelt:** Stellaris 3.4.5 Cepheus
+**Tesztelt:** Stellaris 3.9.2 Caelum
+Bizonyos karakterek: ő, ű helyén ? jelenik meg, ezt hamarosan javítom.
+A hiányzó fordítások folyamatban.
+2023. október 23.
 
 **DLC-k:**
 
