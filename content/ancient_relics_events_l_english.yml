@@ -831,7 +831,7 @@
  ancrel.9425.desc:1 "Once the sensors had been re-calibrated to compensate for the interference, a new discovery was made: an abandoned research station, located on a nearby moon. Fragments of data were salvaged from the almost entirely burned-out records, detailing an experiment involving a giant, artificial magnet on the planet's surface.\n\nThe experiment was a bit too successful. It turned the planet's entire, metal crust into molten pools with an electromagnetic charge so intense that it fried the research station in an instant.\n\nWell... No progress without sacrifice."
 
  ###Tutorial###
- tutorial.1337.name:0 "Minor Artifacts"
+ tutorial.1337.name:0 "Apró műtárgyak"
  tutorial.1337.desc:1 "We have discovered some Minor Artifacts. These are an esoteric resource, a catch-all term for strange items which we do not understand and indeed may be inexplicable. Regardless of what any one item does, this resource can be used to enact a variety of Decisions via the §HRelics and Minor Artifacts§! screen, a tab on the §HSociety Management§! interface."
 
  ancrel.6000.name:0 "Omnicodex"

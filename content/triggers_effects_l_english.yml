@@ -223,7 +223,7 @@
  HAS_NOT_HIT_POINTS:1 "A hajótest pont NEM $COMPARATOR$ $NUM|Y$"
  IS_PLANET_SURVEYED:0 "A bolygót felmérték"
  IS_PLANET_NOT_SURVEYED:0 "A bolygót NEM mérték fel"
- IS_SYSTEM_SURVEYED:0 "A naprendszert felmértek"
+ IS_SYSTEM_SURVEYED:0 "A naprendszert felmérték"
  IS_SYSTEM_NOT_SURVEYED:0 "A naprendszert NEM mérték fel"
  HAS_SURVEYED_CLASS:0 "Felmérte: $CLASS|H$"
  HAS_NOT_SURVEYED_CLASS:0 "NEM mérte fel: $CLASS|H$"

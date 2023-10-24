@@ -2305,7 +2305,7 @@
  country.250.desc:1 "We have found no traces of the four ark ships that passed through the wormhole before the Chrysanthemum arrived at [Root.Capital.GetName]. One ship, the Hyacinth, was scheduled to make the passage after us, and the Chrysanthemum's long-range sensors reported a brief energy spike from the wormhole shortly before it destabilized and vanished.\n\nAssuming the Hyacinth survived the passage and made it to our galactic neighborhood, the ark ship has so far failed to establish contact with us. It might be a good idea to search nearby systems for signs of its presence."
  country.250.a:0 "Valóban. Tegyenek úgy."
  country.250.b:0 "A wild goose chase we can ill afford."
- country.251.name:0 "A naprendszert felmértek"
+ country.251.name:0 "A naprendszert felmérték"
  country.251.desc:0 "The [Root.GetName] reports no signs of the Hyacinth in the [From.GetName] system. We should continue our search elsewhere."
  country.251.a:0 "Keep up the search."
  country.252.desc:0 "Scans from the [Root.GetName] have revealed no traces of the Hyacinth in the [From.GetName] system. Perhaps we will have better luck in one of the other systems."

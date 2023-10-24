@@ -26,7 +26,7 @@
  MESSAGE_FLEET_ORDER_ANALYZE_FINISH:0 "A(z) §H$FLEET$§! sikeresen kielemezte az FTL nyomot."
  MESSAGE_FLEET_SYSTEM_FULLY_SURVEYED:0 "A(z) $SYSTEM|Y$ naprendszert sikerült teljesen felmérni."
  MESSAGE_FLEET_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "A flotta parancsa teljesült"
- MESSAGE_SYSTEM_SURVEYED_TITLE:0 "A rendszert felmértek"
+ MESSAGE_SYSTEM_SURVEYED_TITLE:0 "A rendszert felmérték"
  AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE:0 "A flotta parancsát visszavonták"
  MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED:0 "§H$FLEET$§! visszavonta az automatikus felfedezés parancsát. További feltérképezetlen naprendszereket nem tud elérni vagy megtalálni."
  FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE:0 "$AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE$"
