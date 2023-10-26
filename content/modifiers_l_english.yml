@@ -1378,7 +1378,7 @@
  species_trait_points_add:0 "Génmódosítási pontok"
  mod_HUM_species_trait_points_add:0 "Humanoid génmódosítási pontok"
  mod_MAM_species_trait_points_add:0 "Emlős génmódosítási pontok"
- mod_REP_species_trait_points_add:0 "Csúszómászó génmódosítási pontok"
+ mod_REP_species_trait_points_add:0 "Hüllő génmódosítási pontok"
  mod_AVI_species_trait_points_add:0 "Szárnyas génmódosítási pontok"
  mod_ART_species_trait_points_add:0 "Ízeltlábú génmódosítási pontok"
  mod_MOL_species_trait_points_add:0 "Puhatestű génmódosítási pontok"
