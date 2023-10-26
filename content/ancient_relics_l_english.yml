@@ -2,7 +2,7 @@
  minor_artifacts:0 "Apró műtárgyak"
  minor_artifacts_desc:1 "Minor Artifacts ( £minor_artifacts£ ) represent obscure technology and half-forgotten lore recovered from archaic civilizations, only partially understood by our own science. They are more common than Relics, and can be spent to enact various empire-wide effects."
  artifact_actions:0 "Artifact Actions"
- relics:0 "Relics"
+ relics:0 "Ereklyék"
  relic_activation_cooldown:0 "Relic Activation Cooldown"
  tech_science_nexus:0 "$think_tank_3$"
  tech_science_nexus_desc:0 "$think_tank_0_MEGASTRUCTURE_DETAILS$"
@@ -55,7 +55,7 @@
  TUTORIAL_ARCHAEOLOGY_VIEW_DESC:0 "The Archaeology window shows details of the currently selected §YArchaeology site§!. After progress is made you can still go back and read previous stages by clicking the rune icons.\n\nTo unravel the secrets of a Site, a Scientist must make a §YBreakthrough§! to advance through each of the Site's stages. Scientists with relevant §YTraits and higher Skill§! speed the process of advancing to the next stage, while a higher Difficulty rating of a Site will slow it. Any Scientist who investigates a Site for long enough will amass §YClues§! which will make a Breakthrough more likely."
 
  RELICS_AND_ARTIFACTS:0 "$RELICS$ and $MINOR_ARTIFACTS$"
- TRADITION_VIEW_TITLE:1 "Society Management"
+ TRADITION_VIEW_TITLE:1 "Társadalomszervezés"
 
  archaeologist_1:0 "archaeologist"
  archaeologist_2:0 "archaeology-unit"

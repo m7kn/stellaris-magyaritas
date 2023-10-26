@@ -125,7 +125,7 @@
  RENAME_COUNCILOR_TITLE_FEMALE:0 "Title (Female)"
  RENAME_COUNCILOR_TITLE_INDETERMINABLE:0 "Title"
 
- COUNCIL:0 "Council"
+ COUNCIL:0 "Tanács"
  COUNCILOR:0 "§HCouncilor§!"
  COUNCIL_AGENDA:0 "Council Agenda"
  COUNCIL_HIGHLIGHTED:0 "§HCouncil§!"
@@ -195,12 +195,12 @@
  AVAILABLE_AGENDAS:0 "Available Agendas"
  AVAILABLE_AGENDA_TOOLTIP:0 "§HAvailable Agenda§!\n§GClick to Select Agenda§!"
  UNAVAILABLE_AGENDAS:0 "Unavailable Agendas"
- FINISHED_AGENDAS:0 "Launched Agendas"
+ FINISHED_AGENDAS:0 "Elindított programok"
  AGENDA_IS_ACTIVE:0 "Active for another £time£$TIME$"
  AGENDA_IS_ON_COOLDOWN:0 "The Agenda $AGENDA|H$ is on cooldown until $DATE|H$"
  AGENDA_PROGRESS_EFFECTS_FROM_ETHIC_MATCH:0 "Effect from matching Leader Ethic: $EFFECT$"
  AGENDA_PROGRESS_EFFECTS_FROM_ETHIC_MISMATCH:0 "Effect from mismatching Leader Ethic: $EFFECT$"
- COUNCIL_ACTIVE_EDICTS:0 "Active Edicts"
+ COUNCIL_ACTIVE_EDICTS:0 "Aktív rendeletek"
  COUNCIL_GOTO_EDICTS:0 "Open Edicts"
  COUNCIL_NO_ACTIVE_EDICTS:0 "§gYou have no active Edicts§!"
  UNLOCK_COUNCIL_SELECTION:0 "Allows reselection of unlocked Council Position(s)"
@@ -644,9 +644,9 @@
 
  MESSAGE_NEGATIVE_TRAIT_TITLE:0 "New Negative Trait"
  negative_trait_acquired_desc:0 "§Y$LEADER$§! got a negative trait."
- MESSAGE_GAINED_TRAIT_TITLE:0 "New Trait"
+ MESSAGE_GAINED_TRAIT_TITLE:0 "Új személyiségvonás"
 
- MESSAGE_GAINED_TRAIT_DESC:0 "$NAME|Y$ got the $TRAIT_NAME|H$ trait."
+ MESSAGE_GAINED_TRAIT_DESC:0 "$NAME|Y$ megkapta a $TRAIT_NAME|H$ személyiségvonást."
  MESSAGE_GAINED_SUBCLASS_TITLE:0 "New Veteran Leader"
  MESSAGE_GAINED_SUBCLASS_DESC:0 "$NAME|Y$ is now a §vVeteran§!"
 

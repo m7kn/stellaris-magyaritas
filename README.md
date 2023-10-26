@@ -23,6 +23,7 @@ A "content" mappa tartalmát másold a Stellaris `game/localisation/english` map
 - Federations
 - Nemesis
 - Overlord
+- Galactic Paragons
 
 ***Content:***
 
@@ -32,11 +33,12 @@ A "content" mappa tartalmát másold a Stellaris `game/localisation/english` map
 
 ***Species Pack:***
 
-- Palntoids Species Pack
+- Plantoids Species Pack
 - Humanoids Species Pack
 - Lithoids Species Pack
 - Necroids Species Pack
 - Aquatics Species Pack
+- Toxoids Species Pack
 
 ***Story Pack:***
 
@@ -44,3 +46,4 @@ A "content" mappa tartalmát másold a Stellaris `game/localisation/english` map
 - Synthetic Dawn Story Pack
 - Distant Stars Story Pack
 - Ancient Relics Story Pack
+- First Contact Story Pack
