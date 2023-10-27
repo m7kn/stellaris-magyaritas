@@ -498,8 +498,8 @@
  disables_overtuned_features:0 "§RChoosing this Ascension Perk will disable Overtuned Origin mechanics.§!"
 
  ### Toxic Baths
- civic_toxic_baths:0 "Mutagenic Spas"
- civic_corporate_toxic_baths:0 "Mutagenic Spas"
+ civic_toxic_baths:0 "Mutagén fürdők"
+ civic_corporate_toxic_baths:0 "Mutagén fürdők"
  civic_hive_toxic_baths:0 "Permutation Pools"
  civic_machine_toxic_baths:0 "Hyper Lubrication Basin"
  civic_tooltip_toxic_baths_effects:1 "Can build §YMutagenic Spas§!\nEach §YBath Attendant§! grants:\nPop Growth Speed: §G+1%§! per §HIndustrial District§!\nHappiness: §R-0.75%§! per §HIndustrial District§!\nHabitability: §R-0.25%§! per §HIndustrial District§!"
@@ -572,12 +572,12 @@
 
  ### Relentless Industrialists
 
- civic_relentless_industrialists:0 "Relentless Industrialists"
- civic_relentless_industrialists_desc:0 "To live is to exploit. This civilization is built around the principle of living life to the fullest, in the sense of squeezing the maximum profit from every last ounce of matter and membrane available for exploitation."
+ civic_relentless_industrialists:0 "Könyörtelen gyárosok"
+ civic_relentless_industrialists_desc:0 "Élni annyi, mint kihasználni. Ez a civilizáció az élet teljes kiélésének elve köré épül, abban az értelemben, hogy a maximális profitot préseljük ki a kizsákmányolásra rendelkezésre álló anyag és membrán minden egyes unciájából."
  civic_corporate_relentless_industrialists:0 "$civic_relentless_industrialists$"
  civic_corporate_relentless_industrialists_desc:0 "$civic_relentless_industrialists_desc$"
  civic_tooltip_relentless_industrialists_effects:0 "Can build £building£ §Y$building_coordinated_fulfillment_center_1$§!, significantly increasing £alloys£ §YAlloy§! and £consumer_goods£ §YConsumer Goods§! output at the cost of reduced £mod_pop_growth_speed£ §YPop Growth§! and gradually turning planets into §YTomb Worlds§!."
- civic_tooltip_not_relentless_industrialists:0 "Does NOT have §Y$civic_relentless_industrialists$§! Civic"
+ civic_tooltip_not_relentless_industrialists:0 "NEM rendelkezik §Y$civic_relentless_industrialists$§! polgárokkal"
 
  building_coordinated_fulfillment_center_1:0 "Coordinated Fulfillment Center"
  building_coordinated_fulfillment_center_1_plural:0 "Coordinated Fulfillment Center"

@@ -67,8 +67,8 @@
  bombardment_pox:0 "Javorian Pox"
  bombardment_pox_desc:0 "$bombardment_pox$ Bombardment showers the planet with a deadly pathogen.\n- §YModerate§! damage to §YArmies§!\n- §ELight§! damage to §YPlanet§!\n- §ENo§! damage to §YMechanical Pops§!\n- §RCatastrophic§! damage to §YOrganic Pops§!\n- Will bombard undefended planets\n- Can reduce planets to lifeless Tomb Worlds"
 
- pc_relic:0 "Relic World"
- pc_relic_desc:0 "A city once stretched across this entire world. Only ancient and abandoned ruins remain now, their original inhabitants long since departed."
+ pc_relic:0 "Maradványvilág"
+ pc_relic_desc:0 "Egy város egykor az egész földet beborította. Ma már csak ősi és elhagyatott romok maradtak, eredeti lakói már régen eltávoztak."
  trait_pc_relic_preference:0 "Relic World Preference"
  trait_pc_relic_preference_desc:0 "$trait_pc_arctic_preference_desc$"
  mod_pc_relic_habitability:0 "Relic World Habitability"
