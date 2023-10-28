@@ -4,9 +4,8 @@ Stellaris magyar fordítások
 
 **Tesztelt:** Stellaris 3.9.2 Caelum
 
-Bizonyos karakterek: ő, ű helyén `?` jelenik meg, ezt orvosolja pl. a Galactic Unicode mod: https://mods.paradoxplaza.com/mods/22427/Any<br>
 A hiányzó fordítások folyamatban.<br>
-2023. október 23.
+2023. október 28.
 
 **Használata:**
 
