@@ -15,7 +15,7 @@ A hiányzó fordítások folyamatban.<br>
 A "magyar.mod" fájlban a "path" értékénél írd felül Linuxban a "~" karaktert a "home/[usernév]"-re, Windowsnál pedig a "%USERPROFILE%"-t a "C:\Users\\[usernév]" alakra.<br>
 A Launcherben pedig engedélyezd a modot.
 
-2. Ha nem modként akarod használni, akkor a "mod/magyar" mappa tartalmát másold a Stellaris `game/localisation/english` mappájába.<br>
+1. Ha nem modként akarod használni, akkor a "mod/magyar" mappa tartalmát másold a Stellaris `game` mappájába.<br>
 
 **DLC-k:**
 
