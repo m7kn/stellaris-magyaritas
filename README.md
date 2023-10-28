@@ -10,8 +10,12 @@ A hiányzó fordítások folyamatban.<br>
 
 **Használata:**
 
-A "content" mappa tartalmát másold a Stellaris `game/localisation/english` mappájába.<br>
-(Természetesen önállóan létre lehet hozni választható magyar nyelvet is, akinek van kedve hozzá).
+1. A "mod" mappa tartalmát másold a Stellaris mod mappájába:
+- Linux: `~/.local/share/Paradox Interactive/Stellaris/mod`
+- Windows: `%USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod\`<br>
+A Launcherben pedig engedélyezd a modot.
+
+2. Ha nem modként akarod használni, akkor a "mod/magyar" mappa tartalmát másold a Stellaris `game/localisation/english` mappájába.<br>
 
 **DLC-k:**
 

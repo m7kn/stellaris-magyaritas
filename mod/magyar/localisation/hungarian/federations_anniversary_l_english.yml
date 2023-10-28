@@ -1001,7 +1001,7 @@
  edict_expanded_breeding_program_servitor_desc:0 "Using gamification and point-based reward schemes, we will subtly encourage our Bio-Trophies to fill our Organic Sanctuaries."
  edict_expanded_breeding_program_servitor_tooltip:0 "Planets with §Y$building_organic_sanctuary$§! or §Y$building_organic_paradise$§! gain §G+10%§! §YPop Growth§!."
 
- edict_fortify_the_border:0 "Határt megerősíteni"
+ edict_fortify_the_border:0 "Fortify the Border"
  edict_fortify_the_border_desc:0 "Defense of our systems is paramount. This Edict will direct additional resources to these ends."
 
  edict_fleet_supremacy:0 "Fleet Supremacy"
