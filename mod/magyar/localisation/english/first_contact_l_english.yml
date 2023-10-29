@@ -1079,7 +1079,7 @@
  NAME_Hyphae:0 "Hyphae" #Fungoid
  NAME_Pyrophyte:0 "Pyrophyte" #Plantoid
  NAME_Geode:0 "Geode" #Lithoid
- NAME_Necropolis:0 "Necropolis" #Necroid
+ NAME_Necropolis:0 "Nekropolisz" #Necroid
  NAME_Aquatic:0 "Anemone" # Aquatic
  NAME_Bunker:0 "Bunker" #Toxoid
  NAME_fotd_seperatists:0 "[fotd_country.GetSpeciesName] Commune"

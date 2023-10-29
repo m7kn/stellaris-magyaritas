@@ -274,7 +274,7 @@
  zombie_contract_manipulation_desc:0 "This empire fiddled with their zombie workers' contracts so that it's actually impossible to get out of debt."
  ### Miscellaneous
 
- vo_necroid_voice:0 "Necroid"
+ vo_necroid_voice:0 "Nekroid"
 
  effect_random_owned_species:0 "Random Owned Species"
  count_owned_species_trigger:0 "Number of Owned Species$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"

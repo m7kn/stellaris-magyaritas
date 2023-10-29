@@ -1,14 +1,14 @@
 ﻿l_english:
 
- vo_aquatics_voice:0 "Aquatic"
+ vo_aquatics_voice:0 "Óceáni"
 
- trait_aquatic:0 "Aquatic"
+ trait_aquatic:0 "Óceáni"
  trait_aquatic_desc:0 "§LThis species is perfectly adapted to living in the depths of the ocean. However, on dry land, it is like a fish out of water.§!\n"
  trait_aquatic_tooltip:2 "Housing Usage on §YOcean§! worlds and §YFlooded Habitats§!: §G-10%§!\nFood, Energy and Mineral output on §YOcean§! worlds: §G+10%§!\nHousing Usage on non-§YWet§! worlds: §R+30%§!\nHabitability on non-§YWet§! worlds: §R-20%§!\n\nThe §H$ap_hydrocentric$§! Ascension Perk amplifies this trait's effects."
  trait_aquatic_remove_evolutionary_mastery:0 "§RRequires §Y$ap_evolutionary_mastery$§! Ascension Perk to remove.§!"
  trait_aquatic_remove_hydrocentric:0 "§RCannot remove §Y$trait_aquatic$§! trait after taking §Y$ap_hydrocentric$§! Ascension Perk.§!"
 
- leader_trait_aquatic_admiral:0 "Aquatic"
+ leader_trait_aquatic_admiral:0 "Óceáni"
  leader_trait_aquatic_admiral_desc:0 "The ship adaptations needed to make this admiral feel at home have the fortuitous side-effect of making the fleet's hull stronger and more durable."
 
  origin_here_be_dragons:0 "Here Be Dragons"
