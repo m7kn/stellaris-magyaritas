@@ -5,7 +5,9 @@ Stellaris magyar fordítások
 **Tesztelt:** Stellaris 3.9.2 Caelum
 
 A hiányzó fordítások folyamatban.<br>
-2023. október 28.
+2023. október 29.
+
+A fajok neveinek fordításához lásd: SPECIES.md
 
 **Használata:**
 
