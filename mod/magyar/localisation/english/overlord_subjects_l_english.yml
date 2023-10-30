@@ -471,7 +471,7 @@
  IS_SUBJECT_WITHOUT_DIPLO:0 "They are a subject without independent diplomacy."
 
  # Holdings
- HOLDINGS:0 "Holdings"
+ HOLDINGS:0 "Birtokok"
  OUTLINER_OVERLORD_HOLDINGS:0 "$HOLDINGS$"
  MOD_PLANET_MAX_SUBJECT_HOLDING_BUILDINGS_ADD:1 "Max $HOLDINGS$"
  MOD_PLANET_MAX_OVERLORD_HOLDING_BUILDINGS_ADD:1 "Max $HOLDINGS$"
@@ -489,9 +489,9 @@
  MONTHLY_LOYALTY_CHANGE:0 "Monthly Loyalty Change"
  HOLDINGS_MONTHLY_LOYALTY_CHANGE_DESC:0 "£loyalty£ Monthly Loyalty Change: $VALUE|1Y$"
  HOLDING_BUILDING_SLOTS_USED:0 "You have $NUM_BUILDINGS|Y$/$MAX_BUILDINGS|Y$ holdings currently built."
- HOLDINGS_EMPTY_corporate:0 "No Corporate holdings"
- HOLDINGS_EMPTY_subject_holding:0 "No Overlord holdings"
- HOLDINGS_EMPTY:0 "No holdings"
+ HOLDINGS_EMPTY_corporate:0 "Nincsenek vállalati birtokok"
+ HOLDINGS_EMPTY_subject_holding:0 "Nincsenek hűbérúri birtokok"
+ HOLDINGS_EMPTY:0 "Nincsenek birtokok"
  HOLDINGS_DESC_corporate:0 "A branch office can be established by §YCorporate§! empires to enable §Ycorporate holdings§!."
  HOLDINGS_DESC_subject_holding:0 "§YOverlord holdings§! can only be built by Overlords on Subject planets if agreed upon in their Subject §YAgreement§!."
  CLICK_TO_OPEN_PLANET_VIEW_HOLDINGS:0 "§GClick to open Planet View§!"

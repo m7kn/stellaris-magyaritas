@@ -3553,7 +3553,7 @@
  TABBED_NEW_LINE: "\n$t$"
  NEW_LINE: "\n"
  DOUBLE_NEW_LINE: "\n\n"
- AVAILABLE_HOLDINGS: "Available Holdings:"
+ AVAILABLE_HOLDINGS: "Elérhető birtokok:"
  AVAILABLE_STARBASE_BUILDINGS: "Available Starbase Buildings:"
  AVAILABLE_BOMBARDMENT_STANCE: "Available Bombardment Stances:"
  origin_tooltip_default_effects_start: "- $INITIAL_POPS$ §G+4§!$NEW_LINE$- $HOMEWORLD$$TABBED_NEW_LINE$- ['concept_generator_district', £district£ $district_generator_plural$]: §G+1§!"
